@@ -1,5 +1,0 @@
-<amexio-rating-input [(ngModel)]="rate"
-                     [max]="max" name="rate"
-                     [readonly]="isReadonly"
-                     [percentageLabel]="isPercent">
-</amexio-rating-input>

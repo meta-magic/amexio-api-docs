@@ -1,6 +1,0 @@
-
-HTML : DemoTreeView.html
-
-<tree-view
-    [dataReader]="'data'" [httpMethod]="'get'"  [httpUrl]="'data/treeview.json'" (selectedRecord)="setSelectedRecord($event)">
-</tree-view>
