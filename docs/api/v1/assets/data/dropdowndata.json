@@ -1,0 +1,10 @@
+{
+  "alarm" : null,
+  "response" : {
+    "success": true,
+    "message": "Fetching  Data  Request Succeeded: Country",
+    "data": [{"countryName": "Tokelau","countryCode1": "TK"},
+              {"countryName": "India","countryCode1":"IN"},
+              {"countryName": "HongKong","countryCode1": "HK"}]
+  }
+}

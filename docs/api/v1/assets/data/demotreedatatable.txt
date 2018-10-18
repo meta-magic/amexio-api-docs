@@ -1,0 +1,3 @@
+<tree-data-table
+    [dataReader]="'data'" [pageSize]="2" [title]="'Core Team Project'" [httpMethod]="'get'"  [httpUrl]="'data/treedatatable.json'" (selectedRecord)="setSelectedRecord($event)">
+</tree-data-table>

@@ -1,0 +1,100 @@
+
+export class AmexioD3DonutChartDemoComponent {
+{
+
+  userDefineColors: any;
+  defultColorData: any;
+  userDefineColorData: any;
+  sourceData: any;
+  userDataSource: any;
+  barChartWithColorData: any;
+  
+  constructor() { 
+
+  }
+
+  this.userDefineColors =  
+    [
+      "#4040a1",
+      "#e06377",
+      " #7e4a35",
+      "#6b5b95",
+      "#feb236",
+      "#d64161",
+      "#ff7b25"
+    ]
+    
+      this.defultColorData = [
+      {
+        "label": "IE",
+        "value": 39.3
+      },
+      {
+        "label": "Chrome",
+        "value": 32.52
+      },
+      {
+        "label": "Safari",
+        "value": 13.68
+      },
+      {
+        "label": "Firefox",
+        "value": 8.71
+      },
+      {
+        "label": "Others",
+        "value": 6.01
+      }
+    ];
+
+    this.userDefineColorData = [
+      {
+        "label": "India",
+        "value": 30.3,
+        "color": "pink"
+      },
+      {
+        "label": "Spain",
+        "value": 9.52
+      },
+      {
+        "label": "France",
+        "value": 13.68
+      },
+      {
+        "label": "Chaina",
+        "value": 18.71
+      },
+      {
+        "label": "Germany",
+        "value": 8.01
+      },
+      {
+        "label": "U.K",
+        "value": 8.01
+      },
+      {
+        "label": "U.S",
+        "value": 14.01
+      },
+      {
+        "label": "Korea",
+        "value": 4.01
+      }
+    ];
+
+
+  onDefaultLegendClick(event: any) {
+    this.sourceData = event;
+  }
+
+  onUserDefineLegendClick(event: any) {
+    this.userDataSource = event;
+  }
+
+  onDefaultChartClick(event: any) {
+    this.userDataSource = event;
+  }
+}
+
+}

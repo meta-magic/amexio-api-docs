@@ -1,0 +1,31 @@
+{
+  "menus" : [
+    {
+      "label" : "Home",
+      "link" : "https://amexio.tech"
+    },
+    {
+      "label" : "Features",
+      "link" : "https://amexio.tech/features"
+    },{
+      "label" : "Roadmap",
+      "link" : "https://amexio.tech/roadmap"
+    },
+    {
+      "label" : "Downloads",
+      "link" : "https://amexio.tech/download"
+    },
+    {
+      "label" : "Forum",
+      "link" : "http://forum.metamagicglobal.com/"
+    },
+    {
+      "label" : "Blogs",
+      "link" : "https://www.metamagicglobal.com/blogs"
+    },
+    {
+      "label" : "MetaMagic",
+      "link" : "http://www.metamagicglobal.com"
+    }
+  ]
+}

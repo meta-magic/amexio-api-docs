@@ -1,0 +1,42 @@
+#row-main {
+  /* necessary to hide collapsed sidebar */
+  overflow-x: hidden;
+}
+
+#content {
+  /* for the animation */
+  transition: width 0.3s ease;
+}
+#sidebar {
+  /* for the animation */
+  transition: margin 0.3s ease;
+}
+
+.rightcollapsed {
+  /* hide it for small displays*/
+  display: none!important;
+  width: 0;
+}
+
+@media (min-width: 992px) {
+  .rightcollapsed {
+    display: block;
+    /* same width as sidebar */
+    margin-right: -50%;
+  }
+}
+#content {
+  -webkit-transition: width 0.3s ease;
+  -moz-transition: width 0.3s ease;
+  -o-transition: width 0.3s ease;
+  transition: width 0.3s ease;
+}
+#sidebar {
+  -webkit-transition: margin 0.3s ease;
+  -moz-transition: margin 0.3s ease;
+  -o-transition: margin 0.3s ease;
+  transition: margin 0.3s ease;
+}
+
+
+

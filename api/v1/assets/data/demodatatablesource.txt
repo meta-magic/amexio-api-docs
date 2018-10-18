@@ -1,0 +1,46 @@
+
+
+HTML : demodatatable.html
+
+<data-table
+        [title]="'Data Grid'"
+        [pageSize] = "50"
+        [dataReader]="'response.data'"
+        [checkboxSelect]="true"
+        [httpUrl]="'data/country.json'"
+        [httpMethod]="'get'"
+        (rowSelect) = "fetchRowData($event)"
+        (selectedRowData) = "setSelectedRowData($event)"
+>
+</data-table>
+
+
+Component : DemoDataTable
+
+import {OnInit, Component} from "@angular/core";
+
+@Component({
+    selector: 'demo-datatable',
+    templateUrl: "./app/sample/demodatatable.html"
+})
+
+export class DemoDataTable implements  OnInit{
+
+    constructor(){
+    }
+
+    ngOnInit(){
+        $('[data-toggle="popover"]').popover();
+    }
+
+    ngAfterViewInit(){
+    }
+
+    fetchRowData(data:any){
+        console.log(data);
+    }
+
+    setSelectedRowData(data:any){
+        console.log(data);
+    }
+}

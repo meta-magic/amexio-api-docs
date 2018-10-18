@@ -1,0 +1,17 @@
+import {Component, OnInit} from '@angular/core';
+
+@Component({
+  selector: 'rating-demo',
+  templateUrl : 'basictab.demo.html'
+})
+export class RatingDemoComponent implements OnInit {
+
+  public max:number = 10;
+  public rate:number = 7;
+  public isReadonly:boolean = false;
+  public isPercent:boolean = true;
+
+  constructor() {}
+  ngOnInit() {}
+}
+

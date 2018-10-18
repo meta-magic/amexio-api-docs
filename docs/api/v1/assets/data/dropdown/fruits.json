@@ -1,0 +1,11 @@
+{
+  "data": [
+    {"fruitName": "Apple","code": "Apple"},
+    {"fruitName": "Oranges","code": "Oranges"},
+    {"fruitName": "Watermelon","code": "Watermelon"},
+    {"fruitName": "Avacado","code": "Avacado"},
+    {"fruitName": "Grapes","code": "Grapes"},
+    {"fruitName": "Mango","code": "Mango"},
+    {"fruitName": "Banana","code": "Banana"}
+  ]
+}
