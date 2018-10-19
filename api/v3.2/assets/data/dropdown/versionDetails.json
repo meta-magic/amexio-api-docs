@@ -1,6 +1,6 @@
 {
   "data": [
-    {"versionName": "V1 - Amexio Varanasi Release  ","code": "V1","link":"https://www.api.amexio.org/api/v1/index.html"},
-    {"versionName": "V2 - Amexio Hampi Release   ","code": "V2","link":"https://www.api.amexio.org/api/v2/index.html "}
+    {"versionName": "V1 - Amexio Varanasi Release  ","code": "V1","link":"https://api.amexio.org/api/v1/index.html"},
+    {"versionName": "V2 - Amexio Hampi Release   ","code": "V2","link":"https://api.amexio.org/api/v2/index.html "}
   ]
 }
