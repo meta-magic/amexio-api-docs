@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f50cee9c-acff-4979-876a-72105feb579d" name="Default" comment="version list updated 5.2">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.0/main.e9df0981f20ef525fa89.js" afterPath="$PROJECT_DIR$/api/v5.0/main.e9df0981f20ef525fa89.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.1/main.c5158fd7ab557df51a01.js" afterPath="$PROJECT_DIR$/api/v5.1/main.c5158fd7ab557df51a01.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.1/main.89aff1f7c94f40a158a8.js" afterPath="$PROJECT_DIR$/api/v5.2.1/main.89aff1f7c94f40a158a8.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.2/main.3c441fc621b9209a7a8e.js" afterPath="$PROJECT_DIR$/api/v5.2.2/main.3c441fc621b9209a7a8e.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.3/main.5d208f6119a7bffbc9af.js" afterPath="$PROJECT_DIR$/api/v5.3/main.5d208f6119a7bffbc9af.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -63,13 +62,13 @@
       <dir>$PROJECT_DIR$/api/v3</dir>
       <dir>$PROJECT_DIR$/api/v2</dir>
       <dir>$PROJECT_DIR$/api/v1</dir>
-      <dir>$PROJECT_DIR$/api/v5.2.2</dir>
       <dir>$PROJECT_DIR$/api/v4.3</dir>
-      <dir>$PROJECT_DIR$/api/v5.0</dir>
       <dir>$PROJECT_DIR$/api/v5.1</dir>
       <dir>$PROJECT_DIR$/api/v5.2</dir>
+      <dir>$PROJECT_DIR$/api/v5.2.2</dir>
       <dir>$PROJECT_DIR$/api/v5.2.1</dir>
       <dir>$PROJECT_DIR$/api/v5.3</dir>
+      <dir>$PROJECT_DIR$/api/v5.0</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -348,7 +347,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539932460447</updated>
-      <workItem from="1539932461633" duration="20518000" />
+      <workItem from="1539932461633" duration="20791000" />
     </task>
     <task id="LOCAL-00001" summary="version url updated.">
       <created>1539933015094</created>
@@ -389,7 +388,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20518000" />
+    <option name="totallyTimeSpent" value="20791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
