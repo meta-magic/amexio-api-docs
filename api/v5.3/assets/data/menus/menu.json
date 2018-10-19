@@ -183,7 +183,7 @@
         {
             "text": "Form Inputs",
             "icon": "fa fa-clone fa-fw",
-            "badge": "2",
+            "badge": "3",
             "children": [
                 {
                     "text": "Checkbox",
@@ -655,9 +655,23 @@
         {
             "text": "Drillable Charts",
             "icon": "fa fa-bar-chart fa-fw",
-            "badge": "New",
-            "link": "amexio-d3-drillable-charts-demo"
-        },
+            "badge": "2",
+            "children": [
+                {
+                    "text": "Single Target",
+                    "icon": "fa fa-bar-chart fa-fw",
+                    "link": "drillable-with-single-target-demo",
+                    "badge": "New"
+
+                },
+                {
+                    "text": "Multiple Targets",
+                    "icon": "fa fa-bar-chart fa-fw",
+                    "link": "drillable-with-multiple-target-demo",
+                    "badge": "New"
+
+                }
+            ]        },
         {
             "text": "Charts",
             "icon": "fa fa-keyboard-o fa-fw",
