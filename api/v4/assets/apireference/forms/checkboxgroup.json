@@ -1,64 +1,83 @@
 {
+  "name": "Amexio Checkbox Group",
+  "description": "Checkbox input component has been created to render N numbers of check-box based on data-set configured. Data-set can be configured using HTTP call OR Define fix number of check-box.",
+  "selector": "<amexio-checkbox-group>",
   "properties": [
     {
-      "name": "field-label",
-      "type": "string",
-      "default": "",
-      "description": "The label of this field"
-    },
-    {
-      "name": "column",
-      "type": "string",
-      "default": "",
-      "description": "Divide checkbox option into equal column."
-    }, {
       "name": "horizontal",
+      "description": "Set true for horizontal checkbox",
+      "version": "4.0 onwards",
       "type": "boolean",
-      "default": "false",
-      "description": "Set true for horizontal checkbox "
+      "default": "false"
     },
     {
-      "name": "http-url",
+      "name": "field-label",
+      "description": "The label of this field",
+      "version": "4.0 onwards",
       "type": "string",
-      "default": "",
-      "description": "REST url for fetching datasource."
-    },
-    {
-      "name": "http-method",
-      "type": "string",
-      "default": "",
-      "description": "Type of HTTP call, POST,GET."
-    },
-    {
-      "name": "display-field",
-      "type": "string",
-      "default": "",
-      "description": "Name of key inside response data to display on ui."
-    },
-    {
-      "name": "value-field",
-      "type": "string",
-      "default": "",
-      "description": "Name of key inside response data.use to send to backend"
-    },{
-      "name": "data",
-      "type": "any",
-      "default": "",
-      "description": "Local data for checkboxGroup."
+      "default": ""
     },
     {
       "name": "data-reader",
+      "description": "Key in JSON datasource for records",
+      "version": "4.0 onwards",
       "type": "string",
-      "default": "",
-      "description": "Key in JSON datasource for records"
+      "default": "default"
+    },
+    {
+      "name": "http-method",
+      "description": "Type of HTTP call, POST,GET.",
+      "version": "4.0 onwards",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "http-url",
+      "description": "REST url for fetching datasource.",
+      "version": "4.0 onwards",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "display-field",
+      "description": "Name of key inside response data to display on ui.",
+      "version": "4.0 onwards",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "value-field",
+      "description": "Name of key inside response data.use to send to backend",
+      "version": "4.0 onwards",
+      "type": "string",
+      "default": ""
+    },
+    {
+      "name": "disabled",
+      "description": "If true will not react on any user events and show disable icon over",
+      "version": "4.0 onwards",
+      "type": "boolean",
+      "default": "false"
+    },
+    {
+      "name": "data",
+      "description": "Local data for checkboxGroup.",
+      "version": "4.0 onwards",
+      "type": "any",
+      "default": ""
+    },
+    {
+      "name": "required",
+      "description": "property to set if manditory",
+      "version": "4.1.7 onwards",
+      "type": "boolean",
+      "default": "false"
     }
   ],
   "events": [
     {
       "name": "onSelection",
-      "description": "fire when check box click "
+      "description": "fire when check box click"
     }
-  ],
-  "css": [
   ]
 }

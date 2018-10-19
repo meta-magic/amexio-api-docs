@@ -4,7 +4,7 @@
                     Common CSS Helper Classes
 *****************************************************************************/
 body {
-  background: #000000;
+  background: black;
   min-height: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -65,7 +65,7 @@ body {
 
 .header {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB;
+  color: #73c2fb;
   padding: 10px;
   overflow: hidden; }
 
@@ -132,8 +132,10 @@ Spin animation for .loading-mask::after
 @keyframes spin {
   from {
     transform: rotate(0deg); }
+
   to {
     transform: rotate(359deg); } }
+
 label {
   display: inline-block;
   margin-top: 5px;
@@ -163,7 +165,7 @@ image using the content attribute.
   position: absolute;
   border-width: 3px;
   border-style: solid;
-  border-color: transparent #73C2FB #73C2FB;
+  border-color: transparent #73c2fb #73c2fb;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -176,6 +178,7 @@ image using the content attribute.
 @keyframes spinner {
   to {
     transform: rotate(360deg); } }
+
 .spinner:before {
   content: '';
   box-sizing: border-box;
@@ -188,8 +191,8 @@ image using the content attribute.
   margin-left: -10px;
   border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: #73C2FB;
-  border-bottom-color: #73C2FB;
+  border-top-color: #73c2fb;
+  border-bottom-color: #73c2fb;
   animation: spinner .8s ease infinite; }
 
 .row-disabled {
@@ -203,7 +206,7 @@ image using the content attribute.
    240a00: #240a00 rgb(36,10,0,0.0);
 */
 .amexio-red-light {
-  background-color: #ff7f50;
+  background-color: coral;
   color: #240a00; }
 
 /** Amexio Colors --- 
@@ -211,7 +214,7 @@ image using the content attribute.
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-red {
-  background-color: #dc143c;
+  background-color: crimson;
   color: #fffafb; }
 
 /** Amexio Colors --- 
@@ -219,7 +222,7 @@ image using the content attribute.
    002400: #002400 rgb(0,36,0,0.0);
 */
 .amexio-green-light {
-  background-color: #00ff00;
+  background-color: lime;
   color: #002400; }
 
 /** Amexio Colors --- 
@@ -227,7 +230,7 @@ image using the content attribute.
    f0faf4: #f0faf4 rgb(240,250,244,0.0);
 */
 .amexio-green {
-  background-color: #2e8b57;
+  background-color: seagreen;
   color: #f0faf4; }
 
 /** Amexio Colors --- 
@@ -235,7 +238,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple-light {
-  background-color: #ff00ff;
+  background-color: magenta;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -243,7 +246,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple {
-  background-color: #8b008b;
+  background-color: darkmagenta;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -251,7 +254,7 @@ image using the content attribute.
    f0fbff: #f0fbff rgb(240,251,255,0.0);
 */
 .amexio-blue-light {
-  background-color: #00bfff;
+  background-color: deepskyblue;
   color: #000507; }
 
 /** Amexio Colors --- 
@@ -259,7 +262,7 @@ image using the content attribute.
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-blue {
-  background-color: #00008b;
+  background-color: darkblue;
   color: #f5f5ff; }
 
 /** Amexio Colors --- 
@@ -267,7 +270,7 @@ image using the content attribute.
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-brown-light {
-  background-color: #f4a460;
+  background-color: sandybrown;
   color: #211102; }
 
 /** Amexio Colors --- 
@@ -275,7 +278,7 @@ image using the content attribute.
    ffebeb: #ffebeb rgb(255,235,235,0.0);
 */
 .amexio-brown {
-  background-color: #800000;
+  background-color: maroon;
   color: #ffebeb; }
 
 /** Amexio Colors --- 
@@ -283,7 +286,7 @@ image using the content attribute.
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-yellow-light {
-  background-color: #ffd700;
+  background-color: gold;
   color: #241e00; }
 
 /** Amexio Colors --- 
@@ -299,16 +302,16 @@ image using the content attribute.
    White: #ffffff rgb(255,255,255,0.0);
 */
 .amexio-black {
-  background-color: #000000;
-  color: #ffffff; }
+  background-color: black;
+  color: white; }
 
 /** Amexio Colors --- 
    White: #ffffff rgb(255,255,255,0.0);
    Black: #000000 rgb(0,0,0,0.0);
 */
 .amexio-white {
-  background-color: #ffffff;
-  color: #000000; }
+  background-color: white;
+  color: black; }
 
 /* Component Specific Variables */
 /****************************************************************************
@@ -317,7 +320,7 @@ image using the content attribute.
 *****************************************************************************/
 /** button - Visual CSS **/
 .button-secondary {
-  background-color: #000000;
+  background-color: black;
   border-color: #ced4da;
   color: rgba(255, 255, 255, 0.7); }
 
@@ -325,41 +328,41 @@ image using the content attribute.
   background-color: black; }
 
 .btn-badge {
-  background-color: #000000;
+  background-color: black;
   color: rgba(115, 194, 251, 0.4); }
 
 .btn-primary-badge {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .btn-secondary-badge {
   background-color: rgba(255, 255, 255, 0.7);
-  color: #000000; }
+  color: black; }
 
 .btn-success-badge {
-  background-color: #000000;
+  background-color: black;
   color: #5cb85c; }
 
 .btn-danger-badge {
-  background-color: #000000;
+  background-color: black;
   color: #d9534f; }
 
 .btn-warning-badge {
-  background-color: #000000;
+  background-color: black;
   color: #f0ad4e; }
 
 .btn-transparent-badge {
   background-color: rgba(255, 255, 255, 0.7);
-  color: #000000; }
+  color: black; }
 
 .button-primary {
-  background-color: #73C2FB;
-  border-color: #73C2FB;
-  color: #000000; }
+  background-color: #73c2fb;
+  border-color: #73c2fb;
+  color: black; }
 
 .disabled {
   background-color: #a09e9e;
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .button-primary:hover:enabled {
   background-color: #41acfa; }
@@ -367,7 +370,7 @@ image using the content attribute.
 .button-success {
   background-color: #5cb85c;
   border-color: #5cb85c;
-  color: #000000; }
+  color: black; }
 
 .button-success:hover:enabled {
   background-color: #449d44; }
@@ -375,7 +378,7 @@ image using the content attribute.
 .button-danger {
   background-color: #d9534f;
   border-color: #d9534f;
-  color: #000000; }
+  color: black; }
 
 .button-danger:hover:enabled {
   background-color: #c9302c; }
@@ -383,13 +386,13 @@ image using the content attribute.
 .button-warning {
   background-color: #f0ad4e;
   border-color: #f0ad4e;
-  color: #000000; }
+  color: black; }
 
 .button-warning:hover:enabled {
   background-color: #ec971f; }
 
 .button-transparent {
-  background: #000000;
+  background: black;
   color: rgba(255, 255, 255, 0.7); }
 
 /** button - Structure CSS **/
@@ -522,7 +525,7 @@ button {
 *****************************************************************************/
 /** buttongroup - Visual CSS **/
 .button-secondary {
-  background-color: #000000;
+  background-color: black;
   border-color: #ced4da;
   color: rgba(255, 255, 255, 0.7); }
 
@@ -530,37 +533,37 @@ button {
   background-color: black; }
 
 .btn-group-primary-badge {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .btn-group-secondary-badge {
   background-color: rgba(255, 255, 255, 0.7);
-  color: #000000; }
+  color: black; }
 
 .btn-group-success-badge {
-  background-color: #000000;
+  background-color: black;
   color: #5cb85c; }
 
 .btn-group-danger-badge {
-  background-color: #000000;
+  background-color: black;
   color: #d9534f; }
 
 .btn-group-warning-badge {
-  background-color: #000000;
+  background-color: black;
   color: #f0ad4e; }
 
 .btn-group-transparent-badge {
   background-color: rgba(255, 255, 255, 0.7);
-  color: #000000; }
+  color: black; }
 
 .button-primary {
-  background-color: #73C2FB;
-  border-color: #73C2FB;
-  color: #000000; }
+  background-color: #73c2fb;
+  border-color: #73c2fb;
+  color: black; }
 
 .disabled {
   background-color: #a09e9e;
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .button-primary:hover:enabled {
   background-color: #41acfa; }
@@ -568,7 +571,7 @@ button {
 .button-success {
   background-color: #5cb85c;
   border-color: #5cb85c;
-  color: #000000; }
+  color: black; }
 
 .button-success:hover:enabled {
   background-color: #449d44; }
@@ -576,7 +579,7 @@ button {
 .button-danger {
   background-color: #d9534f;
   border-color: #d9534f;
-  color: #000000; }
+  color: black; }
 
 .button-danger:hover:enabled {
   background-color: #c9302c; }
@@ -584,20 +587,20 @@ button {
 .button-warning {
   background-color: #f0ad4e;
   border-color: #f0ad4e;
-  color: #000000; }
+  color: black; }
 
 .button-warning:hover:enabled {
   background-color: #ec971f; }
 
 .button-transparent {
-  background: #000000;
+  background: black;
   color: rgba(255, 255, 255, 0.7); }
 
 /** buttongroup - Structure CSS **/
 .btn-group span {
-  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
-  
-   cursor: pointer; /* Pointer/hand icon */ }
+                  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
+
+ cursor: pointer; /* Pointer/hand icon */ }
 
 .btn-group button {
   cursor: pointer; }
@@ -731,14 +734,14 @@ button {
   color: white; }
 
 .button-dropdown {
-  background-color: #000000; }
+  background-color: black; }
 
 .button-dropdown > div:hover {
   background-color: rgba(115, 194, 251, 0.4); }
 
 .disabled {
   background-color: #a09e9e;
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /** buttondropdown - Structure CSS **/
 .btn-dropdown-badge {
@@ -768,52 +771,52 @@ button {
 *****************************************************************************/
 /** datetime - Visual CSS **/
 .datedropdown {
-  background: #000000; }
+  background: black; }
   .datedropdown .dropdownlist {
-    color: #73C2FB; }
+    color: #73c2fb; }
   .datedropdown li:hover {
     color: rgba(255, 255, 255, 0.7);
     background: rgba(115, 194, 251, 0.4);
     width: 30px; }
   .datedropdown .active {
-    background: #000000;
-    color: #73C2FB; }
+    background: black;
+    color: #73c2fb; }
   .datedropdown li {
-    color: #73C2FB; }
+    color: #73c2fb; }
 
 .datetimepicker {
-  background: #000000; }
+  background: black; }
   .datetimepicker .datetimepickertopbar {
-    background: #000000; }
+    background: black; }
     .datetimepicker .datetimepickertopbar ul li {
-      color: #73C2FB; }
+      color: #73c2fb; }
   .datetimepicker .days {
-    background: #000000; }
+    background: black; }
     .datetimepicker .days li {
-      color: #73C2FB; }
+      color: #73c2fb; }
     .datetimepicker .days li:hover {
-      color: #000000; }
+      color: black; }
     .datetimepicker .days .active {
-      background: #000000;
-      color: #73C2FB; }
+      background: black;
+      color: #73c2fb; }
     .datetimepicker .days .currentMonth {
       font-weight: bold; }
 
 .datetimepicker1 {
-  background: #000000; }
+  background: black; }
   .datetimepicker1 .datetimepickertopbar {
-    background: #000000; }
+    background: black; }
     .datetimepicker1 .datetimepickertopbar ul li {
-      color: #73C2FB; }
+      color: #73c2fb; }
   .datetimepicker1 .days {
-    background: #000000; }
+    background: black; }
     .datetimepicker1 .days li {
-      color: #73C2FB; }
+      color: #73c2fb; }
     .datetimepicker1 .days li:hover {
-      color: #000000; }
+      color: black; }
     .datetimepicker1 .days .active {
-      background: #000000;
-      color: #73C2FB; }
+      background: black;
+      color: #73c2fb; }
     .datetimepicker1 .days .currentMonth {
       font-weight: bold; }
 
@@ -822,21 +825,21 @@ button {
 
 .datetimepicker:disabled {
   background-color: #a09e9e;
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 @media screen and (max-width: 600px) {
   .datetimepicker .days .date-today {
     padding-top: 1%;
     padding-left: 36%; } }
 .dropspan2 {
-  border-color: #73C2FB; }
+  border-color: #73c2fb; }
 
 .datedropbtn {
-  background-color: #73C2FB;
-  color: #000000; }
+  background-color: #73c2fb;
+  color: black; }
 
 .change4 {
-  background-color: #000000; }
+  background-color: black; }
 
 /** datetime - Structure CSS **/
 .datetimepicker {
@@ -995,7 +998,7 @@ button {
 .dropspan2 {
   width: 25%;
   float: left;
-  border-right: 1px solid #73C2FB; }
+  border-right: 1px solid #73c2fb; }
 
 .dropspan4 {
   width: 25%;
@@ -1047,22 +1050,22 @@ button {
 *****************************************************************************/
 /** dropdown - Visual CSS **/
 .dropdown {
-  background-color: #000000; }
+  background-color: black; }
 
 .dropdown-list .list-items:hover {
-  color: #73C2FB;
+  color: #73c2fb;
   background-color: rgba(115, 194, 251, 0.4); }
 
 .dropdown-list .list-items-active {
-  color: #73C2FB;
-  background-color: #000000; }
+  color: #73c2fb;
+  background-color: black; }
 
 .drodown-caret-down {
   color: black; }
 
 .list-items-selected {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /** dropdown - Structure CSS **/
 .dropdown {
@@ -1125,7 +1128,7 @@ button {
 /** input - Visual CSS **/
 .input-control {
   font-size: 14px;
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 ::placeholder {
@@ -1271,7 +1274,7 @@ textarea:required {
 *****************************************************************************/
 /** collapsible-search - Visual CSS **/
 .search:focus {
-  background-color: #000000; }
+  background-color: black; }
 
 /** collapsible-search - Structure CSS **/
 .search {
@@ -1295,11 +1298,11 @@ textarea:required {
 /** radiobox - Visual CSS **/
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-radiobox-label {
-  background-color: #000000; }
+  background-color: black; }
 
 /* Style the input-box-container-label/indicator */
 .input-box-container .input-box-radiobox-label:after {
-  background-color: #000000; }
+  background-color: black; }
 
 /** radiobox - Structure CSS **/
 /* Create a custom checkbox */
@@ -1336,11 +1339,11 @@ textarea:required {
 *****************************************************************************/
 /** checkbox - Visual CSS **/
 .input-box .default {
-  background: #000000; }
+  background: black; }
 
 .input-box .active {
   background: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /* When the checkbox is checked, add a blue background */
 .input-box-container input:checked ~ .input-box-checkbox-label {
@@ -1430,13 +1433,13 @@ textarea:required {
 /** taginput - Visual CSS **/
 .tag-input .tag {
   font-size: 11px;
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
   .tag-input .tag .closebtn {
     font-size: 20px;
     color: rgba(115, 194, 251, 0.4); }
   .tag-input .tag .closebtn:hover {
-    color: #000000; }
+    color: black; }
 
 /** taginput - Structure CSS **/
 .tag-input {
@@ -1463,7 +1466,7 @@ textarea:required {
 *****************************************************************************/
 /** notification - Visual CSS **/
 .notification {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 /** notification - Structure CSS **/
@@ -1509,7 +1512,7 @@ textarea:required {
 /** progress - Visual CSS **/
 .progress {
   position: relative;
-  background: #000000; }
+  background: black; }
   .progress .success {
     background-color: #5cb85c; }
   .progress .warning {
@@ -1552,8 +1555,10 @@ textarea:required {
 @-webkit-keyframes move {
   0% {
     background-position: 0 0; }
+
   100% {
     background-position: 50px 50px; } }
+
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none; }
 
@@ -1579,6 +1584,7 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     font-size: 50px; } }
+
 /** rating - Structure CSS **/
 .rating {
   cursor: pointer;
@@ -1643,16 +1649,17 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     line-height: 34px; } }
+
 /****************************************************************************
     Component Name : Toggle
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** toggle - Visual CSS **/
 .toggle-slider {
-  background-color: #000000; }
+  background-color: black; }
 
 .toggle-slider:before {
-  background-color: #000000; }
+  background-color: black; }
 
 input:checked + .toggle-slider {
   background-color: rgba(115, 194, 251, 0.4); }
@@ -1717,7 +1724,7 @@ input:checked + .toggle-slider:before {
   background: #a09e9e; }
 
 .ui-widget-content {
-  background: #000000;
+  background: black;
   color: rgba(255, 255, 255, 0.7); }
 
 .ui-widget {
@@ -1732,17 +1739,17 @@ input:checked + .toggle-slider:before {
   /** use card header here **/ }
 
 .ui-widget-header {
-  background: #000000 0 0 repeat-x;
-  background: -moz-linear-gradient(top, #000000 0%, #000000 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #000000));
-  background: -webkit-linear-gradient(top, #000000 0%, #000000 100%);
-  background: -o-linear-gradient(top, #000000 0%, #000000 100%);
-  background: -ms-linear-gradient(top, #000000 0%, #000000 100%);
-  background: linear-gradient(to bottom, #000000 0%, #000000 100%); }
+  background: black 0 0 repeat-x;
+  background: -moz-linear-gradient(top, black 0%, black 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, black), color-stop(100%, black));
+  background: -webkit-linear-gradient(top, black 0%, black 100%);
+  background: -o-linear-gradient(top, black 0%, black 100%);
+  background: -ms-linear-gradient(top, black 0%, black 100%);
+  background: linear-gradient(to bottom, black 0%, black 100%); }
 
 .ui-widget-header {
-  background: #000000;
-  color: #73C2FB;
+  background: black;
+  color: #73c2fb;
   font-weight: normal; }
 
 /** range - Structure CSS **/
@@ -1892,7 +1899,7 @@ input:checked + .toggle-slider:before {
 *****************************************************************************/
 /** label - Visual CSS **/
 .label-badge {
-  color: #73C2FB;
+  color: #73c2fb;
   background-color: rgba(115, 194, 251, 0.4); }
 
 /** label - Structure CSS **/
@@ -1966,10 +1973,10 @@ input:checked + .toggle-slider:before {
   background-color: #fbdbbf; }
 
 .box-default {
-  background-color: #000000; }
+  background-color: black; }
 
 .bg-theme-color {
-  color: #73C2FB;
+  color: #73c2fb;
   background-color: rgba(115, 194, 251, 0.4); }
 
 /** box - Structure CSS **/
@@ -2003,19 +2010,19 @@ input:checked + .toggle-slider:before {
   padding: 8px 8px 8px 8px; }
 
 .border-red {
-  border-color: #dc143c !important; }
+  border-color: crimson !important; }
 
 .border-blue {
-  border-color: #00008b !important; }
+  border-color: darkblue !important; }
 
 .border-green {
-  border-color: #2e8b57 !important; }
+  border-color: seagreen !important; }
 
 .border-brown {
-  border-color: #800000 !important; }
+  border-color: maroon !important; }
 
 .border-purple {
-  border-color: #8b008b !important; }
+  border-color: darkmagenta !important; }
 
 .border-yellow {
   border-color: #ff9900 !important; }
@@ -2335,7 +2342,7 @@ input:checked + .toggle-slider:before {
 /** float-button - Visual CSS **/
 .button-float {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /** float-button - Structure CSS **/
 .button-float {
@@ -2358,40 +2365,40 @@ input:checked + .toggle-slider:before {
   background-color: #ffffff; }
 
 .floatingbutton-theme-color {
-  background-color: #73C2FB;
-  color: #000000; }
+  background-color: #73c2fb;
+  color: black; }
 
 .floatingbutton-green {
   background-color: #5cb85c;
-  color: #000000; }
+  color: black; }
 
 .floatingbutton-red {
   background-color: #d9534f;
-  color: #000000; }
+  color: black; }
 
 .floatingbutton-yellow {
   background-color: #f0ad4e;
-  color: #000000; }
+  color: black; }
 
 .floatingbutton-default-disabled {
   background-color: #a09e9e;
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .floatingbutton-theme-color-disabled {
   background-color: #d6edfe;
-  color: #000000; }
+  color: black; }
 
 .floatingbutton-green-disabled {
   background-color: #a3d7a3;
-  color: #000000; }
+  color: black; }
 
 .floatingbutton-red-disabled {
   background-color: #eba5a3;
-  color: #000000; }
+  color: black; }
 
 .floatingbutton-yellow-disabled {
   background-color: #f8d9ac;
-  color: #000000; }
+  color: black; }
 
 /** floatingbutton - Structure CSS **/
 .floatingbutton {
@@ -2458,10 +2465,10 @@ input:checked + .toggle-slider:before {
 /** dropdownmenu - Visual CSS **/
 .dropdown-menu {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .dropdown-menu-content {
-  background-color: #000000 !important;
+  background-color: black !important;
   box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
 
 .dropdown-menu-content .dropdowndivider {
@@ -2472,7 +2479,7 @@ input:checked + .toggle-slider:before {
 
 .dropdown-menu-content a:hover {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /** dropdownmenu - Structure CSS **/
 .dropdown-menu {
@@ -2499,24 +2506,8 @@ input:checked + .toggle-slider:before {
   padding: 10px;
   display: block; }
 
-.dropdownmenu-right {
+.menu-right {
   right: 10px; }
-
-.label-alignment-css {
-  float: right;
-  width: 80%;
-  text-align: left; }
-
-.dropdown-menu-icon-div {
-  width: 20%;
-  display: inline; }
-
-.dropdown-menu-a {
-  width: auto; }
-
-.icon-false-css {
-  width: 80%;
-  padding-left: 30px; }
 
 /*****************************************************************************
  Component Name : Toolbar
@@ -2524,7 +2515,7 @@ input:checked + .toggle-slider:before {
 ****************************************************************************/
 /** Toolbar - Visual CSS **/
 .toolbar {
-  background-color: #000000; }
+  background-color: black; }
 
 .toolbaritemseperatorleft {
   border-left: 1px solid #ced4da; }
@@ -2576,30 +2567,30 @@ input:checked + .toggle-slider:before {
   border-color: #ced4da; }
 
 .advancesearchform {
-  background-color: #000000;
+  background-color: black;
   border-color: #ced4da; }
 
 .input-group-text-search {
-  background-color: #73C2FB;
+  background-color: #73c2fb;
   border-color: #ced4da; }
 
 .form-control {
-  color: #73C2FB;
-  background-color: #000000;
+  color: #73c2fb;
+  background-color: black;
   border-color: #ced4da; }
 
 .search-form-label {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .iconColor {
-  color: #000000; }
+  color: black; }
 
 .advancesearchbtn {
-  background-color: #73C2FB;
-  color: #000000; }
+  background-color: #73c2fb;
+  color: black; }
 
 .search-dropdown-list .search-list-items {
-  background-color: #000000; }
+  background-color: black; }
 
 .search-dropdown-list li:hover {
   background: rgba(115, 194, 251, 0.4); }
@@ -2609,7 +2600,7 @@ input:checked + .toggle-slider:before {
 
 .search-dropdown-list {
   border-color: #ced4da;
-  background-color: #000000; }
+  background-color: black; }
 
 /** Searchbox - Structure CSS **/
 .hrclass {
@@ -2712,552 +2703,29 @@ input:checked + .toggle-slider:before {
   font-weight: bold;
   cursor: pointer; }
 
-/*****************************************************************************
- Component Name : Spinner
-    Version : Amexio v4.2 onwards
-****************************************************************************/
-/** Searchbox - Visual CSS **/
-/** Searchbox - Structure CSS **/
-.rectangle-bounces,
-.rectangle-bounces:before,
-.rectangle-bounces:after {
-  background: #000000;
-  -webkit-animation: load1 1s infinite ease-in-out;
-  animation: load1 1s infinite ease-in-out;
-  width: 1em;
-  height: 4em; }
-
-.rectangle-bounces {
-  color: #000000;
-  text-indent: -9999em;
-  margin: 88px auto;
-  position: relative;
-  font-size: 11px;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s; }
-
-.rectangle-bounces:before,
-.rectangle-bounces:after {
-  position: absolute;
-  top: 0;
-  content: ''; }
-
-.rectangle-bounces:before {
-  left: -1.5em;
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s; }
-
-.rectangle-bounces:after {
-  left: 1.5em; }
-
-@-webkit-keyframes load1 {
-  0%,
-  80%,
-  100% {
-    box-shadow: 0 0;
-    height: 4em; }
-  40% {
-    box-shadow: 0 -2em;
-    height: 5em; } }
-@keyframes load1 {
-  0%,
-  80%,
-  100% {
-    box-shadow: 0 0;
-    height: 4em; }
-  40% {
-    box-shadow: 0 -2em;
-    height: 5em; } }
-.half-circles {
-  font-size: 10px;
-  margin: 50px auto;
-  text-indent: -9999em;
-  width: 11em;
-  height: 11em;
-  border-radius: 50%;
-  background: rgba(115, 194, 251, 0.4);
-  background: -moz-linear-gradient(left, rgba(115, 194, 251, 0.4) 10%, rgba(255, 255, 255, 0) 42%);
-  background: -webkit-linear-gradient(left, rgba(115, 194, 251, 0.4) 10%, rgba(255, 255, 255, 0) 42%);
-  background: -o-linear-gradient(left, rgba(115, 194, 251, 0.4) 10%, rgba(255, 255, 255, 0) 42%);
-  background: -ms-linear-gradient(left, rgba(115, 194, 251, 0.4) 10%, rgba(255, 255, 255, 0) 42%);
-  background: linear-gradient(to right, rgba(115, 194, 251, 0.4) 10%, rgba(255, 255, 255, 0) 42%);
-  position: relative;
-  -webkit-animation: load3 1.4s infinite linear;
-  animation: load3 1.4s infinite linear;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0); }
-
-.half-circles:before {
-  width: 50%;
-  height: 50%;
-  background: #000000;
-  border-radius: 100% 0 0 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: ''; }
-
-.half-circles:after {
-  background: #ffffff;
-  width: 75%;
-  height: 75%;
-  border-radius: 50%;
-  content: '';
-  margin: auto;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0; }
-
-@-webkit-keyframes load3 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-@keyframes load3 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-.rings,
-.rings:before,
-.rings:after {
-  border-radius: 50%; }
-
-.rings {
-  color: #000000;
-  font-size: 11px;
-  text-indent: -99999em;
-  margin: 55px auto;
-  position: relative;
-  width: 10em;
-  height: 10em;
-  box-shadow: inset 0 0 0 1em;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0); }
-
-.rings:before,
-.rings:after {
-  position: absolute;
-  content: ''; }
-
-.rings:before {
-  width: 5.2em;
-  height: 10.2em;
-  background: #ffffff;
-  border-radius: 10.2em 0 0 10.2em;
-  top: -0.1em;
-  left: -0.1em;
-  -webkit-transform-origin: 5.2em 5.1em;
-  transform-origin: 5.2em 5.1em;
-  -webkit-animation: load2 2s infinite ease 1.5s;
-  animation: load2 2s infinite ease 1.5s; }
-
-.rings:after {
-  width: 5.2em;
-  height: 10.2em;
-  background: #ffffff;
-  border-radius: 0 10.2em 10.2em 0;
-  top: -0.1em;
-  left: 5.1em;
-  -webkit-transform-origin: 0px 5.1em;
-  transform-origin: 0px 5.1em;
-  -webkit-animation: load2 2s infinite ease;
-  animation: load2 2s infinite ease; }
-
-@-webkit-keyframes load2 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-@keyframes load2 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-.fading-circles {
-  color: #000000;
-  font-size: 20px;
-  margin: 100px auto;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  position: relative;
-  text-indent: -9999em;
-  -webkit-animation: load4 1.3s infinite linear;
-  animation: load4 1.3s infinite linear;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0); }
-
-@-webkit-keyframes load4 {
-  0%,
-  100% {
-    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0; }
-  12.5% {
-    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
-  25% {
-    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
-  37.5% {
-    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em; }
-  50% {
-    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em; }
-  62.5% {
-    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em; }
-  75% {
-    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0; }
-  87.5% {
-    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em; } }
-@keyframes load4 {
-  0%,
-  100% {
-    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0; }
-  12.5% {
-    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
-  25% {
-    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
-  37.5% {
-    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em; }
-  50% {
-    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em; }
-  62.5% {
-    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em; }
-  75% {
-    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0; }
-  87.5% {
-    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em; } }
-.ball-spins {
-  color: #000000;
-  margin: 100px auto;
-  font-size: 25px;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  position: relative;
-  text-indent: -9999em;
-  -webkit-animation: load5 1.1s infinite ease;
-  animation: load5 1.1s infinite ease;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0); }
-
-@keyframes load5 {
-  0%,
-  100% {
-    box-shadow: 0em -2.6em 0em 0em, 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.5), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7); }
-  12.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.7), 1.8em -1.8em 0 0em, 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5); }
-  25% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.5), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7), 2.5em 0em 0 0em, 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
-  37.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5), 2.5em 0em 0 0em rgba(255, 255, 255, 0.7), 1.75em 1.75em 0 0em, 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
-  50% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.5), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.7), 0em 2.5em 0 0em, -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
-  62.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.5), 0em 2.5em 0 0em rgba(255, 255, 255, 0.7), -1.8em 1.8em 0 0em, -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
-  75% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.5), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.7), -2.6em 0em 0 0em, -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
-  87.5% {
-    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5), -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em; } }
-.fire-spins {
-  color: #000000;
-  font-size: 90px;
-  text-indent: -9999em;
-  overflow: hidden;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  margin: 72px auto;
-  position: relative;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
-  animation: load6 1.7s infinite ease, round 1.7s infinite ease; }
-
-@-webkit-keyframes load6 {
-  0% {
-    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
-  5%,
-  95% {
-    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
-  10%,
-  59% {
-    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em; }
-  20% {
-    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em; }
-  38% {
-    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em; }
-  100% {
-    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; } }
-@keyframes load6 {
-  0% {
-    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
-  5%,
-  95% {
-    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
-  10%,
-  59% {
-    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em; }
-  20% {
-    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em; }
-  38% {
-    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em; }
-  100% {
-    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; } }
-@-webkit-keyframes round {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-@keyframes round {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-.three-bounces,
-.three-bounces:before,
-.three-bounces:after {
-  border-radius: 50%;
-  width: 2.5em;
-  height: 2.5em;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-animation: load7 1.8s infinite ease-in-out;
-  animation: load7 1.8s infinite ease-in-out; }
-
-.three-bounces {
-  color: #000000;
-  font-size: 10px;
-  margin: 80px auto;
-  position: relative;
-  text-indent: -9999em;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-animation-delay: -0.16s;
-  animation-delay: -0.16s; }
-
-.three-bounces:before,
-.three-bounces:after {
-  content: '';
-  position: absolute;
-  top: 0; }
-
-.three-bounces:before {
-  left: -3.5em;
-  -webkit-animation-delay: -0.32s;
-  animation-delay: -0.32s; }
-
-.three-bounces:after {
-  left: 3.5em; }
-
-@-webkit-keyframes load7 {
-  0%,
-  80%,
-  100% {
-    box-shadow: 0 2.5em 0 -1.3em; }
-  40% {
-    box-shadow: 0 2.5em 0 0; } }
-@keyframes load7 {
-  0%,
-  80%,
-  100% {
-    box-shadow: 0 2.5em 0 -1.3em; }
-  40% {
-    box-shadow: 0 2.5em 0 0; } }
-.spinner-rounds,
-.spinner-rounds:after {
-  border-radius: 50%;
-  width: 10em;
-  height: 10em; }
-
-.spinner-rounds {
-  margin: 60px auto;
-  font-size: 10px;
-  position: relative;
-  text-indent: -9999em;
-  border-top: 1.1em solid rgba(115, 194, 251, 0.4);
-    border-top-opacity: 0.2;
-  border-right: 1.1em solid rgba(115, 194, 251, 0.4);
-    border-right-opacity: 0.2;
-  border-bottom: 1.1em solid rgba(115, 194, 251, 0.4);
-    border-bottom-opacity: 0.2;
-  border-left: 1.1em solid #000000;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  -webkit-animation: load8 1.1s infinite linear;
-  animation: load8 1.1s infinite linear; }
-
-@-webkit-keyframes load8 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-@keyframes load8 {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-/*****************************************************************************
- Component Name : CreditCard
-    Version : Amexio v4.2 onwards
-****************************************************************************/
-/** CreditCard - Visual CSS **/
-/** CreditCard - Structure CSS **/
-/* CSS FOR SINGLE COLUMN */
-.creditCardFormSglCol {
-  max-width: 100%;
-  border-style: dotted;
-  padding: 30px;
-  color: #4c4e56;
-  border-radius: 10px;
-  display: grid; }
-
-.ownerdetailsSglCol {
-  margin-top: 7px; }
-
-.ownerSglCol {
-  width: 100%; }
-
-.cvvSglCol {
-  width: 22%;
-  margin-top: 1%; }
-
-.cardNumberSglCol {
-  /* width:100%; */
-  margin-top: 7px; }
-
-.expiration-dateSglCol {
-  display: flex; }
-
-.monthSglCol {
-  margin-top: 5px;
-  padding: 2px; }
-
-.dateSglCol {
-  margin-top: 5px;
-  padding: 2px; }
-
-.imageSglCol {
-  display: grid;
-  grid-template-columns: .1fr .1fr .1fr;
-  grid-gap: .2em; }
-
-.input-control-successSglCol {
-  border-bottom-color: green; }
-
-.input-control-failureSglCol {
-  border-bottom-color: red; }
-
-.disable-component {
-  opacity: .5;
-  cursor: not-allowed; }
-
-/* CSS FOR DOUBLE COLUMN */
-.creditCardForm {
-  max-width: 100%;
-  border-style: dotted;
-  overflow: hidden;
-  padding: 30px;
-  color: #4c4e56;
-  border-radius: 10px;
-  display: grid;
-  grid-template-columns: repeat(1, 2fr 1.5fr);
-  grid-gap: 0.5em;
-  justify-items: stretch; }
-
-.cardNumber {
-  grid-column: 1/3; }
-
-.expiration-date {
-  display: grid;
-  grid-template-columns: 0.2fr 0.1fr;
-  grid-gap: .2em; }
-
-.expiration-date-label {
-  display: grid;
-  grid-template-columns: .1fr .3fr 3;
-  grid-gap: .2em;
-  /* grid-column: 1/3; */ }
-
-.image {
-  display: grid;
-  grid-template-columns: .1fr .1fr .1fr;
-  grid-gap: .2em; }
-
-.image-label {
-  display: grid;
-  grid-template-columns: .1fr .1fr .1fr;
-  grid-gap: .2em;
-  padding-top: 2em; }
-
-.cvv {
-  /* width:25%; */
-  display: grid; }
-
-.exp-month-date-label {
-  display: grid;
-  grid-template-columns: .1fr .1fr;
-  grid-gap: .2em;
-  padding-top: 9px; }
-
-@media (max-width: 500px) {
-  .creditCardForm {
-    display: block;
-    padding: 2em; } }
-.input-control-success {
-  border-bottom-color: green; }
-
-.input-control-failure {
-  border-bottom-color: red; }
-
 /****************************************************************************
     Component Name : Enterprise Content
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** enterprise-content - Visual CSS **/
 .content-title {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .content-area {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /* Button Related CSS */
 .content-button {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 header .billboard .content-button {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .content-button i {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .content-button-small i {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .close-button {
   color: gray; }
@@ -3411,7 +2879,7 @@ header .billboard .content-button {
 .close-button {
   cursor: pointer;
   padding-left: 98%;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
 
 /****************************************************************************
     Component Name : Enterprise Youtube
@@ -3420,7 +2888,7 @@ header .billboard .content-button {
 /** enterprise-youtube - Visual CSS **/
 .close-button {
   color: grey;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
 
 .close-button i:hover {
   color: red; }
@@ -3444,21 +2912,21 @@ header .billboard .content-button {
   font-size: 20px; }
 
 .tile__details {
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
 
 .tile__details:after,
 .tile__details:before {
-  display: #000; }
+  display: black; }
 
 .tile__details_v {
   font-size: 10px;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
 
 .tile__details_v:after,
 .tile__details_v:before {
-  display: #000; }
+  display: black; }
 
 .tile__title {
   color: white; }
@@ -3470,14 +2938,14 @@ header .billboard .content-button {
   color: dimgrey; }
 
 .textonly {
-  color: #73C2FB;
+  color: #73c2fb;
   background-color: transparent; }
 
 .match {
   color: lightgreen; }
 
 .age {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .actionpanel {
   color: red;
@@ -3582,7 +3050,7 @@ header .billboard .content-button {
   position: absolute;
   top: 50%;
   left: 50%;
-  display: #000; }
+  display: black; }
 
 .tile__details_v:after {
   margin-top: -25px;
@@ -3711,18 +3179,18 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Datapoints - Visual CSS **/
 .datapoints .datapoints-north {
-  color: #73C2FB; }
+  color: #73c2fb; }
 .datapoints .datapoint-south {
-  background-color: #73C2FB;
-  color: #73C2FB; }
+  background-color: #73c2fb;
+  color: #73c2fb; }
 .datapoints .datapoint-west {
   padding: 5px; }
 .datapoints .datapoint-east {
   padding: 5px; }
 
 .datapoint {
-  background: #000000;
-  color: #73C2FB; }
+  background: black;
+  color: #73c2fb; }
 
 /** Datapoints - Structure CSS **/
 .datapoints {
@@ -3763,17 +3231,17 @@ header .billboard .content-button {
 
 .datatable .datatable-header {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .datatable .datatable-row:hover {
   background-color: rgba(115, 194, 251, 0.4);
   cursor: pointer; }
 
 .datatable .datatable-row-active {
-  background-color: #000000 !important; }
+  background-color: black !important; }
 
 .datatable-row:nth-child(odd) {
-  background-color: #000000; }
+  background-color: black; }
 
 /** Datatable - Visual CSS **/
 .datatabletitle {
@@ -3808,7 +3276,6 @@ header .billboard .content-button {
 .datatable .datatable-header {
   display: table-header-group;
   text-align: left;
-  font-size: larger;
   cursor: pointer; }
 
 .datatable .datatable-col {
@@ -3852,12 +3319,12 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Horizontaltreeview - Visual CSS **/
 .horizontaltreeview-node-label {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .horizontaltreeview-node-label:hover {
   border-color: black;
-  color: #73C2FB;
+  color: #73c2fb;
   background-color: rgba(115, 194, 251, 0.4); }
 
 /** Horizontaltreeview - Structure CSS **/
@@ -3871,7 +3338,7 @@ header .billboard .content-button {
   .horizontaltreeview-node:before {
     content: "";
     width: 50px;
-    border-top: 2px solid #000000;
+    border-top: 2px solid black;
     position: absolute;
     left: -100px;
     top: 50%;
@@ -3883,13 +3350,13 @@ header .billboard .content-button {
   .horizontaltreeview-node-entry:before {
     content: "";
     height: 100%;
-    border-left: 2px solid #000000;
+    border-left: 2px solid black;
     position: absolute;
     left: -50px; }
   .horizontaltreeview-node-entry:after {
     content: "";
     width: 50px;
-    border-top: 2px solid #000000;
+    border-top: 2px solid black;
     position: absolute;
     left: -50px;
     top: 50%;
@@ -3910,7 +3377,7 @@ header .billboard .content-button {
   .horizontaltreeview-node-entry:last-child:after {
     height: 10px;
     border-top: none;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid black;
     border-radius: 0 0 0 10px;
     margin-top: -9px; }
   .horizontaltreeview-node-entry.sole:before {
@@ -3943,12 +3410,12 @@ header .billboard .content-button {
 /** Itemselector - Visual CSS **/
 .item-selector-action-panel .actionbar .actionbarinner .action {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 .item-selector-action-panel .actionbar .actionbarinner .actiondisable {
   background-color: #a09e9e; }
 
 .itemselector-list-active {
-  background-color: #000000; }
+  background-color: black; }
 
 .itemselector-list:hover {
   background-color: rgba(115, 194, 251, 0.4); }
@@ -4015,7 +3482,7 @@ header .billboard .content-button {
   background-color: rgba(115, 194, 251, 0.4); }
 
 .listbox .list {
-  background-color: #000000; }
+  background-color: black; }
   .listbox .list .title {
     color: rgba(0, 0, 0, 0.87); }
     .listbox .list .title a {
@@ -4079,27 +3546,27 @@ header .billboard .content-button {
 }*/
 .tree-node-label-hover:hover {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .treenode-label-active {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .tree-badge {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .context-menu-list li:hover {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .context-menu-list-items-selected {
-  background-color: #000000 !important;
-  color: #73C2FB; }
+  background-color: black !important;
+  color: #73c2fb; }
 
 .tree-node-label-selected {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .context-menu-separator {
   border-bottom: 1px solid gray; }
@@ -4397,7 +3864,7 @@ header .billboard .content-button {
   color: rgba(255, 255, 255, 0.7); }
 
 .menu-content {
-  background: #000000; }
+  background: black; }
 
 .menu-content .menu-content-cols .col-menu-nodes {
   background: none; }
@@ -4501,58 +3968,58 @@ header .billboard .content-button {
 *****************************************************************************/
 /** navbar - Visual CSS **/
 .topnav {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .top-nav-button {
   background-color: inherit;
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .topnav a {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .topnav a label {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .topnavbarunit2-mobile {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .topnavmainbarinneritems .nav-dropdown-content {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .topnavmainbarinneritems .nav-dropdown-content a {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .topnavmainbarinneritems .nav-dropdown-content a:hover {
   background-color: rgba(115, 194, 251, 0.4);
   color: rgba(255, 255, 255, 0.7) !important; }
 
 .nav-dropdown:active {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .topnavmainbarinneritems-mobile .top-nav-input-control {
   width: 100%; }
 
 .mobilebar {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .topnav input {
   background-color: inherit;
   color: inherit; }
 
 .nav-dropdown:hover .nav-dropdown-content .nav-menu-container {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .nav-dropdown:hover .nav-dropdown-content .nav-menu-container a {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /** navbar - Structure CSS **/
 .topnav {
@@ -4704,11 +4171,11 @@ header .billboard .content-button {
 
 .paginator .paginator-pages .paginator-page:hover {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .paginator .paginator-pages .active {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 /** paginator - Structure CSS **/
 .paginator {
@@ -4744,13 +4211,13 @@ header .billboard .content-button {
   color: rgba(255, 255, 255, 0.7); }
 
 .sidenav-mobile-bar-left {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .sidenav-mobile-bar-right {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .sidenav {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 .sidenav::-webkit-scrollbar-track {
@@ -4763,17 +4230,17 @@ header .billboard .content-button {
   background-color: rgba(115, 194, 251, 0.4); }
 
 .left {
-  background-color: #000000; }
+  background-color: black; }
 
 .right {
-  background-color: #000000; }
+  background-color: black; }
 
 .sidenav .title {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 .sidenav .headernode {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 .sidenav .headernode:hover {
@@ -4785,7 +4252,7 @@ header .billboard .content-button {
   color: rgba(255, 255, 255, 0.7); }
 
 .sidenav .activenode {
-  background-color: #000000;
+  background-color: black;
   color: inherit; }
 
 .sidenav .border {
@@ -4793,7 +4260,7 @@ header .billboard .content-button {
 
 .nav-badge {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /** sidenav - Structure CSS **/
 .sidenav-mobile-bar {
@@ -4909,11 +4376,11 @@ header .billboard .content-button {
 *****************************************************************************/
 /** dockbar - Visual CSS **/
 .dockbar {
-  background-color: #73C2FB;
+  background-color: #73c2fb;
   color: #ced4da; }
 
 .dockbar-content {
-  background-color: #000000; }
+  background-color: black; }
 
 /* Style the buttons inside the tab */
 .dockbar button {
@@ -4922,19 +4389,19 @@ header .billboard .content-button {
 
 /* Change background color of buttons on hover */
 .dockbar button:hover {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 /* Create an active/current "tab button" class */
 .dockbar button.active {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .dockbar-label-highlight {
   color: black; }
 
 .dockbar-item-close-bar {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .dockbar-height::-webkit-scrollbar-track {
   background-color: #a09e9e; }
@@ -4951,7 +4418,7 @@ header .billboard .content-button {
   width: 70px;
   position: relative;
   border-top: 1px solid #ced4da;
-  border-bottom: 5px solid #73C2FB; }
+  border-bottom: 5px solid #73c2fb; }
 
 /* Style the buttons inside the tab */
 .dockbar button {
@@ -4970,7 +4437,7 @@ header .billboard .content-button {
 
 /* Create an active/current "tab button" class */
 .dockbar button.active {
-  border-left: 3px solid #73C2FB; }
+  border-left: 3px solid #73c2fb; }
 
 .dockbar-label-highlight {
   font-weight: bold; }
@@ -4985,12 +4452,12 @@ header .billboard .content-button {
   font-size: 17px;
   font-weight: 500;
   padding: 15px 10px 10px 10px;
-  border-bottom: 1px solid #73C2FB; }
+  border-bottom: 1px solid #73c2fb; }
 
 .dockbar-active-content {
-  border-top: 3px solid #73C2FB;
-  border-right: 3px solid #73C2FB;
-  border-bottom: 3px solid #73C2FB;
+  border-top: 3px solid #73c2fb;
+  border-right: 3px solid #73c2fb;
+  border-bottom: 3px solid #73c2fb;
   height: 100%; }
 
 .dockbar-height {
@@ -5004,140 +4471,37 @@ header .billboard .content-button {
   width: 6px; }
 
 /****************************************************************************
-    Component Name : Breadcrumb
-    Version : Amexio v5.2 onwards
-*****************************************************************************/
-/** dockbar - Visual CSS **/
-.breadcrum-rightshift-css {
-  background-color: #ffffff; }
-
-.context-menu-list1 {
-  background-color: #ffffff !important;
-  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
-
-.context-menu-list1 :hover {
-  background-color: rgba(115, 194, 251, 0.4); }
-
-.breadcrumb-group:hover {
-  border: 1px solid rgba(115, 194, 251, 0.4);
-  display: table !important; }
-
-.breadcrumb-group {
-  border-color: transparent; }
-
-.breadcrumb-group:hover {
-  border: 1px solid #73C2FB;
-  background-color: rgba(115, 194, 251, 0.4); }
-
-.arrow-group-css:hover {
-  border-left: 1px solid #73C2FB; }
-
-.arrow-group-css {
-  border-left: 1px solid #f7f3f3; }
-
-/** dockbar - Structure CSS **/
-.breadcrum-rightshift-css {
-  display: inline-flex;
-  width: 100%;
-  cursor: pointer;
-  flex-direction: row;
-  position: relative; }
-
-.context-menu-list1 {
-  display: block;
-  position: absolute;
-  flex-direction: column;
-  min-width: 180px;
-  cursor: pointer;
-  max-height: auto;
-  z-index: 1;
-  margin-top: 8px;
-  padding: 10px 0px; }
-
-.context-menu-list1 .context-menu-list-items1 {
-  text-decoration: none;
-  display: inline-block;
-  padding: 5px;
-  display: block;
-  width: 94%;
-  overflow: hidden; }
-
-.arrow-icon-css {
-  cursor: pointer; }
-
-.data-click-css {
-  cursor: pointer;
-  font-size: 16px; }
-
-.breadcrumb-group {
-  padding: 7px; }
-
-.breadcrumb-group:hover {
-  padding: 6px; }
-
-.label {
-  display: none !important;
-  margin: 0px !important; }
-
-.arrow-group-css:hover {
-  content: '';
-  display: initial !important;
-  margin-top: 0px !important;
-  height: 120%;
-  padding-left: 8px;
-  padding-top: 12px;
-  padding-bottom: 8px;
-  border-left: 1px solid #797575; }
-
-.arrow-group-css {
-  content: '';
-  display: initial;
-  margin-top: 0px;
-  padding-left: 8px;
-  height: 120%;
-  padding-top: 12px;
-  padding-bottom: 8px;
-  border-left: 1px solid #f7f3f3; }
-
-.label-icon-css {
-  cursor: pointer; }
-
-.dropdown-icon-css {
-  width: 20%;
-  text-align: left;
-  display: inline; }
-
-.dropdown-label-css {
-  width: 80%;
-  float: right;
-  display: inline; }
-
-/****************************************************************************
     Component Name : Accordion
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** accordion - Visual CSS **/
 .accordion {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .accordion .active-accordion, .accordion:hover {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .accordion:after {
   color: red; }
 
+.accordion amexio-accordion-header > * {
+  padding: 5px; }
+
 .panel {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 /** Transparent Styling **/
 .accordion-transparent {
-  background: #000000; }
+  background: black; }
 
-.accordion .amexio-accordion-header {
-  color: #73C2FB; }
+.accordion amexio-accordion-header {
+  color: #73c2fb; }
+
+.accordion-transparent amexio-accordion-header > * {
+  padding: 5px; }
 
 .accordion-transparent:after {
   color: red; }
@@ -5167,7 +4531,7 @@ header .billboard .content-button {
   cursor: pointer;
   padding: 10px;
   width: 100%;
-  border-color: #000000;
+  border-color: black;
   text-align: left;
   outline: none;
   font-size: 15px;
@@ -5184,21 +4548,18 @@ header .billboard .content-button {
   opacity: 0.55;
   cursor: not-allowed; }
 
-.accordion .amexio-accordion-header > * {
-  padding: 5px; }
-
 /****************************************************************************
     Component Name : Cards
     Version : Amexio v4.0 onwards
 *****************************************************************************/
 /** cards - Visual CSS **/
 .card-container {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 .card-header {
   background: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .card-header .toolbar {
   background-color: unset;
@@ -5215,8 +4576,8 @@ header .billboard .content-button {
   background-color: rgba(115, 194, 251, 0.4); }
 
 .card-footer {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 /** cards - Structure CSS **/
 .card-container {
@@ -5263,7 +4624,7 @@ header .billboard .content-button {
 *****************************************************************************/
 /** cards - Visual CSS **/
 .form-container {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 .form-error {
@@ -5272,7 +4633,7 @@ header .billboard .content-button {
 
 .form-header {
   background: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .form-header .toolbar {
   background-color: unset;
@@ -5290,12 +4651,12 @@ header .billboard .content-button {
   background-color: rgba(115, 194, 251, 0.4); }
 
 .form-footer {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .form-tooltip .form-tooltiptext {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /** cards - Structure CSS **/
 .form-container {
@@ -5406,20 +4767,20 @@ fieldset {
   color: #a09e9e; }
 
 .step-block-icon-disable {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .stepwizard-row:before {
-  background-color: #000000; }
+  background-color: black; }
 
 .btn-circle {
   font-size: 12px; }
 
 .step-box-table-item {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 .step-box-table-item.active {
-  background-color: #000000 !important; }
+  background-color: black !important; }
 
 .step-box-table-item.disbaled {
   background-color: #a09e9e; }
@@ -5511,17 +4872,17 @@ fieldset {
 *****************************************************************************/
 /** tab - Visual CSS **/
 .verticalnavtab .defaultnode {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 .verticalnavtab .leftactivetab {
-  background-color: #000000;
+  background-color: black;
   font-weight: bold;
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .verticalnavtab .rightactivetab {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 /** Theme Colors for Tab*/
 /** CSS Class definitions for the Amexio Colors --- */
@@ -5530,8 +4891,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-bottom-tab-red {
-  color: #dc143c;
-  border-top: 1px solid #dc143c !important; }
+  color: crimson;
+  border-top: 1px solid crimson !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -5546,56 +4907,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-bottom-tab-purple {
-  border-top: 1px solid #8b008b !important;
-  color: #8b008b; }
+  border-top: 1px solid darkmagenta !important;
+  color: darkmagenta; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-bottom-tab-blue {
-  border-top: 1px solid #00008b !important;
-  color: #00008b; }
+  border-top: 1px solid darkblue !important;
+  color: darkblue; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-bottom-tab-brown {
-  border-top: 1px solid #800000 !important;
-  color: #800000; }
+  border-top: 1px solid maroon !important;
+  color: maroon; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-yellow {
-  border-top: 1px solid #FFFF00 !important;
-  color: #FFFF00; }
+  border-top: 1px solid yellow !important;
+  color: yellow; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-pink {
-  border-top: 1px solid #FF69B4 !important;
-  color: #FF69B4; }
+  border-top: 1px solid hotpink !important;
+  color: hotpink; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-orange {
-  border-top: 1px solid #FFA500 !important;
-  color: #FFA500; }
+  border-top: 1px solid orange !important;
+  color: orange; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-black {
-  border-top: 1px solid #000000 !important;
-  color: #000000; }
+  border-top: 1px solid black !important;
+  color: black; }
 
 /** CSS Class definitions for the Amexio Colors --- */
 /** Amexio Colors --- 
@@ -5603,8 +4964,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-top-tab-red {
-  color: #dc143c;
-  border-bottom: 1px solid #dc143c !important; }
+  color: crimson;
+  border-bottom: 1px solid crimson !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -5619,56 +4980,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-top-tab-purple {
-  border-bottom: 1px solid #8b008b !important;
-  color: #8b008b; }
+  border-bottom: 1px solid darkmagenta !important;
+  color: darkmagenta; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-top-tab-blue {
-  border-bottom: 1px solid #00008b !important;
-  color: #00008b; }
+  border-bottom: 1px solid darkblue !important;
+  color: darkblue; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-top-tab-brown {
-  border-bottom: 1px solid #800000 !important;
-  color: #800000; }
+  border-bottom: 1px solid maroon !important;
+  color: maroon; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-yellow {
-  border-bottom: 1px solid #FFFF00 !important;
-  color: #FFFF00; }
+  border-bottom: 1px solid yellow !important;
+  color: yellow; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-pink {
-  border-bottom: 1px solid #FF69B4 !important;
-  color: #FF69B4; }
+  border-bottom: 1px solid hotpink !important;
+  color: hotpink; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-orange {
-  border-bottom: 1px solid #FFA500 !important;
-  color: #FFA500; }
+  border-bottom: 1px solid orange !important;
+  color: orange; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-black {
-  border-bottom: 1px solid #000000 !important;
-  color: #000000; }
+  border-bottom: 1px solid black !important;
+  color: black; }
 
 /** tab - Structure CSS **/
 .tab {
@@ -5693,7 +5054,7 @@ fieldset {
   white-space: nowrap; }
 
 .activetab {
-  border-bottom: 3px solid #73C2FB !important; }
+  border-bottom: 3px solid #73c2fb !important; }
 
 .disabled-tab {
   cursor: not-allowed !important;
@@ -5730,11 +5091,11 @@ fieldset {
 
 .verticalnavtab .leftactivetab {
   font-weight: bold;
-  border-right: 3px solid #73C2FB; }
+  border-right: 3px solid #73c2fb; }
 
 .verticalnavtab .rightactivetab {
   font-weight: bold;
-  border-left: 3px solid #73C2FB; }
+  border-left: 3px solid #73c2fb; }
 
 .verticalnavtab-left {
   font-weight: bold; }
@@ -5780,7 +5141,7 @@ verticalalign-tableft {
   max-width: 980px; }
 
 .bottomActivetab {
-  border-bottom: 3px solid #73C2FB !important; }
+  border-bottom: 3px solid #73c2fb !important; }
 
 .activebottomcolortab {
   border-top: 3px solid !important; }
@@ -5820,11 +5181,11 @@ verticalalign-tableft {
 *****************************************************************************/
 /** window - Visual CSS **/
 .root-window {
-  background-color: #000000;
+  background-color: black;
   /* Black w/ opacity */ }
 
 .modal-window-content {
-  background-color: #000000; }
+  background-color: black; }
 
 .modal-window-material {
   background-color: white;
@@ -5834,7 +5195,7 @@ verticalalign-tableft {
 .modal-window-header {
   background: rgba(115, 194, 251, 0.4);
   font-size: 20px;
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .modal-window-header .toolbar {
   background: #290500;
@@ -5855,7 +5216,7 @@ verticalalign-tableft {
 
 .modal-window-footer {
   background-color: white;
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /** window - Structure CSS **/
 .root-window {
@@ -5945,8 +5306,7 @@ verticalalign-tableft {
 
 .modal-window-table .tablerow .tablecol {
   display: table-cell;
-  vertical-align: middle;
-  width: 100%; }
+  vertical-align: middle; }
 
 .modal-window-footer-max {
   bottom: 0px;
@@ -5981,7 +5341,7 @@ verticalalign-tableft {
   background: rgba(128, 127, 127, 0.6); }
 
 .dialogue-content {
-  background-color: #000000; }
+  background-color: black; }
 
 .dialogue-material-design {
   background-color: white;
@@ -5992,8 +5352,8 @@ verticalalign-tableft {
   color: rgba(255, 255, 255, 0.7); }
 
 .dialogue-footer {
-  background-color: #000000;
-  color: #73C2FB; }
+  background-color: black;
+  color: #73c2fb; }
 
 .dialogue-success {
   color: #5cb85c; }
@@ -6127,7 +5487,7 @@ verticalalign-tableft {
 /** panel - Visual CSS **/
 .panel-accordion {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB;
+  color: #73c2fb;
   font-size: 15px; }
 
 .panel-accordion:after {
@@ -6140,7 +5500,7 @@ verticalalign-tableft {
   padding: 0px; }
 
 .panel-panel {
-  background-color: #000000;
+  background-color: black;
   color: rgba(255, 255, 255, 0.7); }
 
 .amexio-panel-header {
@@ -6178,7 +5538,7 @@ verticalalign-tableft {
   transition: max-height 0.2s ease-out; }
 
 .panel-box {
-  border: 2px solid #73C2FB;
+  border: 2px solid #73c2fb;
   width: 100%; }
 
 .panel-panel::-webkit-scrollbar-track {
@@ -6199,80 +5559,6 @@ verticalalign-tableft {
   padding-left: 5px; }
 
 /****************************************************************************
-    Component Name : Timeline
-    Version : Amexio v5.2 onwards
-*****************************************************************************/
-/** panel - Visual CSS **/
-.timeline-event-content {
-  background: rgba(115, 194, 251, 0.4);
-  box-shadow: 0 3px 0 rgba(115, 194, 251, 0.4); }
-
-/** panel - Structure CSS **/
-.timeline {
-  overflow: hidden; }
-
-.timeline-event {
-  position: relative;
-  width: 100%;
-  padding: 5px; }
-
-.timeline-event-container {
-  position: relative; }
-
-.timeline-event-container::before {
-  content: '';
-  position: absolute;
-  margin-left: 15px;
-  height: 100%;
-  width: 3px;
-  background: #ced4da; }
-
-.timeline-event-icon {
-  position: relative;
-  margin-top: .5%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px rgba(115, 194, 251, 0.4), inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); }
-
-.timeline-event-contents {
-  display: flex; }
-
-.timeline-event-content {
-  position: relative;
-  padding: 1em;
-  width: 100%;
-  margin: 0px 0px 10px 10px; }
-
-.timeline-event-content::before {
-  content: '';
-  position: absolute;
-  top: 16px;
-  right: 100%;
-  height: 0;
-  width: 0;
-  border: 7px solid transparent;
-  border-right: 7px solid rgba(115, 194, 251, 0.4); }
-
-.timeline-event-content2 {
-  position: relative;
-  padding: 1em;
-  width: 100%;
-  margin: 0px 0px 10px 10px; }
-
-.timeline-event-icon .fa {
-  display: -webkit-box;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  display: block;
-  width: 24px t;
-  left: 60% !important;
-  margin-left: 10px;
-  margin-top: -12px;
-  margin-top: 30%;
-  padding-top: 3%; }
-
-/****************************************************************************
                     Media Query for width - 375
 *****************************************************************************/
 /************************************************************************/
@@ -6285,7 +5571,7 @@ verticalalign-tableft {
     background: rgba(115, 194, 251, 0.4);
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #73C2FB;
+    color: #73c2fb;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -6468,7 +5754,7 @@ verticalalign-tableft {
     background: rgba(115, 194, 251, 0.4);
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #73C2FB;
+    color: #73c2fb;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -6687,7 +5973,7 @@ verticalalign-tableft {
     background: rgba(115, 194, 251, 0.4);
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #73C2FB;
+    color: #73c2fb;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -6898,7 +6184,7 @@ verticalalign-tableft {
     background: rgba(115, 194, 251, 0.4);
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #73C2FB;
+    color: #73c2fb;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -7109,7 +6395,7 @@ verticalalign-tableft {
     background: rgba(115, 194, 251, 0.4);
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #73C2FB;
+    color: #73c2fb;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -7306,7 +6592,7 @@ verticalalign-tableft {
     background: rgba(115, 194, 251, 0.4);
     border-bottom: 1px solid #ced4da;
     font-size: 18px;
-    color: #73C2FB;
+    color: #73c2fb;
     font-weight: 300;
     text-transform: capitalize;
     overflow: auto; } }
@@ -7487,46 +6773,44 @@ verticalalign-tableft {
 /*----------------------------------------------------------------------*/
 .listbox .list .title {
   font-size: 18px;
-  color: #73C2FB !important; }
+  color: #73c2fb !important; }
   .listbox .list .title a {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.7) !important; }
 
 .listbox .header {
-  background-color: #73C2FB;
-  color: #000000; }
+  background-color: #73c2fb;
+  color: black; }
 
 .card-container .card-header {
   background-color: rgba(115, 194, 251, 0.4); }
 
 .listbox .listbox .list .title {
-  color: #73C2FB !important; }
+  color: #73c2fb !important; }
 
 .sidenav .activenode {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .datapoints .datapoint-south {
-  background-color: #73C2FB;
-  color: #000000; }
+  background-color: #73c2fb;
+  color: black; }
 
 .defaultcolor {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .star-icon:before {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .input-control {
   background-color: rgba(115, 194, 251, 0.4);
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .itemselector-list-active {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 .accordion-transparent {
-  color: #73C2FB; }
+  color: #73c2fb; }
 
 /*----------------------------------------------------------------------*/
 /*        INPUT/LABEL/A/BUTTON/DROPDOWN COMPONENT         */
 /*----------------------------------------------------------------------*/
-
-/*# sourceMappingURL=at-am-matrix-maya.css.map */

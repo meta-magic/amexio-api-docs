@@ -29,13 +29,18 @@
     }, {
       "name": "background-color",
       "type": "string",
-      "default": "false",
+      "default": "",
       "description":"Background color for datapoint."
     }, {
       "name": "font-color",
       "type": "string",
-      "default": "false",
+      "default": "",
       "description":"Font color for datapoint."
+    }, {
+      "name": "amexio-color(from v4.1.X)",
+      "type": "string",
+      "default": "",
+      "description":"use different inbuilt amexio colors available (e.g amexio-black, amexio-red etc)"
     }
   ],
   "location": [
@@ -50,6 +55,7 @@
       "default": "",
       "description":"Set font color"
     }, {
+      
       "name": "content-align",
       "type": "string",
       "default": "",

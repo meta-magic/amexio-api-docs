@@ -1,27 +1,376 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f50cee9c-acff-4979-876a-72105feb579d" name="Default" comment="url updated in v5.2">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.1/34.1a4f919cf40c74f22b4f.chunk.js" afterPath="$PROJECT_DIR$/api/v4.1/34.1a4f919cf40c74f22b4f.chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js" afterPath="$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js.map" afterPath="$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.2/main.10a83d2032d540e02c8f.bundle.js.map" afterPath="$PROJECT_DIR$/api/v4.2/main.10a83d2032d540e02c8f.bundle.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.3/gettingstarted.873ec76356cc57bfafa2.chunk.js" afterPath="$PROJECT_DIR$/api/v4.3/gettingstarted.873ec76356cc57bfafa2.chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.3/gettingstarted.873ec76356cc57bfafa2.chunk.js.map" afterPath="$PROJECT_DIR$/api/v4.3/gettingstarted.873ec76356cc57bfafa2.chunk.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.3/main.b83f9405040df21260b5.bundle.js.map" afterPath="$PROJECT_DIR$/api/v4.3/main.b83f9405040df21260b5.bundle.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4/gettingstarted.chunk.js" afterPath="$PROJECT_DIR$/api/v4/gettingstarted.chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4/gettingstarted.chunk.js.map" afterPath="$PROJECT_DIR$/api/v4/gettingstarted.chunk.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.0/gettingstarted-gettingstarted-ngfactory.a012f8f55848bc8199bf.js" afterPath="$PROJECT_DIR$/api/v5.0/gettingstarted-gettingstarted-ngfactory.a012f8f55848bc8199bf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.0/main.cc64ef1b1c0753379682.js" afterPath="$PROJECT_DIR$/api/v5.0/main.cc64ef1b1c0753379682.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.0/main.cc64ef1b1c0753379682.js.map" afterPath="$PROJECT_DIR$/api/v5.0/main.cc64ef1b1c0753379682.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.1/114.f789baa292878f590c6d.js" afterPath="$PROJECT_DIR$/api/v5.1/114.f789baa292878f590c6d.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.1/main.c5158fd7ab557df51a01.js" afterPath="$PROJECT_DIR$/api/v5.1/main.c5158fd7ab557df51a01.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.1/128.3d3c08e16843678d01a9.js" afterPath="$PROJECT_DIR$/api/v5.2.1/128.3d3c08e16843678d01a9.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.1/main.89aff1f7c94f40a158a8.js" afterPath="$PROJECT_DIR$/api/v5.2.1/main.89aff1f7c94f40a158a8.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.2/128.3d3c08e16843678d01a9.js" afterPath="$PROJECT_DIR$/api/v5.2.2/128.3d3c08e16843678d01a9.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.2/main.3c441fc621b9209a7a8e.js" afterPath="$PROJECT_DIR$/api/v5.2.2/main.3c441fc621b9209a7a8e.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/132.2d808ae791343c11997e.js" afterPath="$PROJECT_DIR$/api/v5.2/132.2d808ae791343c11997e.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.3/132.2d808ae791343c11997e.js" afterPath="$PROJECT_DIR$/api/v5.3/132.2d808ae791343c11997e.js" />
+    <list default="true" id="f50cee9c-acff-4979-876a-72105feb579d" name="Default" comment="version list updated 5.2">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/0.cb36e4306fa8d19b93d2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/1.e240a45424ac4826f0aa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/10.31cb67d641f864ed6d6b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/100.5c0100c05bea9c512fe6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/101.ff6739ad0771eb064292.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/102.c16ba7969f66f3340f6c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/103.ad9993a5cf153b2f894c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/104.13e9480fad5dccb894ab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/105.36d8fc55c8607462b9e3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/106.d4b85e3320edde14a8c7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/107.240012376801d7152011.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/108.31e438d82f3485961804.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/109.b6e3aa594e68d650aae7.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/11.5f4b55412a87f2ab4f12.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/110.d723d98f7ffbe89513f3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/111.d10c37b2df9b4fbad043.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/112.da20294dfc1c40eaec40.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/113.ffb03ab74d45cd008983.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/114.fdda5957b38e28738855.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/115.2a40e59aca35a1cd9b32.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/116.9adbf0619503ddad9af1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/117.546b505f1b08ebea0cff.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/118.ac214a308020e7f3ede2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/119.c6237ff1aec3d5032ee0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/12.2a8a102922e094559ea4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/120.ece8a9f17db650712a96.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/121.62ab111841558ce4b4cd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/122.f2170c25c68c9477fb57.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/123.92dd745e2010c00ca6ce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/124.2d90ed1a5dbb06c747ad.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/125.3bc532ee700e1cb14183.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/126.12c2f9e976a7eaaf2aa9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/127.2140b8d2d4953f9c336d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/128.987269198eceb2b12e9f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/129.b32c5b617f77cbc6d28c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/13.4dc18d8aed2c880c8244.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/130.40c4dc7d78ea04400490.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/131.0168d8da1f11f170314f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/132.2d808ae791343c11997e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/14.cd4e3493e6704cbea8d0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/15.b09e7bed3a863dc33828.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/16.c9bfb1cc1f221ea859fd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/17.c0a868be375ca3d88909.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/18.04f36c86bdc50f2e3d9d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/19.b35f2616d9a569df9492.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/2.b5b3148f0b4d450cb312.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/20.635b8d61412f5de62411.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/21.658f71a7a3704ded4e1f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/22.c5f57d6e2dde5b3c516c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/23.99e409dc486c3b88ab56.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/24.8afd7251a689563d7b6c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/25.3c32fc3042653325fe49.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/26.5a3c2fe0ee6dbc02de6d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/27.e357fc493e6afe1c2636.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/28.6b58d3653fea66690a14.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/29.acfd6848c330d433da96.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/3.7066cc692ef9d59d05a8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/30.05a0fa75b994c6a2ced8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/31.290284d766a4db33950e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/32.a1fff759639634a48403.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/33.9e540aa2494e387e56cd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/34.0ab8c7779d3ca809c2ae.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/35.305f1b579d02e71ad02c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/36.75475df629b3e2aca3f5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/37.229b55df00b0f1dca750.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/38.58509d15ddfb58b54d59.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/39.e2333be5bf8ce11b1274.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/4.0436fc53f78a1fc1345b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/40.be74e9a4c874287bd465.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/41.6792a46af34518a97e93.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/42.eaf18def54c613d513ee.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/43.3113884fe3df829e5885.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/44.faded599c929bc56c7be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/45.30f16d07825204a49765.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/46.44bc9b6bc84acf033041.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/47.23a556d68635df495aca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/48.f0650887205d518782e3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/49.8d34c8c71ec265b1ba5f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/5.5604189f9b9f12182cd6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/50.fc637367c070134671c9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/51.bf94a9523ca65d9c9f55.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/52.5c70df511ffd7e9bfb3f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/53.1b8f70c9c90f3665a095.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/54.f1ffb31078ef81f9fd57.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/55.55c5cd8698477a9eb747.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/56.5cacecdbfe706f3c04cf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/57.893c49b5968609ef440b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/58.f52bfe66ee6f757ec993.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/59.6cdba8b7a443f980399b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/6.c53e64c21ad31f8424f5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/60.869813b2e1a08b310817.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/61.773ba922561a124a3b93.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/62.54976930f6c2c001077f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/63.743c14d7b7405342c093.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/64.4fd070ddb67ee64c9edb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/65.05e1e20d6c7cb13b8a60.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/66.8291865617e34d585647.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/67.46f0a869a8bf8c79ab83.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/68.31b4db41f41b9153eca1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/69.4b488030ed2da52a947c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/7.fbb78ff6d1b2e4ca7c94.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/70.70ff292d03ee3980b622.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/71.5e291e7b999f2f66a411.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/72.7fa2ce3b78a65651838b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/73.0bda47ae999fb649e346.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/74.aaef87cb2b52f8172aa1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/75.3d30190722cf778b7051.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/76.9f43236a067f49664542.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/77.38634c68c43008d152f9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/78.57d6214d40da45dfaaa9.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/79.55143d97631fff5ea049.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/8.173cc4792f5c07476a21.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/80.255babb87a22c98c3233.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/81.a8fc908930008e84cd6d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/82.2dacc64b3463766eb315.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/83.537f0d26d3ae1996eccd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/84.2a37fbbc2a13921c10d3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/85.4b96375a18c31f457f5c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/86.408d82245ad20f72949a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/87.0eb942d41cebf1c1b339.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/88.b6c585e284eed683939b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/89.048edbe9d8e9ea481412.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/9.cb4887b919f736e88160.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/90.bed60aa4797c17395f6f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/91.d072465b542152af7690.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/92.8f7f573a70ed96bf574a.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/93.c7ef9b6450aee76f135d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/94.220136761de003511ca8.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/95.8819a541f49c34681a6b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/96.5db409e20218dc3c1080.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/97.19325ec43d5f65f23331.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/98.862e51603e16dfc0545f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/99.2368f858b44b33e78efb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3barstackchart.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3drillablechart.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3multiserieschart.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/data/spinner.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/forms/creditcard.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/forms/itemselectordragdrop.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/forms/recaptcha.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/forms/selectordragdroppanel.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/navigation/breadcrumb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/panes/timeline/timeline.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barstackchart/d3chart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barstackchart/d3chart.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barstackchart/datasource.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barstackchart/usersource.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3drillablechart/d3chart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3drillablechart/d3chart.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3multiserieschart/d3chart.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3multiserieschart/d3chart.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3multiserieschart/datasource.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3multiserieschart/usersource.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/data/gridwithtoolbar/gridwithtoolbar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/data/gridwithtoolbar/gridwithtoolbar.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/data/spinner/spinner.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/data/spinner/spinner.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/draganddrop/itemselectordragdrop/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/draganddrop/itemselectordragdrop/form.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/draganddrop/selectordragdroppanel/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/draganddrop/selectordragdroppanel/form.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/creditcard/form.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/creditcard/form.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/recaptcha/recaptcha.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/recaptcha/recaptcha.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/card/cardcontextmenu/layout.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/card/cardcontextmenu/layout.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/panel/panelcontextmenu/panel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/panel/panelcontextmenu/panel.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/timeline/timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/timeline/timeline.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/breadcrumb/breadcrumb.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/breadcrumb/breadcrumb.text" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/componentdata/breadcrumb.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/componentdata/selectordragdrop.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/images/logos/D3_chart_page1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-burgandy-magenta.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-byzantine-crystal.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-honey-prussian.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-limegreen.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-amber.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-cream.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-maya.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-ultra.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-navy-grape.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-ocean-blue.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-persian-laguna.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-royal-kelly.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-royal-pineapple.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-spicy-apricot.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-tiger.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-army-olive.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-ash-stone-black.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-black.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-blue-grey.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-blue.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-bruntor-tangerine.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-cerise-magenta.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-charcoal-iron.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-chocolate-russet.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkgreen-darkolivegreen.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkgreen-teal.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkkhaki-moccasin.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkmagenta-darkorchid.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkslateblue-indigo.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkslategray-dimgray.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkturquoise-aquamarine.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-fern-lime.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-firebrick-crimson.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-frenchrose-mulberry.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-gingerbread.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-gold-amber.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-grape-violet.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-honey-mustard.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-hot-pink-fuchsia.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-hot-pink-violetred.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indianred-salmon.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indigo-darkviolet.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indigo-slateblue.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indigo.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-jungle-mint.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mahogany-barny-red.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mauve-orchid.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-maya.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mediumblue-deepskyblue.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mediumblue-slateblue.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mediumvioletred-hotpink.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-navy-egyptian.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-navy-royalblue.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-orangered-tomato.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-pineapple-flaxen.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-pumpkin-fire.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-rasberry-sangria.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-rebeccapurple-orchid.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-red-maroon.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-royalblue-dodgerblue.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-sacramento-jade.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-saddlebrown-peru.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-sienna-rosybrown.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-tronbone-royal.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-yale-azure.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-bahamas.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-france.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-germany.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-india.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-italy.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-japan.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-usa.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/main.856304c10e9768572dba.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/polyfills.d8640737424eeaa9312d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/runtime.ef560efbd26b23794ccf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/v5.2/styles.aee0ccfac67c3e269126.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/3rdpartylicenses.txt" afterPath="$PROJECT_DIR$/api/v5.2/3rdpartylicenses.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3barchart.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3barchart.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3donutchart.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3donutchart.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3linechart.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3linechart.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3piechart.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/apireference/charts/d3charts/d3piechart.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/apireference/forms/itemselector.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/apireference/forms/itemselector.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barchart/d3chart.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barchart/d3chart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barchart/d3chart.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barchart/d3chart.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barchart/datasource.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3barchart/datasource.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3donutchart/d3chart.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3donutchart/d3chart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3donutchart/d3chart.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3donutchart/d3chart.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3donutchart/datasource.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3donutchart/datasource.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3linechart/d3chart.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3linechart/d3chart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3linechart/d3chart.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3linechart/d3chart.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3linechart/datasource.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3linechart/datasource.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3piechart/d3chart.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3piechart/d3chart.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3piechart/d3chart.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3piechart/d3chart.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3piechart/datasource.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/D3Charts/d3piechart/datasource.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/barchart/datasource.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/charts/barchart/datasource.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/data/headertemplate/headertemplate.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/data/headertemplate/headertemplate.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/data/simplegrid/simplegrid.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/data/simplegrid/simplegrid.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/buttongroup/form.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/buttongroup/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/checkboxgroup/form.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/checkboxgroup/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/checkboxgroup/form.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/checkboxgroup/form.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/rating/form.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/rating/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/rating/form.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/rating/form.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/slider/form.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/slider/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/slider/form.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/slider/form.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/textinput/form.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/forms/textinput/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/gettingstated/d3gettingstated.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/gettingstated/d3gettingstated.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/accordion/accordion.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/accordion/accordion.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/accordion/accordion.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/accordion/accordion.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/box/box.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/box/box.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/card/layout.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/card/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/panel/panel.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/layout/panel/panel.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/dropdownmenu/form.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/dropdownmenu/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/dropdownmenu/form.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/dropdownmenu/form.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/notification/navigation.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/notification/navigation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/notification/navigation.text" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/notification/navigation.text" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/toolbar/form.html" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/code/navigation/toolbar/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/data/menus/menu.json" afterPath="$PROJECT_DIR$/api/v5.2/assets/data/menus/menu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-burgandy-magenta.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-burgandy-magenta.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-byzantine-crystal.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-byzantine-crystal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-honey-prussian.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-honey-prussian.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-limegreen.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-limegreen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-amber.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-amber.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-cream.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-cream.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-maya.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-maya.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-ultra.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix-ultra.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-matrix.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-navy-grape.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-navy-grape.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-ocean-blue.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-ocean-blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-persian-laguna.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-persian-laguna.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-royal-kelly.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-royal-kelly.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-royal-pineapple.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-royal-pineapple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-spicy-apricot.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-spicy-apricot.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-tiger.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-am-tiger.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-army-olive.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-army-olive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-ash-stone-black.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-ash-stone-black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-black.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-blue-grey.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-blue-grey.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-blue.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-bruntor-tangerine.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-bruntor-tangerine.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-cerise-magenta.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-cerise-magenta.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-charcoal-iron.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-charcoal-iron.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-chocolate-russet.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-chocolate-russet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkgreen-darkolivegreen.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkgreen-darkolivegreen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkgreen-teal.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkgreen-teal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkkhaki-moccasin.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkkhaki-moccasin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkmagenta-darkorchid.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkmagenta-darkorchid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkslateblue-indigo.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkslateblue-indigo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkslategray-dimgray.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkslategray-dimgray.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkturquoise-aquamarine.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-darkturquoise-aquamarine.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-fern-lime.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-fern-lime.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-firebrick-crimson.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-firebrick-crimson.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-frenchrose-mulberry.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-frenchrose-mulberry.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-gingerbread.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-gingerbread.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-gold-amber.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-gold-amber.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-grape-violet.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-grape-violet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-honey-mustard.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-honey-mustard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-hot-pink-fuchsia.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-hot-pink-fuchsia.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-hot-pink-violetred.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-hot-pink-violetred.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indianred-salmon.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indianred-salmon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indigo-darkviolet.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indigo-darkviolet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indigo-slateblue.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indigo-slateblue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indigo.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-indigo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-jungle-mint.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-jungle-mint.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mahogany-barny-red.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mahogany-barny-red.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mauve-orchid.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mauve-orchid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-maya.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-maya.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mediumblue-deepskyblue.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mediumblue-deepskyblue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mediumblue-slateblue.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mediumblue-slateblue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mediumvioletred-hotpink.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-mediumvioletred-hotpink.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-navy-egyptian.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-navy-egyptian.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-navy-royalblue.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-navy-royalblue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-orangered-tomato.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-orangered-tomato.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-pineapple-flaxen.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-pineapple-flaxen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-pumpkin-fire.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-pumpkin-fire.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-rasberry-sangria.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-rasberry-sangria.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-rebeccapurple-orchid.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-rebeccapurple-orchid.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-red-maroon.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-red-maroon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-royalblue-dodgerblue.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-royalblue-dodgerblue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-sacramento-jade.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-sacramento-jade.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-saddlebrown-peru.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-saddlebrown-peru.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-sienna-rosybrown.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-sienna-rosybrown.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-tronbone-royal.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-tronbone-royal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-yale-azure.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-yale-azure.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-bahamas.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-bahamas.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-france.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-france.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-germany.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-germany.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-india.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-india.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-italy.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-italy.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-japan.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-japan.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-usa.css" afterPath="$PROJECT_DIR$/api/v5.2/assets/themes/at-md-z-flag-usa.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/index.html" afterPath="$PROJECT_DIR$/api/v5.2/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,79 +384,10 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.b910b06815864995642a.bundle.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v2/main.b910b06815864995642a.bundle.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3112">
-              <caret line="0" column="13852" lean-forward="false" selection-start-line="0" selection-start-column="13852" selection-end-line="0" selection-end-column="13852" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="polyfills.bundle.js.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v1/polyfills.bundle.js.map">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="0" column="256" lean-forward="false" selection-start-line="0" selection-start-column="256" selection-end-line="0" selection-end-column="256" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="106.d4b85e3320edde14a8c7.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/v5.3/106.d4b85e3320edde14a8c7.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="0" column="1802" lean-forward="false" selection-start-line="0" selection-start-column="1802" selection-end-line="0" selection-end-column="1802" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="versionDetails.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v3.2/assets/data/dropdown/versionDetails.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="114" lean-forward="false" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="114" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gettingstarted.114a56108f122c187209.chunk.js.map" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js.map">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="18790" lean-forward="false" selection-start-line="0" selection-start-column="18790" selection-end-line="0" selection-end-column="18790" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="sourcemapFileViewerProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>showcase/index</find>
-      <find>showcase/inde</find>
-      <find>showcase/ind</find>
-      <find>showcase/in</find>
-      <find>showcase/i</find>
-      <find>showcase/</find>
-      <find>showcaseapp/index</find>
-      <find>showcaseapp/inde</find>
-      <find>showcaseapp/ind</find>
-      <find>showcaseapp/in</find>
-      <find>showcaseapp/i</find>
-      <find>showcaseapp/v</find>
       <find>showcaseapp/</find>
       <find>v</find>
       <find>v1</find>
@@ -126,6 +406,18 @@
       <find>showcasea</find>
       <find>showcaseap</find>
       <find>showcaseapp</find>
+      <find>l</find>
+      <find>li</find>
+      <find>lic</find>
+      <find>lice</find>
+      <find>licen</find>
+      <find>licens</find>
+      <find>license</find>
+      <find>license.</find>
+      <find>license.h</find>
+      <find>license.ht</find>
+      <find>license.htm</find>
+      <find>license.html</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/api</dir>
@@ -134,15 +426,15 @@
       <dir>$PROJECT_DIR$/api/v5.2</dir>
       <dir>$PROJECT_DIR$/api/v5.1</dir>
       <dir>$PROJECT_DIR$/api/v5.0</dir>
-      <dir>$PROJECT_DIR$/api/v3.2</dir>
-      <dir>$PROJECT_DIR$/api/v3</dir>
-      <dir>$PROJECT_DIR$/api/v2</dir>
-      <dir>$PROJECT_DIR$/api/v1</dir>
       <dir>$PROJECT_DIR$/api/v5.3</dir>
       <dir>$PROJECT_DIR$/api/v4.2</dir>
       <dir>$PROJECT_DIR$/api/v4.3</dir>
       <dir>$PROJECT_DIR$/api/v4.1</dir>
       <dir>$PROJECT_DIR$/api/v4</dir>
+      <dir>$PROJECT_DIR$/api/v3.2</dir>
+      <dir>$PROJECT_DIR$/api/v3</dir>
+      <dir>$PROJECT_DIR$/api/v2</dir>
+      <dir>$PROJECT_DIR$/api/v1</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -419,7 +711,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539932460447</updated>
-      <workItem from="1539932461633" duration="11985000" />
+      <workItem from="1539932461633" duration="13527000" />
     </task>
     <task id="LOCAL-00001" summary="version url updated.">
       <created>1539933015094</created>
@@ -449,11 +741,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539939930476</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="version list updated 5.3">
+      <created>1539947571656</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539947571656</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11985000" />
+    <option name="totallyTimeSpent" value="13527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -461,7 +760,7 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -475,6 +774,24 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -488,7 +805,9 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="version url updated" />
     <MESSAGE value="url updated in v5.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="url updated in v5.2" />
+    <MESSAGE value="version list updated 5.3" />
+    <MESSAGE value="version list updated 5.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="version list updated 5.2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -561,7 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="2920">
           <caret line="0" column="18790" lean-forward="false" selection-start-line="0" selection-start-column="18790" selection-end-line="0" selection-end-column="18790" />
           <folding />
         </state>
@@ -578,23 +897,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/v5.3/106.d4b85e3320edde14a8c7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8">
+          <caret line="0" column="1802" lean-forward="false" selection-start-line="0" selection-start-column="1802" selection-end-line="0" selection-end-column="1802" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/v1/polyfills.bundle.js.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="40">
           <caret line="0" column="256" lean-forward="false" selection-start-line="0" selection-start-column="256" selection-end-line="0" selection-end-column="256" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/v5.3/106.d4b85e3320edde14a8c7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="0" column="1802" lean-forward="false" selection-start-line="0" selection-start-column="1802" selection-end-line="0" selection-end-column="1802" />
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>

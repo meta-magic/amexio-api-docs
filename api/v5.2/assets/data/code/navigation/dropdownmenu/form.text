@@ -30,6 +30,7 @@ export class DropDownMenuDemo {
          }
 
   onDropDownMenuClick(item: any) {
+     debugger;
     let jsonData = {
       'icon': '',
       'label': '',
@@ -45,6 +46,7 @@ export class DropDownMenuDemo {
       jsonData.labelalign = item.this.labelalign;
     }
     this.source = jsonData;
+    console.log("ok");
   }
 }
 

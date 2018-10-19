@@ -18,27 +18,6 @@
       "description": "Type of HTTP call, POST,GET."
     },
     {
-      "name": "enable-drag",
-      "version": "5.2 onwards",
-      "type": "boolean",
-      "default": "false",
-      "description": "Nodes can be dragged."
-    },
-    {
-      "name": "enable-drop",
-      "version": "5.2 onwards",
-      "type": "boolean",
-      "default": "false",
-      "description": "Any node can be dropped in the item selector structure."
-    },
-    {
-      "name": "across-itemselector",
-      "version": "5.2 onwards",
-      "type": "boolean",
-      "default": "false",
-      "description": "If across-itemselector is true then only the data transfer from itemselector to external panel"
-    },
-    {
       "name": "display-field",
       "type": "string",
       "default": "",

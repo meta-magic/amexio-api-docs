@@ -1,4 +1,9 @@
+import {Component, OnInit} from '@angular/core';
 
+@Component({
+  selector : 'acc-demo',
+  templateUrl : 'accordion.demo.html'
+})
 export class AccordionDemo {
 constructor() {
 }

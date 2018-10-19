@@ -1,48 +1,27 @@
 {
-  "properties": [
-    {
-      "name": "label",
-      "type": "string",
-      "default": "",
-      "description": "Label on button"
-    },
-    {
-      "name": "type",
-      "type": "string",
-      "default": "",
-      "description": "Type of button : default, primary, success , danger & warning"
-    },
-    {
-      "name": "icon",
-      "type": "string",
-      "default": "",
-      "description": "Fa icon class name"
-    },
-    {
-      "name": "disabled",
-      "type": "boolean",
-      "default": "false",
-      "description": "Enable/Disables the button"
-    },
-    {
-      "name": "size",
-      "type": "string",
-      "default": "",
-      "description": "Different Sizes of Buttons availabe : large, default, small & xsmall"
-    },
-    {
-      "name": "tooltip",
-      "type": "string",
-      "default": "",
-      "description": "Showing tooltip over button"
-    }
-  ],
-  "events": [
-    {
-      "name": "onClick",
-      "description": "Fire when button click "
-    }
-  ],
-  "css": [
-  ]
-}
+    "name": "Amexio Button Group",
+    "description": "Amexio Button groups are containers for related action amexio-button.",
+    "selector": "<amexio-btn-group>",
+    "properties": [
+      {
+        "name": "size",
+        "description": "large, default, small & xsmall",
+        "version": "4.0 onwards",
+        "type": "string",
+        "default": ""
+      },
+      {
+        "name": "badge",
+        "description": "Badge  describes the badge value that has to be displayed on button",
+        "version": "4.1.9 onwards",
+        "type": "number",
+        "default": ""
+      }
+    ],
+    "events": [
+      {
+        "name": "getButton",
+        "description": "Fire when button click"
+      }
+    ]
+  }
