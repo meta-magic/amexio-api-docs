@@ -76,4 +76,4 @@ $ npm run lint
 
 ## License
 
-Apache 2.0 © [MetaMagic Global](http://www.amexio.org/metamagic-showcase/license.html)
+Apache 2.0 © [MetaMagic Global](https://api.amexio.org/api/license.html)
