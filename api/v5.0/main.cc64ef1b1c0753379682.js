@@ -679,22 +679,22 @@ var AppComponent = /** @class */ (function () {
                 "submenus": [
                     {
                         "text": "Version 5.0",
-                        "link": "https://amexio.org/api/v5.0/#/getting-started"
+                        "link": "../v5.0/index.html"
                     }, {
                         "text": "Version 4.2",
-                        "link": "https://amexio.org/api/v4.2/#/getting-started"
+                        "link": "../v4.2/index.html"
                     }, {
                         "text": "Version 4.0",
-                        "link": "https://amexio.org/api/v4.1/#/getting-started"
+                        "link": "../v4.1/index.html"
                     }, {
                         "text": "Version 3.0",
-                        "link": "https://amexio.org/api/v3.2/#/getting-started"
+                        "link": "../v3.2/index.html"
                     }, {
                         "text": "Version 2.0",
-                        "link": "https://amexio.org/showcaseapp/v2/index.html"
+                        "link": "../v2/index.html"
                     }, {
                         "text": "Version 1.0",
-                        "link": "https://amexio.org/showcaseapp/v1/index.html"
+                        "link": "../v1/index.html"
                     }
                 ]
             },
