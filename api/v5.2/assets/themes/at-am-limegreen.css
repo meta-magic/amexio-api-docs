@@ -4,7 +4,7 @@
                     Common CSS Helper Classes
 *****************************************************************************/
 body {
-  background: #eceff1;
+  background: #ECEFF1;
   min-height: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -132,10 +132,8 @@ Spin animation for .loading-mask::after
 @keyframes spin {
   from {
     transform: rotate(0deg); }
-
   to {
     transform: rotate(359deg); } }
-
 label {
   display: inline-block;
   margin-top: 5px;
@@ -165,7 +163,7 @@ image using the content attribute.
   position: absolute;
   border-width: 3px;
   border-style: solid;
-  border-color: transparent #c4e800 #c4e800;
+  border-color: transparent #C4E800 #C4E800;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -178,7 +176,6 @@ image using the content attribute.
 @keyframes spinner {
   to {
     transform: rotate(360deg); } }
-
 .spinner:before {
   content: '';
   box-sizing: border-box;
@@ -191,8 +188,8 @@ image using the content attribute.
   margin-left: -10px;
   border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: #c4e800;
-  border-bottom-color: #c4e800;
+  border-top-color: #C4E800;
+  border-bottom-color: #C4E800;
   animation: spinner .8s ease infinite; }
 
 .row-disabled {
@@ -206,7 +203,7 @@ image using the content attribute.
    240a00: #240a00 rgb(36,10,0,0.0);
 */
 .amexio-red-light {
-  background-color: coral;
+  background-color: #ff7f50;
   color: #240a00; }
 
 /** Amexio Colors --- 
@@ -214,7 +211,7 @@ image using the content attribute.
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-red {
-  background-color: crimson;
+  background-color: #dc143c;
   color: #fffafb; }
 
 /** Amexio Colors --- 
@@ -222,7 +219,7 @@ image using the content attribute.
    002400: #002400 rgb(0,36,0,0.0);
 */
 .amexio-green-light {
-  background-color: lime;
+  background-color: #00ff00;
   color: #002400; }
 
 /** Amexio Colors --- 
@@ -230,7 +227,7 @@ image using the content attribute.
    f0faf4: #f0faf4 rgb(240,250,244,0.0);
 */
 .amexio-green {
-  background-color: seagreen;
+  background-color: #2e8b57;
   color: #f0faf4; }
 
 /** Amexio Colors --- 
@@ -238,7 +235,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple-light {
-  background-color: magenta;
+  background-color: #ff00ff;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -246,7 +243,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple {
-  background-color: darkmagenta;
+  background-color: #8b008b;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -254,7 +251,7 @@ image using the content attribute.
    f0fbff: #f0fbff rgb(240,251,255,0.0);
 */
 .amexio-blue-light {
-  background-color: deepskyblue;
+  background-color: #00bfff;
   color: #000507; }
 
 /** Amexio Colors --- 
@@ -262,7 +259,7 @@ image using the content attribute.
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-blue {
-  background-color: darkblue;
+  background-color: #00008b;
   color: #f5f5ff; }
 
 /** Amexio Colors --- 
@@ -270,7 +267,7 @@ image using the content attribute.
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-brown-light {
-  background-color: sandybrown;
+  background-color: #f4a460;
   color: #211102; }
 
 /** Amexio Colors --- 
@@ -278,7 +275,7 @@ image using the content attribute.
    ffebeb: #ffebeb rgb(255,235,235,0.0);
 */
 .amexio-brown {
-  background-color: maroon;
+  background-color: #800000;
   color: #ffebeb; }
 
 /** Amexio Colors --- 
@@ -286,7 +283,7 @@ image using the content attribute.
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-yellow-light {
-  background-color: gold;
+  background-color: #ffd700;
   color: #241e00; }
 
 /** Amexio Colors --- 
@@ -302,16 +299,16 @@ image using the content attribute.
    White: #ffffff rgb(255,255,255,0.0);
 */
 .amexio-black {
-  background-color: black;
-  color: white; }
+  background-color: #000000;
+  color: #ffffff; }
 
 /** Amexio Colors --- 
    White: #ffffff rgb(255,255,255,0.0);
    Black: #000000 rgb(0,0,0,0.0);
 */
 .amexio-white {
-  background-color: white;
-  color: black; }
+  background-color: #ffffff;
+  color: #000000; }
 
 /* Misc Variables */
 /****************************************************************************
@@ -320,7 +317,7 @@ image using the content attribute.
 *****************************************************************************/
 /** button - Visual CSS **/
 .button-secondary {
-  background-color: white;
+  background-color: #ffffff;
   border-color: #417505;
   color: black; }
 
@@ -333,11 +330,11 @@ image using the content attribute.
 
 .btn-primary-badge {
   background-color: white;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .btn-secondary-badge {
   background-color: black;
-  color: white; }
+  color: #ffffff; }
 
 .btn-success-badge {
   background-color: white;
@@ -356,13 +353,13 @@ image using the content attribute.
   color: white; }
 
 .button-primary {
-  background-color: #c4e800;
-  border-color: #c4e800;
+  background-color: #C4E800;
+  border-color: #C4E800;
   color: white; }
 
 .disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .button-primary:hover:enabled {
   background-color: #99b500; }
@@ -525,7 +522,7 @@ button {
 *****************************************************************************/
 /** buttongroup - Visual CSS **/
 .button-secondary {
-  background-color: white;
+  background-color: #ffffff;
   border-color: #417505;
   color: black; }
 
@@ -534,11 +531,11 @@ button {
 
 .btn-group-primary-badge {
   background-color: white;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .btn-group-secondary-badge {
   background-color: black;
-  color: white; }
+  color: #ffffff; }
 
 .btn-group-success-badge {
   background-color: white;
@@ -557,13 +554,13 @@ button {
   color: white; }
 
 .button-primary {
-  background-color: #c4e800;
-  border-color: #c4e800;
+  background-color: #C4E800;
+  border-color: #C4E800;
   color: white; }
 
 .disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .button-primary:hover:enabled {
   background-color: #99b500; }
@@ -598,9 +595,9 @@ button {
 
 /** buttongroup - Structure CSS **/
 .btn-group span {
-                  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
-
- cursor: pointer; /* Pointer/hand icon */ }
+  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
+  
+   cursor: pointer; /* Pointer/hand icon */ }
 
 .btn-group button {
   cursor: pointer; }
@@ -741,7 +738,7 @@ button {
 
 .disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 /** buttondropdown - Structure CSS **/
 .btn-dropdown-badge {
@@ -773,7 +770,7 @@ button {
 .datedropdown {
   background: white; }
   .datedropdown .dropdownlist {
-    color: #c4e800; }
+    color: #C4E800; }
   .datedropdown li:hover {
     color: black;
     background: none;
@@ -782,7 +779,7 @@ button {
     background: #a9f74f;
     color: #417505; }
   .datedropdown li {
-    color: #c4e800; }
+    color: #C4E800; }
 
 .datetimepicker {
   background: white; }
@@ -793,7 +790,7 @@ button {
   .datetimepicker .days {
     background: white; }
     .datetimepicker .days li {
-      color: #c4e800; }
+      color: #C4E800; }
     .datetimepicker .days li:hover {
       color: #a9f74f; }
     .datetimepicker .days .active {
@@ -811,7 +808,7 @@ button {
   .datetimepicker1 .days {
     background: white; }
     .datetimepicker1 .days li {
-      color: #c4e800; }
+      color: #C4E800; }
     .datetimepicker1 .days li:hover {
       color: #a9f74f; }
     .datetimepicker1 .days .active {
@@ -825,17 +822,17 @@ button {
 
 .datetimepicker:disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 @media screen and (max-width: 600px) {
   .datetimepicker .days .date-today {
     padding-top: 1%;
     padding-left: 36%; } }
 .dropspan2 {
-  border-color: #c4e800; }
+  border-color: #C4E800; }
 
 .datedropbtn {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
 
 .change4 {
@@ -998,7 +995,7 @@ button {
 .dropspan2 {
   width: 25%;
   float: left;
-  border-right: 1px solid #c4e800; }
+  border-right: 1px solid #C4E800; }
 
 .dropspan4 {
   width: 25%;
@@ -1339,7 +1336,7 @@ textarea:required {
 *****************************************************************************/
 /** checkbox - Visual CSS **/
 .input-box .default {
-  background: #eceff1; }
+  background: #ECEFF1; }
 
 .input-box .active {
   background: #417505;
@@ -1512,7 +1509,7 @@ textarea:required {
 /** progress - Visual CSS **/
 .progress {
   position: relative;
-  background: #eceff1; }
+  background: #ECEFF1; }
   .progress .success {
     background-color: #5cb85c; }
   .progress .warning {
@@ -1555,10 +1552,8 @@ textarea:required {
 @-webkit-keyframes move {
   0% {
     background-position: 0 0; }
-
   100% {
     background-position: 50px 50px; } }
-
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none; }
 
@@ -1584,7 +1579,6 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     font-size: 50px; } }
-
 /** rating - Structure CSS **/
 .rating {
   cursor: pointer;
@@ -1649,7 +1643,6 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     line-height: 34px; } }
-
 /****************************************************************************
     Component Name : Toggle
     Version : Amexio v4.0 onwards
@@ -2010,19 +2003,19 @@ input:checked + .toggle-slider:before {
   padding: 8px 8px 8px 8px; }
 
 .border-red {
-  border-color: crimson !important; }
+  border-color: #dc143c !important; }
 
 .border-blue {
-  border-color: darkblue !important; }
+  border-color: #00008b !important; }
 
 .border-green {
-  border-color: seagreen !important; }
+  border-color: #2e8b57 !important; }
 
 .border-brown {
-  border-color: maroon !important; }
+  border-color: #800000 !important; }
 
 .border-purple {
-  border-color: darkmagenta !important; }
+  border-color: #8b008b !important; }
 
 .border-yellow {
   border-color: #ff9900 !important; }
@@ -2365,7 +2358,7 @@ input:checked + .toggle-slider:before {
   background-color: #ffffff; }
 
 .floatingbutton-theme-color {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
 
 .floatingbutton-green {
@@ -2382,7 +2375,7 @@ input:checked + .toggle-slider:before {
 
 .floatingbutton-default-disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .floatingbutton-theme-color-disabled {
   background-color: #e4ff4f;
@@ -2506,8 +2499,24 @@ input:checked + .toggle-slider:before {
   padding: 10px;
   display: block; }
 
-.menu-right {
+.dropdownmenu-right {
   right: 10px; }
+
+.label-alignment-css {
+  float: right;
+  width: 80%;
+  text-align: left; }
+
+.dropdown-menu-icon-div {
+  width: 20%;
+  display: inline; }
+
+.dropdown-menu-a {
+  width: auto; }
+
+.icon-false-css {
+  width: 80%;
+  padding-left: 30px; }
 
 /*****************************************************************************
  Component Name : Toolbar
@@ -2571,7 +2580,7 @@ input:checked + .toggle-slider:before {
   border-color: #417505; }
 
 .input-group-text-search {
-  background-color: #c4e800;
+  background-color: #C4E800;
   border-color: #417505; }
 
 .form-control {
@@ -2586,7 +2595,7 @@ input:checked + .toggle-slider:before {
   color: white; }
 
 .advancesearchbtn {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
 
 .search-dropdown-list .search-list-items {
@@ -2702,6 +2711,529 @@ input:checked + .toggle-slider:before {
   height: 37px;
   font-weight: bold;
   cursor: pointer; }
+
+/*****************************************************************************
+ Component Name : Spinner
+    Version : Amexio v4.2 onwards
+****************************************************************************/
+/** Searchbox - Visual CSS **/
+/** Searchbox - Structure CSS **/
+.rectangle-bounces,
+.rectangle-bounces:before,
+.rectangle-bounces:after {
+  background: white;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em; }
+
+.rectangle-bounces {
+  color: white;
+  text-indent: -9999em;
+  margin: 88px auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s; }
+
+.rectangle-bounces:before,
+.rectangle-bounces:after {
+  position: absolute;
+  top: 0;
+  content: ''; }
+
+.rectangle-bounces:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s; }
+
+.rectangle-bounces:after {
+  left: 1.5em; }
+
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em; }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em; } }
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em; }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em; } }
+.half-circles {
+  font-size: 10px;
+  margin: 50px auto;
+  text-indent: -9999em;
+  width: 11em;
+  height: 11em;
+  border-radius: 50%;
+  background: #ecff82;
+  background: -moz-linear-gradient(left, #ecff82 10%, rgba(255, 255, 255, 0) 42%);
+  background: -webkit-linear-gradient(left, #ecff82 10%, rgba(255, 255, 255, 0) 42%);
+  background: -o-linear-gradient(left, #ecff82 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(left, #ecff82 10%, rgba(255, 255, 255, 0) 42%);
+  background: linear-gradient(to right, #ecff82 10%, rgba(255, 255, 255, 0) 42%);
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0); }
+
+.half-circles:before {
+  width: 50%;
+  height: 50%;
+  background: white;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: ''; }
+
+.half-circles:after {
+  background: #ffffff;
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: '';
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+.rings,
+.rings:before,
+.rings:after {
+  border-radius: 50%; }
+
+.rings {
+  color: white;
+  font-size: 11px;
+  text-indent: -99999em;
+  margin: 55px auto;
+  position: relative;
+  width: 10em;
+  height: 10em;
+  box-shadow: inset 0 0 0 1em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0); }
+
+.rings:before,
+.rings:after {
+  position: absolute;
+  content: ''; }
+
+.rings:before {
+  width: 5.2em;
+  height: 10.2em;
+  background: #ffffff;
+  border-radius: 10.2em 0 0 10.2em;
+  top: -0.1em;
+  left: -0.1em;
+  -webkit-transform-origin: 5.2em 5.1em;
+  transform-origin: 5.2em 5.1em;
+  -webkit-animation: load2 2s infinite ease 1.5s;
+  animation: load2 2s infinite ease 1.5s; }
+
+.rings:after {
+  width: 5.2em;
+  height: 10.2em;
+  background: #ffffff;
+  border-radius: 0 10.2em 10.2em 0;
+  top: -0.1em;
+  left: 5.1em;
+  -webkit-transform-origin: 0px 5.1em;
+  transform-origin: 0px 5.1em;
+  -webkit-animation: load2 2s infinite ease;
+  animation: load2 2s infinite ease; }
+
+@-webkit-keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes load2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+.fading-circles {
+  color: white;
+  font-size: 20px;
+  margin: 100px auto;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load4 1.3s infinite linear;
+  animation: load4 1.3s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0); }
+
+@-webkit-keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0; }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em; }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em; }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em; }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0; }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em; } }
+@keyframes load4 {
+  0%,
+  100% {
+    box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0; }
+  12.5% {
+    box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
+  25% {
+    box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em; }
+  37.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em; }
+  50% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em; }
+  62.5% {
+    box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em; }
+  75% {
+    box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0; }
+  87.5% {
+    box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em; } }
+.ball-spins {
+  color: white;
+  margin: 100px auto;
+  font-size: 25px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-animation: load5 1.1s infinite ease;
+  animation: load5 1.1s infinite ease;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0); }
+
+@keyframes load5 {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em, 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.5), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7); }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.7), 1.8em -1.8em 0 0em, 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5); }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.5), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7), 2.5em 0em 0 0em, 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5), 2.5em 0em 0 0em rgba(255, 255, 255, 0.7), 1.75em 1.75em 0 0em, 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.5), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.7), 0em 2.5em 0 0em, -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2), -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.5), 0em 2.5em 0 0em rgba(255, 255, 255, 0.7), -1.8em 1.8em 0 0em, -2.6em 0em 0 0em rgba(255, 255, 255, 0.2), -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.5), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.7), -2.6em 0em 0 0em, -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2); }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.2), 1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2), 2.5em 0em 0 0em rgba(255, 255, 255, 0.2), 1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2), 0em 2.5em 0 0em rgba(255, 255, 255, 0.2), -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5), -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em; } }
+.fire-spins {
+  color: white;
+  font-size: 90px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 72px auto;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load6 1.7s infinite ease, round 1.7s infinite ease;
+  animation: load6 1.7s infinite ease, round 1.7s infinite ease; }
+
+@-webkit-keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em; }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em; }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em; }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; } }
+@keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em; }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em; }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em; }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em; } }
+@-webkit-keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+.three-bounces,
+.three-bounces:before,
+.three-bounces:after {
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out; }
+
+.three-bounces {
+  color: white;
+  font-size: 10px;
+  margin: 80px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s; }
+
+.three-bounces:before,
+.three-bounces:after {
+  content: '';
+  position: absolute;
+  top: 0; }
+
+.three-bounces:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s; }
+
+.three-bounces:after {
+  left: 3.5em; }
+
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em; }
+  40% {
+    box-shadow: 0 2.5em 0 0; } }
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em; }
+  40% {
+    box-shadow: 0 2.5em 0 0; } }
+.spinner-rounds,
+.spinner-rounds:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em; }
+
+.spinner-rounds {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid #ecff82;
+    border-top-opacity: 0.2;
+  border-right: 1.1em solid #ecff82;
+    border-right-opacity: 0.2;
+  border-bottom: 1.1em solid #ecff82;
+    border-bottom-opacity: 0.2;
+  border-left: 1.1em solid white;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear; }
+
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
+/*****************************************************************************
+ Component Name : CreditCard
+    Version : Amexio v4.2 onwards
+****************************************************************************/
+/** CreditCard - Visual CSS **/
+/** CreditCard - Structure CSS **/
+/* CSS FOR SINGLE COLUMN */
+.creditCardFormSglCol {
+  max-width: 100%;
+  border-style: dotted;
+  padding: 30px;
+  color: #4c4e56;
+  border-radius: 10px;
+  display: grid; }
+
+.ownerdetailsSglCol {
+  margin-top: 7px; }
+
+.ownerSglCol {
+  width: 100%; }
+
+.cvvSglCol {
+  width: 22%;
+  margin-top: 1%; }
+
+.cardNumberSglCol {
+  /* width:100%; */
+  margin-top: 7px; }
+
+.expiration-dateSglCol {
+  display: flex; }
+
+.monthSglCol {
+  margin-top: 5px;
+  padding: 2px; }
+
+.dateSglCol {
+  margin-top: 5px;
+  padding: 2px; }
+
+.imageSglCol {
+  display: grid;
+  grid-template-columns: .1fr .1fr .1fr;
+  grid-gap: .2em; }
+
+.input-control-successSglCol {
+  border-bottom-color: green; }
+
+.input-control-failureSglCol {
+  border-bottom-color: red; }
+
+.disable-component {
+  opacity: .5;
+  cursor: not-allowed; }
+
+/* CSS FOR DOUBLE COLUMN */
+.creditCardForm {
+  max-width: 100%;
+  border-style: dotted;
+  overflow: hidden;
+  padding: 30px;
+  color: #4c4e56;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 2fr 1.5fr);
+  grid-gap: 0.5em;
+  justify-items: stretch; }
+
+.cardNumber {
+  grid-column: 1/3; }
+
+.expiration-date {
+  display: grid;
+  grid-template-columns: 0.2fr 0.1fr;
+  grid-gap: .2em; }
+
+.expiration-date-label {
+  display: grid;
+  grid-template-columns: .1fr .3fr 3;
+  grid-gap: .2em;
+  /* grid-column: 1/3; */ }
+
+.image {
+  display: grid;
+  grid-template-columns: .1fr .1fr .1fr;
+  grid-gap: .2em; }
+
+.image-label {
+  display: grid;
+  grid-template-columns: .1fr .1fr .1fr;
+  grid-gap: .2em;
+  padding-top: 2em; }
+
+.cvv {
+  /* width:25%; */
+  display: grid; }
+
+.exp-month-date-label {
+  display: grid;
+  grid-template-columns: .1fr .1fr;
+  grid-gap: .2em;
+  padding-top: 9px; }
+
+@media (max-width: 500px) {
+  .creditCardForm {
+    display: block;
+    padding: 2em; } }
+.input-control-success {
+  border-bottom-color: green; }
+
+.input-control-failure {
+  border-bottom-color: red; }
 
 /****************************************************************************
     Component Name : Enterprise Content
@@ -2879,7 +3411,7 @@ header .billboard .content-button {
 .close-button {
   cursor: pointer;
   padding-left: 98%;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
 
 /****************************************************************************
     Component Name : Enterprise Youtube
@@ -2888,7 +3420,7 @@ header .billboard .content-button {
 /** enterprise-youtube - Visual CSS **/
 .close-button {
   color: grey;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
 
 .close-button i:hover {
   color: red; }
@@ -2912,21 +3444,21 @@ header .billboard .content-button {
   font-size: 20px; }
 
 .tile__details {
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
 
 .tile__details:after,
 .tile__details:before {
-  display: black; }
+  display: #000; }
 
 .tile__details_v {
   font-size: 10px;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
 
 .tile__details_v:after,
 .tile__details_v:before {
-  display: black; }
+  display: #000; }
 
 .tile__title {
   color: white; }
@@ -3050,7 +3582,7 @@ header .billboard .content-button {
   position: absolute;
   top: 50%;
   left: 50%;
-  display: black; }
+  display: #000; }
 
 .tile__details_v:after {
   margin-top: -25px;
@@ -3218,13 +3750,13 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Datatable - Structure CSS **/
 .datatable-height::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .datagrid amexio-datagrid-header > * {
   padding: 3px; }
 
 .datatable-height::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .datatable-height::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -3241,7 +3773,7 @@ header .billboard .content-button {
   background-color: #a9f74f !important; }
 
 .datatable-row:nth-child(odd) {
-  background-color: #eceff1; }
+  background-color: #ECEFF1; }
 
 /** Datatable - Visual CSS **/
 .datatabletitle {
@@ -3276,6 +3808,7 @@ header .billboard .content-button {
 .datatable .datatable-header {
   display: table-header-group;
   text-align: left;
+  font-size: larger;
   cursor: pointer; }
 
 .datatable .datatable-col {
@@ -4221,10 +4754,10 @@ header .billboard .content-button {
   color: black; }
 
 .sidenav::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .sidenav::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .sidenav::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4376,7 +4909,7 @@ header .billboard .content-button {
 *****************************************************************************/
 /** dockbar - Visual CSS **/
 .dockbar {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: #417505; }
 
 .dockbar-content {
@@ -4404,10 +4937,10 @@ header .billboard .content-button {
   color: #417505; }
 
 .dockbar-height::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .dockbar-height::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .dockbar-height::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4418,7 +4951,7 @@ header .billboard .content-button {
   width: 70px;
   position: relative;
   border-top: 2px solid #417505;
-  border-bottom: 5px solid #c4e800; }
+  border-bottom: 5px solid #C4E800; }
 
 /* Style the buttons inside the tab */
 .dockbar button {
@@ -4471,6 +5004,115 @@ header .billboard .content-button {
   width: 6px; }
 
 /****************************************************************************
+    Component Name : Breadcrumb
+    Version : Amexio v5.2 onwards
+*****************************************************************************/
+/** dockbar - Visual CSS **/
+.breadcrum-rightshift-css {
+  background-color: #ffffff; }
+
+.context-menu-list1 {
+  background-color: #ffffff !important;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12); }
+
+.context-menu-list1 :hover {
+  background-color: #ecff82; }
+
+.breadcrumb-group:hover {
+  border: 1px solid #ecff82;
+  display: table !important; }
+
+.breadcrumb-group {
+  border-color: transparent; }
+
+.breadcrumb-group:hover {
+  border: 1px solid black;
+  background-color: #ecff82; }
+
+.arrow-group-css:hover {
+  border-left: 1px solid black; }
+
+.arrow-group-css {
+  border-left: 1px solid #f7f3f3; }
+
+/** dockbar - Structure CSS **/
+.breadcrum-rightshift-css {
+  display: inline-flex;
+  width: 100%;
+  cursor: pointer;
+  flex-direction: row;
+  position: relative; }
+
+.context-menu-list1 {
+  display: block;
+  position: absolute;
+  flex-direction: column;
+  min-width: 180px;
+  cursor: pointer;
+  max-height: auto;
+  z-index: 1;
+  margin-top: 8px;
+  padding: 10px 0px; }
+
+.context-menu-list1 .context-menu-list-items1 {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  display: block;
+  width: 94%;
+  overflow: hidden; }
+
+.arrow-icon-css {
+  cursor: pointer; }
+
+.data-click-css {
+  cursor: pointer;
+  font-size: 16px; }
+
+.breadcrumb-group {
+  padding: 7px; }
+
+.breadcrumb-group:hover {
+  padding: 6px; }
+
+.label {
+  display: none !important;
+  margin: 0px !important; }
+
+.arrow-group-css:hover {
+  content: '';
+  display: initial !important;
+  margin-top: 0px !important;
+  height: 120%;
+  padding-left: 8px;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  border-left: 1px solid #797575; }
+
+.arrow-group-css {
+  content: '';
+  display: initial;
+  margin-top: 0px;
+  padding-left: 8px;
+  height: 120%;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  border-left: 1px solid #f7f3f3; }
+
+.label-icon-css {
+  cursor: pointer; }
+
+.dropdown-icon-css {
+  width: 20%;
+  text-align: left;
+  display: inline; }
+
+.dropdown-label-css {
+  width: 80%;
+  float: right;
+  display: inline; }
+
+/****************************************************************************
     Component Name : Accordion
     Version : Amexio v4.0 onwards
 *****************************************************************************/
@@ -4486,9 +5128,6 @@ header .billboard .content-button {
 .accordion:after {
   color: red; }
 
-.accordion amexio-accordion-header > * {
-  padding: 5px; }
-
 .panel {
   background-color: white;
   color: black; }
@@ -4497,11 +5136,8 @@ header .billboard .content-button {
 .accordion-transparent {
   background: white; }
 
-.accordion amexio-accordion-header {
+.accordion .amexio-accordion-header {
   color: white; }
-
-.accordion-transparent amexio-accordion-header > * {
-  padding: 5px; }
 
 .accordion-transparent:after {
   color: red; }
@@ -4548,6 +5184,9 @@ header .billboard .content-button {
   opacity: 0.55;
   cursor: not-allowed; }
 
+.accordion .amexio-accordion-header > * {
+  padding: 5px; }
+
 /****************************************************************************
     Component Name : Cards
     Version : Amexio v4.0 onwards
@@ -4567,10 +5206,10 @@ header .billboard .content-button {
   padding: 0px; }
 
 .cardbody::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .cardbody::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .cardbody::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4642,10 +5281,10 @@ header .billboard .content-button {
   overflow: none; }
 
 .formbody::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .formbody::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .formbody::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4767,16 +5406,16 @@ fieldset {
   color: #a09e9e; }
 
 .step-block-icon-disable {
-  color: #c4e800; }
+  color: #C4E800; }
 
 .stepwizard-row:before {
-  background-color: #eceff1; }
+  background-color: #ECEFF1; }
 
 .btn-circle {
   font-size: 12px; }
 
 .step-box-table-item {
-  background-color: #eceff1;
+  background-color: #ECEFF1;
   color: black; }
 
 .step-box-table-item.active {
@@ -4891,8 +5530,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-bottom-tab-red {
-  color: crimson;
-  border-top: 1px solid crimson !important; }
+  color: #dc143c;
+  border-top: 1px solid #dc143c !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4907,56 +5546,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-bottom-tab-purple {
-  border-top: 1px solid darkmagenta !important;
-  color: darkmagenta; }
+  border-top: 1px solid #8b008b !important;
+  color: #8b008b; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-bottom-tab-blue {
-  border-top: 1px solid darkblue !important;
-  color: darkblue; }
+  border-top: 1px solid #00008b !important;
+  color: #00008b; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-bottom-tab-brown {
-  border-top: 1px solid maroon !important;
-  color: maroon; }
+  border-top: 1px solid #800000 !important;
+  color: #800000; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-yellow {
-  border-top: 1px solid yellow !important;
-  color: yellow; }
+  border-top: 1px solid #FFFF00 !important;
+  color: #FFFF00; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-pink {
-  border-top: 1px solid hotpink !important;
-  color: hotpink; }
+  border-top: 1px solid #FF69B4 !important;
+  color: #FF69B4; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-orange {
-  border-top: 1px solid orange !important;
-  color: orange; }
+  border-top: 1px solid #FFA500 !important;
+  color: #FFA500; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-black {
-  border-top: 1px solid black !important;
-  color: black; }
+  border-top: 1px solid #000000 !important;
+  color: #000000; }
 
 /** CSS Class definitions for the Amexio Colors --- */
 /** Amexio Colors --- 
@@ -4964,8 +5603,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-top-tab-red {
-  color: crimson;
-  border-bottom: 1px solid crimson !important; }
+  color: #dc143c;
+  border-bottom: 1px solid #dc143c !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4980,56 +5619,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-top-tab-purple {
-  border-bottom: 1px solid darkmagenta !important;
-  color: darkmagenta; }
+  border-bottom: 1px solid #8b008b !important;
+  color: #8b008b; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-top-tab-blue {
-  border-bottom: 1px solid darkblue !important;
-  color: darkblue; }
+  border-bottom: 1px solid #00008b !important;
+  color: #00008b; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-top-tab-brown {
-  border-bottom: 1px solid maroon !important;
-  color: maroon; }
+  border-bottom: 1px solid #800000 !important;
+  color: #800000; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-yellow {
-  border-bottom: 1px solid yellow !important;
-  color: yellow; }
+  border-bottom: 1px solid #FFFF00 !important;
+  color: #FFFF00; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-pink {
-  border-bottom: 1px solid hotpink !important;
-  color: hotpink; }
+  border-bottom: 1px solid #FF69B4 !important;
+  color: #FF69B4; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-orange {
-  border-bottom: 1px solid orange !important;
-  color: orange; }
+  border-bottom: 1px solid #FFA500 !important;
+  color: #FFA500; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-black {
-  border-bottom: 1px solid black !important;
-  color: black; }
+  border-bottom: 1px solid #000000 !important;
+  color: #000000; }
 
 /** tab - Structure CSS **/
 .tab {
@@ -5206,10 +5845,10 @@ verticalalign-tableft {
   font-size: 14px; }
 
 .modal-window-middle::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .modal-window-middle::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .modal-window-middle::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -5306,7 +5945,8 @@ verticalalign-tableft {
 
 .modal-window-table .tablerow .tablecol {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  width: 100%; }
 
 .modal-window-footer-max {
   bottom: 0px;
@@ -5510,10 +6150,10 @@ verticalalign-tableft {
   padding-right: 5px; }
 
 .panel-panel::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .panel-panel::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .panel-panel::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -5538,7 +6178,7 @@ verticalalign-tableft {
   transition: max-height 0.2s ease-out; }
 
 .panel-box {
-  border: 2px solid #c4e800;
+  border: 2px solid #C4E800;
   width: 100%; }
 
 .panel-panel::-webkit-scrollbar-track {
@@ -5557,6 +6197,80 @@ verticalalign-tableft {
 
 .panel-icon {
   padding-left: 5px; }
+
+/****************************************************************************
+    Component Name : Timeline
+    Version : Amexio v5.2 onwards
+*****************************************************************************/
+/** panel - Visual CSS **/
+.timeline-event-content {
+  background: #ecff82;
+  box-shadow: 0 3px 0 #ecff82; }
+
+/** panel - Structure CSS **/
+.timeline {
+  overflow: hidden; }
+
+.timeline-event {
+  position: relative;
+  width: 100%;
+  padding: 5px; }
+
+.timeline-event-container {
+  position: relative; }
+
+.timeline-event-container::before {
+  content: '';
+  position: absolute;
+  margin-left: 15px;
+  height: 100%;
+  width: 3px;
+  background: #417505; }
+
+.timeline-event-icon {
+  position: relative;
+  margin-top: .5%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #417505, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05); }
+
+.timeline-event-contents {
+  display: flex; }
+
+.timeline-event-content {
+  position: relative;
+  padding: 1em;
+  width: 100%;
+  margin: 0px 0px 10px 10px; }
+
+.timeline-event-content::before {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right: 7px solid #ecff82; }
+
+.timeline-event-content2 {
+  position: relative;
+  padding: 1em;
+  width: 100%;
+  margin: 0px 0px 10px 10px; }
+
+.timeline-event-icon .fa {
+  display: -webkit-box;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  display: block;
+  width: 24px t;
+  left: 60% !important;
+  margin-left: 10px;
+  margin-top: -12px;
+  margin-top: 30%;
+  padding-top: 3%; }
 
 /****************************************************************************
                     Media Query for width - 375
@@ -6812,8 +7526,8 @@ body {
 
 .topnav {
   color: #417505;
-  background-color: #c4e800;
-  background: linear-gradient(#c4e800, #92cd00) !important; }
+  background-color: #C4E800;
+  background: linear-gradient(#C4E800, #92CD00) !important; }
   .topnav .navbar-logo-unit a {
     font-size: 24px; }
 
@@ -6821,9 +7535,11 @@ body {
   color: white; }
 
 .topnavmainbarinneritems .nav-dropdown-content {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
 
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
+
+/*# sourceMappingURL=at-am-limegreen.css.map */
