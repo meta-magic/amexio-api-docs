@@ -2,46 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f50cee9c-acff-4979-876a-72105feb579d" name="Default" comment="version list updated 5.2">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/README.MD" afterPath="$PROJECT_DIR$/api/v1/README.MD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v1/main.467943c08ac0beb014c5.bundle.js" afterPath="$PROJECT_DIR$/api/v1/main.467943c08ac0beb014c5.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v2/main.344b15d50cb82e07650b.bundle.js" afterPath="$PROJECT_DIR$/api/v2/main.344b15d50cb82e07650b.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v2/main.4390218421ecf7296b37.bundle.js" afterPath="$PROJECT_DIR$/api/v2/main.4390218421ecf7296b37.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v2/main.8027b8824c8b4426849e.bundle.js" afterPath="$PROJECT_DIR$/api/v2/main.8027b8824c8b4426849e.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v2/main.b829f80a3bcc8e6ad899.bundle.js" afterPath="$PROJECT_DIR$/api/v2/main.b829f80a3bcc8e6ad899.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v2/main.b910b06815864995642a.bundle.js" afterPath="$PROJECT_DIR$/api/v2/main.b910b06815864995642a.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v2/main.bundle.js" afterPath="$PROJECT_DIR$/api/v2/main.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v2/main.d3f336f504463e704bff.bundle.js" afterPath="$PROJECT_DIR$/api/v2/main.d3f336f504463e704bff.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v3.2/main.bundle.js" afterPath="$PROJECT_DIR$/api/v3.2/main.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v3/main.2e9923606f8a7cf08854.bundle.js" afterPath="$PROJECT_DIR$/api/v3/main.2e9923606f8a7cf08854.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v3/main.495c7a9b41623ce172f2.bundle.js" afterPath="$PROJECT_DIR$/api/v3/main.495c7a9b41623ce172f2.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v3/main.6caa03984f3023d0922e.bundle.js" afterPath="$PROJECT_DIR$/api/v3/main.6caa03984f3023d0922e.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v3/main.7f73c7b9938b03633f81.bundle.js" afterPath="$PROJECT_DIR$/api/v3/main.7f73c7b9938b03633f81.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v3/main.9934131339d01980cb25.bundle.js" afterPath="$PROJECT_DIR$/api/v3/main.9934131339d01980cb25.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v3/main.b0064b84e322bde3fc4c.bundle.js" afterPath="$PROJECT_DIR$/api/v3/main.b0064b84e322bde3fc4c.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v3/main.be12e48f782139db6207.bundle.js" afterPath="$PROJECT_DIR$/api/v3/main.be12e48f782139db6207.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v3/main.ca8a9073325ac42495dc.bundle.js" afterPath="$PROJECT_DIR$/api/v3/main.ca8a9073325ac42495dc.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.1/34.1a4f919cf40c74f22b4f.chunk.js" afterPath="$PROJECT_DIR$/api/v4.1/34.1a4f919cf40c74f22b4f.chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.1/main.4ed8ae50f4677fe1a1ac.bundle.js" afterPath="$PROJECT_DIR$/api/v4.1/main.4ed8ae50f4677fe1a1ac.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js" afterPath="$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js.map" afterPath="$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.2/main.10a83d2032d540e02c8f.bundle.js" afterPath="$PROJECT_DIR$/api/v4.2/main.10a83d2032d540e02c8f.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.2/main.10a83d2032d540e02c8f.bundle.js.map" afterPath="$PROJECT_DIR$/api/v4.2/main.10a83d2032d540e02c8f.bundle.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.3/gettingstarted.873ec76356cc57bfafa2.chunk.js" afterPath="$PROJECT_DIR$/api/v4.3/gettingstarted.873ec76356cc57bfafa2.chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.3/gettingstarted.873ec76356cc57bfafa2.chunk.js.map" afterPath="$PROJECT_DIR$/api/v4.3/gettingstarted.873ec76356cc57bfafa2.chunk.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.3/main.b83f9405040df21260b5.bundle.js" afterPath="$PROJECT_DIR$/api/v4.3/main.b83f9405040df21260b5.bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4.3/main.b83f9405040df21260b5.bundle.js.map" afterPath="$PROJECT_DIR$/api/v4.3/main.b83f9405040df21260b5.bundle.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4/gettingstarted.chunk.js" afterPath="$PROJECT_DIR$/api/v4/gettingstarted.chunk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v4/main.bundle.js" afterPath="$PROJECT_DIR$/api/v4/main.bundle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.0/112.64226df43c746b382ff8.js" afterPath="$PROJECT_DIR$/api/v5.0/112.64226df43c746b382ff8.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.0/114.440aef02b3f4c6e801a8.js" afterPath="$PROJECT_DIR$/api/v5.0/114.440aef02b3f4c6e801a8.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.0/main.e9df0981f20ef525fa89.js" afterPath="$PROJECT_DIR$/api/v5.0/main.e9df0981f20ef525fa89.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.1/112.c8f74b53751d2527b9a9.js" afterPath="$PROJECT_DIR$/api/v5.1/112.c8f74b53751d2527b9a9.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.1/114.f789baa292878f590c6d.js" afterPath="$PROJECT_DIR$/api/v5.1/114.f789baa292878f590c6d.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.1/main.c5158fd7ab557df51a01.js" afterPath="$PROJECT_DIR$/api/v5.1/main.c5158fd7ab557df51a01.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.1/126.00b2aadd5c7ae865841e.js" afterPath="$PROJECT_DIR$/api/v5.2.1/126.00b2aadd5c7ae865841e.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.1/128.3d3c08e16843678d01a9.js" afterPath="$PROJECT_DIR$/api/v5.2.1/128.3d3c08e16843678d01a9.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.1/main.89aff1f7c94f40a158a8.js" afterPath="$PROJECT_DIR$/api/v5.2.1/main.89aff1f7c94f40a158a8.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.2/126.00b2aadd5c7ae865841e.js" afterPath="$PROJECT_DIR$/api/v5.2.2/126.00b2aadd5c7ae865841e.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.2/128.3d3c08e16843678d01a9.js" afterPath="$PROJECT_DIR$/api/v5.2.2/128.3d3c08e16843678d01a9.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2.2/main.3c441fc621b9209a7a8e.js" afterPath="$PROJECT_DIR$/api/v5.2.2/main.3c441fc621b9209a7a8e.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/118.0c6cd3ce73e3e1545f61.js" afterPath="$PROJECT_DIR$/api/v5.2/118.0c6cd3ce73e3e1545f61.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/120.46382f1b95b2e6a0ddbf.js" afterPath="$PROJECT_DIR$/api/v5.2/120.46382f1b95b2e6a0ddbf.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.2/main.889fc8183b56b588e8d8.js" afterPath="$PROJECT_DIR$/api/v5.2/main.889fc8183b56b588e8d8.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.3/131.176b0c271a790ac20257.js" afterPath="$PROJECT_DIR$/api/v5.3/131.176b0c271a790ac20257.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.3/133.f406dbb6961a8103c16a.js" afterPath="$PROJECT_DIR$/api/v5.3/133.f406dbb6961a8103c16a.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/v5.3/main.5d208f6119a7bffbc9af.js" afterPath="$PROJECT_DIR$/api/v5.3/main.5d208f6119a7bffbc9af.js" />
     </list>
@@ -57,21 +33,31 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="main.889fc8183b56b588e8d8.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/v5.2/main.889fc8183b56b588e8d8.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="0" column="143630" lean-forward="false" selection-start-line="0" selection-start-column="143630" selection-end-line="0" selection-end-column="143630" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.89aff1f7c94f40a158a8.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/v5.2.1/main.89aff1f7c94f40a158a8.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="0" column="1365661" lean-forward="true" selection-start-line="0" selection-start-column="1365661" selection-end-line="0" selection-end-column="1365661" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>showcaseapp/</find>
-      <find>v</find>
-      <find>v1</find>
-      <find>v1/</find>
-      <find>v1/i</find>
-      <find>v1/inds</find>
-      <find>v1/ind</find>
-      <find>v1/inde</find>
-      <find>v1/index.</find>
-      <find>v1/index.html</find>
-      <find>s</find>
       <find>sh</find>
       <find>sho</find>
       <find>showcas</find>
@@ -91,15 +77,20 @@
       <find>license.ht</find>
       <find>license.htm</find>
       <find>license.html</find>
+      <find>i</find>
+      <find>index.ht</find>
+      <find>inde</find>
+      <find>in</find>
+      <find>ind</find>
+      <find>index</find>
+      <find>index.j</find>
+      <find>index.</find>
+      <find>index.h</find>
+      <find>index.htm</find>
+      <find>index.html</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/api</dir>
-      <dir>$PROJECT_DIR$/api/v5.3</dir>
-      <dir>$PROJECT_DIR$/api/v5.2.2</dir>
-      <dir>$PROJECT_DIR$/api/v5.2.1</dir>
-      <dir>$PROJECT_DIR$/api/v5.2</dir>
-      <dir>$PROJECT_DIR$/api/v5.1</dir>
-      <dir>$PROJECT_DIR$/api/v5.0</dir>
       <dir>$PROJECT_DIR$/api/v4.3</dir>
       <dir>$PROJECT_DIR$/api/v4.2</dir>
       <dir>$PROJECT_DIR$/api/v4.1</dir>
@@ -108,6 +99,12 @@
       <dir>$PROJECT_DIR$/api/v3</dir>
       <dir>$PROJECT_DIR$/api/v2</dir>
       <dir>$PROJECT_DIR$/api/v1</dir>
+      <dir>$PROJECT_DIR$/api/v5.1</dir>
+      <dir>$PROJECT_DIR$/api/v5.0</dir>
+      <dir>$PROJECT_DIR$/api/v5.2.1</dir>
+      <dir>$PROJECT_DIR$/api/v5.3</dir>
+      <dir>$PROJECT_DIR$/api/v5.2.2</dir>
+      <dir>$PROJECT_DIR$/api/v5.2</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -122,6 +119,8 @@
         <option value="$PROJECT_DIR$/api/v3.2/assets/data/dropdown/versionDetails.json" />
         <option value="$PROJECT_DIR$/api/v4/assets/data/dropdown/versionDetails.json" />
         <option value="$PROJECT_DIR$/api/v4.2/gettingstarted.114a56108f122c187209.chunk.js.map" />
+        <option value="$PROJECT_DIR$/api/v5.2/main.889fc8183b56b588e8d8.js" />
+        <option value="$PROJECT_DIR$/api/v5.2.1/main.89aff1f7c94f40a158a8.js" />
       </list>
     </option>
   </component>
@@ -384,7 +383,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1539932460447</updated>
-      <workItem from="1539932461633" duration="16840000" />
+      <workItem from="1539932461633" duration="19689000" />
     </task>
     <task id="LOCAL-00001" summary="version url updated.">
       <created>1539933015094</created>
@@ -425,7 +424,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16840000" />
+    <option name="totallyTimeSpent" value="19689000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
@@ -433,11 +432,11 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -587,6 +586,22 @@
       </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v5.2/main.889fc8183b56b588e8d8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="0" column="143630" lean-forward="false" selection-start-line="0" selection-start-column="143630" selection-end-line="0" selection-end-column="143630" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/v5.2.1/main.89aff1f7c94f40a158a8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="0" column="1365661" lean-forward="true" selection-start-line="0" selection-start-column="1365661" selection-end-line="0" selection-end-column="1365661" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
