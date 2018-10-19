@@ -89,12 +89,19 @@
       "version": "4.0 onwards",
       "type": "boolean",
       "default": "false"
+    },
+    {
+      "name": "context-menu",
+      "description": "Context Menu provides the Window on right click(for Array structure: refer typescript code in source tab)",
+      "version": "5.1.6 onwards",
+      "type": "any[]",
+      "default": ""
     }
   ],
   "events": [
     {
-      "name": "close",
-      "description": "close the window"
+      "name": "rightClick",
+      "description": "It is fired when clicked on context menu providing Window node data and selected context menu data."
     }
   ]
 }

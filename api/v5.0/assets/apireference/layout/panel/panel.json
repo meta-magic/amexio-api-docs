@@ -30,12 +30,30 @@
       "version": "4.0 onwards",
       "type": "number",
       "default": "none"
+    },
+    {
+      "name": "context-menu",
+      "description": "Context Menu provides the panel on right click(for Array structure: refer typescript code in source tab)",
+      "version": "5.1.6 onwards",
+      "type": "any[]",
+      "default": ""
+    },
+    {
+      "name": "amexio-panel-header",
+      "description": "Panel Header renders any component within it by using toolbar as its outer shell",
+      "version": "5.1.6 onwards",
+      "type": "",
+      "default": ""
     }
   ],
   "events": [
     {
       "name": "onClick",
       "description": "Fires the on accordion pane click event."
+    },
+    {
+      "name": "rightClick",
+      "description": "It is fired when clicked on context menu providing Panel node data and selected context menu data."
     }
   ]
 }
