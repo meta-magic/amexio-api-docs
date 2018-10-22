@@ -4,7 +4,7 @@
                     Common CSS Helper Classes
 *****************************************************************************/
 body {
-  background: #eceff1;
+  background: #ECEFF1;
   min-height: 100%;
   height: 100%;
   overflow-x: hidden;
@@ -132,10 +132,8 @@ Spin animation for .loading-mask::after
 @keyframes spin {
   from {
     transform: rotate(0deg); }
-
   to {
     transform: rotate(359deg); } }
-
 label {
   display: inline-block;
   margin-top: 5px;
@@ -165,7 +163,7 @@ image using the content attribute.
   position: absolute;
   border-width: 3px;
   border-style: solid;
-  border-color: transparent #c4e800 #c4e800;
+  border-color: transparent #C4E800 #C4E800;
   border-radius: 50%;
   width: 24px;
   height: 24px;
@@ -178,7 +176,6 @@ image using the content attribute.
 @keyframes spinner {
   to {
     transform: rotate(360deg); } }
-
 .spinner:before {
   content: '';
   box-sizing: border-box;
@@ -191,8 +188,8 @@ image using the content attribute.
   margin-left: -10px;
   border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: #c4e800;
-  border-bottom-color: #c4e800;
+  border-top-color: #C4E800;
+  border-bottom-color: #C4E800;
   animation: spinner .8s ease infinite; }
 
 .row-disabled {
@@ -206,7 +203,7 @@ image using the content attribute.
    240a00: #240a00 rgb(36,10,0,0.0);
 */
 .amexio-red-light {
-  background-color: coral;
+  background-color: #ff7f50;
   color: #240a00; }
 
 /** Amexio Colors --- 
@@ -214,7 +211,7 @@ image using the content attribute.
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-red {
-  background-color: crimson;
+  background-color: #dc143c;
   color: #fffafb; }
 
 /** Amexio Colors --- 
@@ -222,7 +219,7 @@ image using the content attribute.
    002400: #002400 rgb(0,36,0,0.0);
 */
 .amexio-green-light {
-  background-color: lime;
+  background-color: #00ff00;
   color: #002400; }
 
 /** Amexio Colors --- 
@@ -230,7 +227,7 @@ image using the content attribute.
    f0faf4: #f0faf4 rgb(240,250,244,0.0);
 */
 .amexio-green {
-  background-color: seagreen;
+  background-color: #2e8b57;
   color: #f0faf4; }
 
 /** Amexio Colors --- 
@@ -238,7 +235,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple-light {
-  background-color: magenta;
+  background-color: #ff00ff;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -246,7 +243,7 @@ image using the content attribute.
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-purple {
-  background-color: darkmagenta;
+  background-color: #8b008b;
   color: #050005; }
 
 /** Amexio Colors --- 
@@ -254,7 +251,7 @@ image using the content attribute.
    f0fbff: #f0fbff rgb(240,251,255,0.0);
 */
 .amexio-blue-light {
-  background-color: deepskyblue;
+  background-color: #00bfff;
   color: #000507; }
 
 /** Amexio Colors --- 
@@ -262,7 +259,7 @@ image using the content attribute.
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-blue {
-  background-color: darkblue;
+  background-color: #00008b;
   color: #f5f5ff; }
 
 /** Amexio Colors --- 
@@ -270,7 +267,7 @@ image using the content attribute.
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-brown-light {
-  background-color: sandybrown;
+  background-color: #f4a460;
   color: #211102; }
 
 /** Amexio Colors --- 
@@ -278,7 +275,7 @@ image using the content attribute.
    ffebeb: #ffebeb rgb(255,235,235,0.0);
 */
 .amexio-brown {
-  background-color: maroon;
+  background-color: #800000;
   color: #ffebeb; }
 
 /** Amexio Colors --- 
@@ -286,7 +283,7 @@ image using the content attribute.
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-yellow-light {
-  background-color: gold;
+  background-color: #ffd700;
   color: #241e00; }
 
 /** Amexio Colors --- 
@@ -302,16 +299,16 @@ image using the content attribute.
    White: #ffffff rgb(255,255,255,0.0);
 */
 .amexio-black {
-  background-color: black;
-  color: white; }
+  background-color: #000000;
+  color: #ffffff; }
 
 /** Amexio Colors --- 
    White: #ffffff rgb(255,255,255,0.0);
    Black: #000000 rgb(0,0,0,0.0);
 */
 .amexio-white {
-  background-color: white;
-  color: black; }
+  background-color: #ffffff;
+  color: #000000; }
 
 /* Misc Variables */
 /****************************************************************************
@@ -320,7 +317,7 @@ image using the content attribute.
 *****************************************************************************/
 /** button - Visual CSS **/
 .button-secondary {
-  background-color: white;
+  background-color: #ffffff;
   border-color: #417505;
   color: black; }
 
@@ -333,11 +330,11 @@ image using the content attribute.
 
 .btn-primary-badge {
   background-color: white;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .btn-secondary-badge {
   background-color: black;
-  color: white; }
+  color: #ffffff; }
 
 .btn-success-badge {
   background-color: white;
@@ -356,13 +353,13 @@ image using the content attribute.
   color: white; }
 
 .button-primary {
-  background-color: #c4e800;
-  border-color: #c4e800;
+  background-color: #C4E800;
+  border-color: #C4E800;
   color: white; }
 
 .disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .button-primary:hover:enabled {
   background-color: #99b500; }
@@ -525,7 +522,7 @@ button {
 *****************************************************************************/
 /** buttongroup - Visual CSS **/
 .button-secondary {
-  background-color: white;
+  background-color: #ffffff;
   border-color: #417505;
   color: black; }
 
@@ -534,11 +531,11 @@ button {
 
 .btn-group-primary-badge {
   background-color: white;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .btn-group-secondary-badge {
   background-color: black;
-  color: white; }
+  color: #ffffff; }
 
 .btn-group-success-badge {
   background-color: white;
@@ -557,13 +554,13 @@ button {
   color: white; }
 
 .button-primary {
-  background-color: #c4e800;
-  border-color: #c4e800;
+  background-color: #C4E800;
+  border-color: #C4E800;
   color: white; }
 
 .disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .button-primary:hover:enabled {
   background-color: #99b500; }
@@ -598,9 +595,9 @@ button {
 
 /** buttongroup - Structure CSS **/
 .btn-group span {
-                  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
-
- cursor: pointer; /* Pointer/hand icon */ }
+  /* border: $btnGrpBorderSize solid $btnGrpBorderColor; 
+  
+   cursor: pointer; /* Pointer/hand icon */ }
 
 .btn-group button {
   cursor: pointer; }
@@ -741,7 +738,7 @@ button {
 
 .disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 /** buttondropdown - Structure CSS **/
 .btn-dropdown-badge {
@@ -773,7 +770,7 @@ button {
 .datedropdown {
   background: white; }
   .datedropdown .dropdownlist {
-    color: #c4e800; }
+    color: #C4E800; }
   .datedropdown li:hover {
     color: black;
     background: none;
@@ -782,7 +779,7 @@ button {
     background: #a9f74f;
     color: #417505; }
   .datedropdown li {
-    color: #c4e800; }
+    color: #C4E800; }
 
 .datetimepicker {
   background: white; }
@@ -793,7 +790,7 @@ button {
   .datetimepicker .days {
     background: white; }
     .datetimepicker .days li {
-      color: #c4e800; }
+      color: #C4E800; }
     .datetimepicker .days li:hover {
       color: #a9f74f; }
     .datetimepicker .days .active {
@@ -811,7 +808,7 @@ button {
   .datetimepicker1 .days {
     background: white; }
     .datetimepicker1 .days li {
-      color: #c4e800; }
+      color: #C4E800; }
     .datetimepicker1 .days li:hover {
       color: #a9f74f; }
     .datetimepicker1 .days .active {
@@ -825,17 +822,17 @@ button {
 
 .datetimepicker:disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 @media screen and (max-width: 600px) {
   .datetimepicker .days .date-today {
     padding-top: 1%;
     padding-left: 36%; } }
 .dropspan2 {
-  border-color: #c4e800; }
+  border-color: #C4E800; }
 
 .datedropbtn {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
 
 .change4 {
@@ -998,7 +995,7 @@ button {
 .dropspan2 {
   width: 25%;
   float: left;
-  border-right: 1px solid #c4e800; }
+  border-right: 1px solid #C4E800; }
 
 .dropspan4 {
   width: 25%;
@@ -1339,7 +1336,7 @@ textarea:required {
 *****************************************************************************/
 /** checkbox - Visual CSS **/
 .input-box .default {
-  background: #eceff1; }
+  background: #ECEFF1; }
 
 .input-box .active {
   background: #417505;
@@ -1512,7 +1509,7 @@ textarea:required {
 /** progress - Visual CSS **/
 .progress {
   position: relative;
-  background: #eceff1; }
+  background: #ECEFF1; }
   .progress .success {
     background-color: #5cb85c; }
   .progress .warning {
@@ -1555,10 +1552,8 @@ textarea:required {
 @-webkit-keyframes move {
   0% {
     background-position: 0 0; }
-
   100% {
     background-position: 50px 50px; } }
-
 .nostripes > span > span, .nostripes > span:after {
   -webkit-animation: none; }
 
@@ -1584,7 +1579,6 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     font-size: 50px; } }
-
 /** rating - Structure CSS **/
 .rating {
   cursor: pointer;
@@ -1649,7 +1643,6 @@ textarea:required {
   /* Firefox Hack */
   .star-icon {
     line-height: 34px; } }
-
 /****************************************************************************
     Component Name : Toggle
     Version : Amexio v4.0 onwards
@@ -2010,19 +2003,19 @@ input:checked + .toggle-slider:before {
   padding: 8px 8px 8px 8px; }
 
 .border-red {
-  border-color: crimson !important; }
+  border-color: #dc143c !important; }
 
 .border-blue {
-  border-color: darkblue !important; }
+  border-color: #00008b !important; }
 
 .border-green {
-  border-color: seagreen !important; }
+  border-color: #2e8b57 !important; }
 
 .border-brown {
-  border-color: maroon !important; }
+  border-color: #800000 !important; }
 
 .border-purple {
-  border-color: darkmagenta !important; }
+  border-color: #8b008b !important; }
 
 .border-yellow {
   border-color: #ff9900 !important; }
@@ -2365,7 +2358,7 @@ input:checked + .toggle-slider:before {
   background-color: #ffffff; }
 
 .floatingbutton-theme-color {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
 
 .floatingbutton-green {
@@ -2382,7 +2375,7 @@ input:checked + .toggle-slider:before {
 
 .floatingbutton-default-disabled {
   background-color: #a09e9e;
-  color: #c4e800; }
+  color: #C4E800; }
 
 .floatingbutton-theme-color-disabled {
   background-color: #e4ff4f;
@@ -2571,7 +2564,7 @@ input:checked + .toggle-slider:before {
   border-color: #417505; }
 
 .input-group-text-search {
-  background-color: #c4e800;
+  background-color: #C4E800;
   border-color: #417505; }
 
 .form-control {
@@ -2586,7 +2579,7 @@ input:checked + .toggle-slider:before {
   color: white; }
 
 .advancesearchbtn {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
 
 .search-dropdown-list .search-list-items {
@@ -2879,7 +2872,7 @@ header .billboard .content-button {
 .close-button {
   cursor: pointer;
   padding-left: 98%;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
 
 /****************************************************************************
     Component Name : Enterprise Youtube
@@ -2888,7 +2881,7 @@ header .billboard .content-button {
 /** enterprise-youtube - Visual CSS **/
 .close-button {
   color: grey;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
 
 .close-button i:hover {
   color: red; }
@@ -2912,21 +2905,21 @@ header .billboard .content-button {
   font-size: 20px; }
 
 .tile__details {
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
 
 .tile__details:after,
 .tile__details:before {
-  display: black; }
+  display: #000; }
 
 .tile__details_v {
   font-size: 10px;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
 
 .tile__details_v:after,
 .tile__details_v:before {
-  display: black; }
+  display: #000; }
 
 .tile__title {
   color: white; }
@@ -3050,7 +3043,7 @@ header .billboard .content-button {
   position: absolute;
   top: 50%;
   left: 50%;
-  display: black; }
+  display: #000; }
 
 .tile__details_v:after {
   margin-top: -25px;
@@ -3218,10 +3211,10 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Datatable - Structure CSS **/
 .datatable-height::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .datatable-height::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .datatable-height::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -3238,7 +3231,7 @@ header .billboard .content-button {
   background-color: #a9f74f !important; }
 
 .datatable-row:nth-child(odd) {
-  background-color: #eceff1; }
+  background-color: #ECEFF1; }
 
 /** Datatable - Visual CSS **/
 .datatabletitle {
@@ -4174,10 +4167,10 @@ header .billboard .content-button {
   color: black; }
 
 .sidenav::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .sidenav::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .sidenav::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4329,7 +4322,7 @@ header .billboard .content-button {
 *****************************************************************************/
 /** dockbar - Visual CSS **/
 .dockbar {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: #417505; }
 
 .dockbar-content {
@@ -4357,10 +4350,10 @@ header .billboard .content-button {
   color: #417505; }
 
 .dockbar-height::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .dockbar-height::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .dockbar-height::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4371,7 +4364,7 @@ header .billboard .content-button {
   width: 70px;
   position: relative;
   border-top: 2px solid #417505;
-  border-bottom: 5px solid #c4e800; }
+  border-bottom: 5px solid #C4E800; }
 
 /* Style the buttons inside the tab */
 .dockbar button {
@@ -4506,10 +4499,10 @@ header .billboard .content-button {
   color: white; }
 
 .cardbody::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .cardbody::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .cardbody::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4573,10 +4566,10 @@ header .billboard .content-button {
   color: white; }
 
 .formbody::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .formbody::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .formbody::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -4698,16 +4691,16 @@ fieldset {
   color: #a09e9e; }
 
 .step-block-icon-disable {
-  color: #c4e800; }
+  color: #C4E800; }
 
 .stepwizard-row:before {
-  background-color: #eceff1; }
+  background-color: #ECEFF1; }
 
 .btn-circle {
   font-size: 12px; }
 
 .step-box-table-item {
-  background-color: #eceff1;
+  background-color: #ECEFF1;
   color: black; }
 
 .step-box-table-item.active {
@@ -4822,8 +4815,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-bottom-tab-red {
-  color: crimson;
-  border-top: 1px solid crimson !important; }
+  color: #dc143c;
+  border-top: 1px solid #dc143c !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4838,56 +4831,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-bottom-tab-purple {
-  border-top: 1px solid darkmagenta !important;
-  color: darkmagenta; }
+  border-top: 1px solid #8b008b !important;
+  color: #8b008b; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-bottom-tab-blue {
-  border-top: 1px solid darkblue !important;
-  color: darkblue; }
+  border-top: 1px solid #00008b !important;
+  color: #00008b; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-bottom-tab-brown {
-  border-top: 1px solid maroon !important;
-  color: maroon; }
+  border-top: 1px solid #800000 !important;
+  color: #800000; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-yellow {
-  border-top: 1px solid yellow !important;
-  color: yellow; }
+  border-top: 1px solid #FFFF00 !important;
+  color: #FFFF00; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-pink {
-  border-top: 1px solid hotpink !important;
-  color: hotpink; }
+  border-top: 1px solid #FF69B4 !important;
+  color: #FF69B4; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-orange {
-  border-top: 1px solid orange !important;
-  color: orange; }
+  border-top: 1px solid #FFA500 !important;
+  color: #FFA500; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-bottom-tab-black {
-  border-top: 1px solid black !important;
-  color: black; }
+  border-top: 1px solid #000000 !important;
+  color: #000000; }
 
 /** CSS Class definitions for the Amexio Colors --- */
 /** Amexio Colors --- 
@@ -4895,8 +4888,8 @@ fieldset {
    fffafb: #fffafb rgb(255,250,251,0.0);
 */
 .amexio-top-tab-red {
-  color: crimson;
-  border-bottom: 1px solid crimson !important; }
+  color: #dc143c;
+  border-bottom: 1px solid #dc143c !important; }
 
 /** Amexio Colors --- 
    SeaGreen: #2e8b57 rgb(46,139,87,0.0);
@@ -4911,56 +4904,56 @@ fieldset {
    fffaff: #fffaff rgb(255,250,255,0.0);
 */
 .amexio-top-tab-purple {
-  border-bottom: 1px solid darkmagenta !important;
-  color: darkmagenta; }
+  border-bottom: 1px solid #8b008b !important;
+  color: #8b008b; }
 
 /** Amexio Colors --- 
    DarkBlue: #00008b rgb(0,0,139,0.0);
    f5f5ff: #f5f5ff rgb(245,245,255,0.0);
 */
 .amexio-top-tab-blue {
-  border-bottom: 1px solid darkblue !important;
-  color: darkblue; }
+  border-bottom: 1px solid #00008b !important;
+  color: #00008b; }
 
 /** Amexio Colors --- 
    SandyBrown: #f4a460 rgb(244,164,96,0.0);
    211102: #211102 rgb(33,17,2,0.0);
 */
 .amexio-top-tab-brown {
-  border-bottom: 1px solid maroon !important;
-  color: maroon; }
+  border-bottom: 1px solid #800000 !important;
+  color: #800000; }
 
 /** Amexio Colors --- 
    Gold: #ffd700 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-yellow {
-  border-bottom: 1px solid yellow !important;
-  color: yellow; }
+  border-bottom: 1px solid #FFFF00 !important;
+  color: #FFFF00; }
 
 /** Amexio Colors --- 
    Pink: #FF69B4 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-pink {
-  border-bottom: 1px solid hotpink !important;
-  color: hotpink; }
+  border-bottom: 1px solid #FF69B4 !important;
+  color: #FF69B4; }
 
 /** Amexio Colors --- 
    Orange: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-orange {
-  border-bottom: 1px solid orange !important;
-  color: orange; }
+  border-bottom: 1px solid #FFA500 !important;
+  color: #FFA500; }
 
 /** Amexio Colors --- 
    Black: #FFA500 rgb(255,215,0,0.0);
    241e00: #241e00 rgb(36,30,0,0.0);
 */
 .amexio-top-tab-black {
-  border-bottom: 1px solid black !important;
-  color: black; }
+  border-bottom: 1px solid #000000 !important;
+  color: #000000; }
 
 /** tab - Structure CSS **/
 .tab {
@@ -5132,10 +5125,10 @@ verticalalign-tableft {
   font-size: 14px; }
 
 .modal-window-middle::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .modal-window-middle::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .modal-window-middle::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -5425,10 +5418,10 @@ verticalalign-tableft {
   color: black; }
 
 .panel-panel::-webkit-scrollbar-track {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .panel-panel::-webkit-scrollbar {
-  background-color: whitesmoke; }
+  background-color: #f5f5f5; }
 
 .panel-panel::-webkit-scrollbar-thumb {
   background-color: white; }
@@ -5453,7 +5446,7 @@ verticalalign-tableft {
   transition: max-height 0.2s ease-out; }
 
 .panel-box {
-  border: 2px solid #c4e800;
+  border: 2px solid #C4E800;
   width: 100%; }
 
 .panel-panel::-webkit-scrollbar-track {
@@ -6767,8 +6760,8 @@ body {
 
 .topnav {
   color: #417505;
-  background-color: #c4e800;
-  background: linear-gradient(#c4e800, #92cd00) !important; }
+  background-color: #C4E800;
+  background: linear-gradient(#C4E800, #92CD00) !important; }
   .topnav .navbar-logo-unit a {
     font-size: 24px; }
 
@@ -6776,9 +6769,11 @@ body {
   color: white; }
 
 .topnavmainbarinneritems .nav-dropdown-content {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
 
 .topnavmainbarinneritems-mobile .nav-dropdown-content {
-  background-color: #c4e800;
+  background-color: #C4E800;
   color: white; }
+
+/*# sourceMappingURL=at-am-limegreen.css.map */
