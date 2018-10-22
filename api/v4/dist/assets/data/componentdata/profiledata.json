@@ -1,0 +1,40 @@
+{
+  "response": {
+    "success": true,
+    "message": "Fetching  Data  Request Succeeded: Profile",
+    "data": [
+      {
+        "name": "Ketan Gote",
+        "name_official": "Ketan Gote",
+        "profile": "ketan.jpg"
+      },
+      {
+        "name": "Rashmi Thakkar",
+        "name_official": "Rashmi Thakkar",
+        "profile": "rashmi.jpg"
+
+
+      },
+      {
+        "name": "Dattaram Gawas",
+        "name_official": "Dattaram Gawas",
+        "profile": "dats.jpg"
+      },
+      {
+        "name": "Sagar Jadhav",
+        "name_official": "Sagar Jadhav",
+        "profile": "sagar.jpg"
+      },
+      {
+        "name": "Deepali Arvind",
+        "name_official": "Deepali Arvind",
+        "profile": "dipali.jpg"
+      },
+      {
+        "name": "Ashwini Agre",
+        "name_official": "Ashwini agre",
+        "profile": "ashwini.jpg"
+      }
+    ]
+  }
+}
