@@ -639,10 +639,10 @@ var AppComponent = (function () {
                         "link": "https://amexio.org/api/v3.2/#/getting-started"
                     }, {
                         "text": "Version 2.0",
-                        "link": "https://amexio.org/showcaseapp/v2/index.html"
+                        "link": "../v2/index.html"
                     }, {
                         "text": "Version 1.0",
-                        "link": "https://amexio.org/showcaseapp/v1/index.html"
+                        "link": "../v1/index.html"
                     }
                 ]
             },
