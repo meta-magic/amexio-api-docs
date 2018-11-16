@@ -2787,6 +2787,18 @@ input:checked + .toggle-slider:before {
   height: 60px;
   line-height: 60px; }
 
+.floatingbutton-circle-large {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px; }
+
+.floatingbutton-circle-small {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px; }
+
 .floatingbutton-square {
   padding: .5rem 1rem; }
 
@@ -2895,7 +2907,6 @@ input:checked + .toggle-slider:before {
   cursor: pointer;
   flex-direction: row;
   justify-content: space-between;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
   padding-top: 2px;
   position: relative;
   padding: 10px; }
@@ -3817,7 +3828,7 @@ header .billboard .content-button {
 .close-button {
   cursor: pointer;
   padding-left: 98%;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
 
 /****************************************************************************
     Component Name : Enterprise Youtube
@@ -3826,7 +3837,7 @@ header .billboard .content-button {
 /** enterprise-youtube - Visual CSS **/
 .close-button {
   color: grey;
-  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, transparent 70%, transparent 100%); }
+  background: radial-gradient(ellipse at top right, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%); }
 
 .close-button i:hover {
   color: red; }
@@ -3850,8 +3861,8 @@ header .billboard .content-button {
   font-size: 20px; }
 
 .tile__details {
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
 
 .tile__details:after,
 .tile__details:before {
@@ -3859,8 +3870,8 @@ header .billboard .content-button {
 
 .tile__details_v {
   font-size: 10px;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, transparent 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, transparent 100%); }
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); }
 
 .tile__details_v:after,
 .tile__details_v:before {
@@ -4788,6 +4799,14 @@ header .billboard .content-button {
   max-width: 79.1666635%; }
 
 /****************************************************************************
+    Component Name : Layout
+    Version : Amexio v5.4 onwards
+*****************************************************************************/
+/** rowcol - Structure CSS **/
+amexio-layout-columns amexio-layout-item {
+  padding: 5px; }
+
+/****************************************************************************
     Component Name : Menubar
     Version : Amexio v4.0 onwards
 *****************************************************************************/
@@ -5004,7 +5023,8 @@ header .billboard .content-button {
   padding: 5px; }
 
 .topnavbarunit2 {
-  line-height: 50px; }
+  line-height: 50px;
+  flex-grow: 1; }
 
 .topnavbarunit2-mobile {
   width: 100%;
@@ -5218,6 +5238,9 @@ header .billboard .content-button {
   position: fixed;
   z-index: 3;
   left: 0; }
+
+.sidenav-submenu-details .tablink {
+  padding: 0px; }
 
 .sidenav-mobile-bar-right {
   top: 10px;
@@ -5570,7 +5593,7 @@ header .billboard .content-button {
   border-color: #4CBB17;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 17px;
   transition: 0.4s; }
 
 .accordion:after {
@@ -5590,7 +5613,7 @@ header .billboard .content-button {
   border-color: #292b2c;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 17px;
   transition: 0.4s;
   box-shadow: none;
   border-top: 2px solid #4CBB17; }
@@ -6370,8 +6393,7 @@ verticalalign-tableft {
 
 .modal-window-table .tablerow .tablecol {
   display: table-cell;
-  vertical-align: middle;
-  width: 100%; }
+  vertical-align: baseline; }
 
 .modal-window-footer-max {
   bottom: 0px;
@@ -6603,10 +6625,8 @@ verticalalign-tableft {
   transition: max-height 0.2s ease-out; }
 
 .panel-box {
+  border: 2px solid #4CBB17;
   width: 100%; }
-
-.panel-box-border {
-  border: 2px solid #4CBB17; }
 
 .panel-panel::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }

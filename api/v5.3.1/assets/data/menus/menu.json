@@ -19,7 +19,9 @@
         {
             "text": "Layouts",
             "icon": "fa fa-desktop fa-fw",
+            "badge": "1",
             "children": [
+               
                 {
                     "text": "Accordion",
                     "icon": "fa fa-bars fa-fw",
@@ -28,6 +30,7 @@
                 {
                     "text": "Border Layout",
                     "icon": "fa fa-id-card-o fa-fw",
+                    "badge": "U",
                     "link": "border"
                 },
                 {
@@ -40,6 +43,7 @@
                     "link": "column-demo",
                     "icon": "fa fa-columns fa-fw"
                 },
+                
                 {
                     "text": "Card",
                     "icon": "fa fa-id-card-o fa-fw",
@@ -89,7 +93,7 @@
                     "icon": "fa fa-id-card-o fa-fw",
                     "link": "fieldset"
                 },
-                {
+                {   
                     "text": "Panel",
                     "icon": "fa fa-bars fa-fw",
                     "link": "panel"
@@ -184,7 +188,7 @@
         {
             "text": "Form Inputs",
             "icon": "fa fa-clone fa-fw",
-            "badge": "3",
+            "badge": "2",
             "children": [
                 {
                     "text": "Checkbox",
@@ -196,12 +200,7 @@
                     "icon": "fa fa-list fa-fw",
                     "link": "checkboxgroup-demo"
                 },
-                {
-                    "text": "Chips",
-                    "icon": "fa fa-chevron-circle-down fa-fw",
-                    "link": "chips-demo",
-                    "badge":"New"
-                },
+               
                 {
                     "text": "Credit-Card",
                     "icon": "fa fa-credit-card",
@@ -523,7 +522,7 @@
         {
             "text": "Drag and Drop",
             "icon": "fa fa-arrows-alt",
-            "badge": "2",
+            "badge": "1",
             "children": [
                 {
                     "text": "Within Tree",
@@ -545,12 +544,6 @@
                     "icon": "fa fa-exchange fa-fw",
                     "badge": "New",
                     "link": "itemselectordragdrop-demo"
-                },
-                {
-                    "text": "Item Selector to Panel",
-                    "icon": "fa fa-exchange fa-fw",
-                    "badge": "New",
-                    "link": "selectordragdrop-panel"
                 }
             ]
         },
@@ -632,6 +625,7 @@
                     "icon": "fa fa-bars fa-fw",
                     "link": "sidenav-demo"
                 },
+              
                 {
                     "text": "Tool Bar",
                     "icon": "fa fa-bars fa-fw",
@@ -678,18 +672,26 @@
         {
             "text": "Charts",
             "icon": "fa fa-keyboard-o fa-fw",
-            "badge": "4",
+            "badge": "5",
             "children": [
                 {
                     "text": "D3 Charts",
                     "icon": "fa fa-openid fa-fw",
-                    "badge": "New",
+                    "badge": "5",
                     "children": [
                         {
                             "text": "Bar Chart",
                             "icon": "fa fa-bar-chart fa-fw",
                             "link": "amexio-d3-chart-bar"
-                        },  {
+                        },  
+                        {
+                            "text": "Bubble Chart",
+                            "icon": "fa fa-dot-circle-o",
+                            "link": "amexio-d3-chart-bubble",
+                            "badge":"New"
+                        },  
+                        
+                        {
                             "text": "Combo Chart",
                             "icon": "fa fa-area-chart fa-fw",
                             "link": "amexio-d3-chart-combo"
