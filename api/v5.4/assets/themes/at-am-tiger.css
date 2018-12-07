@@ -137,6 +137,10 @@ element over the whole parent element
   bottom: 0;
   left: 0; }
 
+input:disabled {
+  opacity: 0.55;
+  cursor: not-allowed; }
+
 /*
 Spin animation for .loading-mask::after
 */
@@ -3544,10 +3548,6 @@ header .billboard .content-button {
   text-transform: uppercase;
   transition: transform 0.5s; }
 
-.button-small i:hover {
-  border: solid 2px #fff;
-  transform: scale(1.1); }
-
 .close-button {
   cursor: pointer;
   padding-left: 98%;
@@ -5409,6 +5409,7 @@ amexio-layout-columns amexio-layout-item {
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
+  flex-grow: 1;
   padding-left: 16px;
   padding-right: 16px; }
 
