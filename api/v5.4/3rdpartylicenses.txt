@@ -34,7 +34,7 @@ font-awesome@4.7.0
 (OFL-1.1 AND MIT)
 (OFL-1.1 AND MIT)
 
-amexio-ng-extensions@5.4.0
+amexio-ng-extensions@5.4.2
 Apache 2.0
 Apache License
                            Version 2.0, January 2004
@@ -238,7 +238,7 @@ Apache License
    See the License for the specific language governing permissions and
    limitations under the License.
 
-core-js@2.6.0
+core-js@2.6.1
 MIT
 Copyright (c) 2014-2018 Denis Pushkarev
 
