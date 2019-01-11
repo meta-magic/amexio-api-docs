@@ -767,6 +767,9 @@ button {
   border-radius: .25rem;
   margin-left: 3px; }
 
+.button-dropdown-main {
+  cursor: pointer; }
+
 .button-dropdown {
   position: absolute;
   padding: .5rem 1rem;
@@ -5194,6 +5197,9 @@ amexio-layout-columns amexio-layout-item {
   border: 1px solid #70196F;
   background-color: #f3c8f2; }
 
+.breadcrumb-group:hover .arrow-group-css {
+  border-left: 1px solid #70196F; }
+
 .arrow-group-css:hover {
   border-left: 1px solid #70196F; }
 
@@ -5556,7 +5562,6 @@ fieldset {
   cursor: pointer; }
 
 .collapsible-fieldset {
-  height: 0;
   overflow: hidden; }
 
 .collapsible-fieldset.active {
@@ -6211,7 +6216,10 @@ fieldset {
   padding-top: 18%;
   /* Location of the box */
   width: 30%;
-  padding-left: 35%; }
+  padding-left: 35%;
+  z-index: 3;
+  top: 0;
+  left: 0; }
 
 .dialogue-content {
   margin: auto;
@@ -6635,7 +6643,10 @@ amexio-layout amexio-layout-item {
     padding-top: 60%;
     /* Location of the box */
     width: 100%;
-    padding-left: 0px; } }
+    padding-left: 0px;
+    z-index: 3;
+    top: 0;
+    left: 0; } }
 /************************************************************************/
 /*        Enterprise Media-Q COMPONENT         */
 /************************************************************************/
@@ -6818,7 +6829,10 @@ amexio-layout amexio-layout-item {
     padding-top: 60%;
     /* Location of the box */
     width: 100%;
-    padding-left: 0px; } }
+    padding-left: 0px;
+    z-index: 3;
+    top: 0;
+    left: 0; } }
 /************************************************************************/
 /*        Enterprise Media-Q COMPONENT         */
 /************************************************************************/
@@ -6984,7 +6998,10 @@ amexio-layout amexio-layout-item {
     padding-top: 60%;
     /* Location of the box */
     width: 80%;
-    padding-left: 10%; } }
+    padding-left: 10%;
+    z-index: 3;
+    top: 0;
+    left: 0; } }
 /************************************************************************/
 /*        Enterprise Media-Q COMPONENT         */
 /************************************************************************/
@@ -7195,7 +7212,10 @@ amexio-layout amexio-layout-item {
     padding-top: 60%;
     /* Location of the box */
     width: 80%;
-    padding-left: 10%; } }
+    padding-left: 10%;
+    z-index: 3;
+    top: 0;
+    left: 0; } }
 /************************************************************************/
 /*        Enterprise Media-Q COMPONENT         */
 /************************************************************************/
@@ -7603,7 +7623,10 @@ amexio-layout amexio-layout-item {
     padding-top: 60%;
     /* Location of the box */
     width: 80%;
-    padding-left: 10%; } }
+    padding-left: 10%;
+    z-index: 3;
+    top: 0;
+    left: 0; } }
 /************************************************************************/
 /*        Enterprise Media-Q COMPONENT         */
 /************************************************************************/

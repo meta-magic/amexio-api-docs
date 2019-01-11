@@ -766,6 +766,9 @@ button {
   border-radius: .25rem;
   margin-left: 3px; }
 
+.button-dropdown-main {
+  cursor: pointer; }
+
 .button-dropdown {
   position: absolute;
   padding: .5rem 1rem;
@@ -5193,6 +5196,9 @@ amexio-layout-columns amexio-layout-item {
   border: 1px solid #000080;
   background-color: #e6e6ff; }
 
+.breadcrumb-group:hover .arrow-group-css {
+  border-left: 1px solid #000080; }
+
 .arrow-group-css:hover {
   border-left: 1px solid #000080; }
 
@@ -5555,7 +5561,6 @@ fieldset {
   cursor: pointer; }
 
 .collapsible-fieldset {
-  height: 0;
   overflow: hidden; }
 
 .collapsible-fieldset.active {
@@ -6210,7 +6215,10 @@ fieldset {
   padding-top: 18%;
   /* Location of the box */
   width: 30%;
-  padding-left: 35%; }
+  padding-left: 35%;
+  z-index: 3;
+  top: 0;
+  left: 0; }
 
 .dialogue-content {
   margin: auto;
