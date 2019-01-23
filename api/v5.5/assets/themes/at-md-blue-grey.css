@@ -797,6 +797,9 @@ button {
   background-color: #c2d3db;
   color: #628ea3; }
 
+.button-group-list-items {
+  background-color: #b8e8ff; }
+
 /** buttondropdown - Structure CSS **/
 .btn-dropdown-badge {
   padding: .25em .4em;
@@ -901,9 +904,8 @@ button {
 /** datetime - Structure CSS **/
 .datetimepicker {
   display: block;
-  border: 1px solid #ced4da;
   position: absolute;
-  box-shadow: 0 1px 3px 0 #ced4da;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   z-index: 3;
   width: 290px; }
   .datetimepicker .datetimepickertopbar {
@@ -959,8 +961,7 @@ button {
 
 .datetimepicker1 {
   display: block;
-  border: 1px solid #ced4da;
-  box-shadow: 0 1px 3px 0 #ced4da;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   z-index: 3;
   width: 290px; }
   .datetimepicker1 .datetimepickertopbar {
@@ -1101,6 +1102,9 @@ button {
   cursor: not-allowed;
   pointer-events: none; }
 
+.notclickable {
+  pointer-events: none; }
+
 /****************************************************************************
     Component Name : Dropdown
     Version : Amexio v4.0 onwards
@@ -1118,7 +1122,7 @@ button {
   background-color: #6bd0ff; }
 
 .drodown-caret-down {
-  color: black; }
+  color: rgba(0, 0, 0, 0.42); }
 
 .list-items-selected {
   background-color: #b8e8ff;
@@ -1182,7 +1186,8 @@ button {
 .input-control {
   font-size: 14px;
   background-color: #ffffff;
-  color: #121212; }
+  color: #121212;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42); }
 
 ::placeholder {
   color: #ced4da; }
@@ -1196,7 +1201,7 @@ button {
   color: #ced4da; }
 
 .input-control:focus {
-  border-color: #5cb3fd; }
+  border-bottom: 1px solid #5cb3fd; }
 
 .input-control-success {
   border-color: #5cb85c; }
@@ -1234,7 +1239,7 @@ button {
   line-height: 2;
   border-radius: 0px;
   border: none;
-  border-bottom: 2px solid #ced4da;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
 
 .input-control:focus {
@@ -2599,6 +2604,29 @@ input:checked + .toggle-slider:before {
 .floatingbutton-square {
   padding: .5rem 1rem; }
 
+.floatingbtntooltip {
+  position: relative;
+  display: inline-block; }
+
+.floatingbtntooltip .floatingbtntooltiptext {
+  visibility: hidden;
+  line-height: 20px;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 209%;
+  margin-left: -60px; }
+
+.floatingbtntooltip:hover .floatingbtntooltiptext {
+  visibility: visible; }
+
 /****************************************************************************
     Component Name : Floating button group
     Version : Amexio v4.1 onwards
@@ -2868,6 +2896,35 @@ input:checked + .toggle-slider:before {
 ****************************************************************************/
 /** Searchbox - Visual CSS **/
 /** Searchbox - Structure CSS **/
+.spinner-sm {
+  position: fixed !important;
+  z-index: 4 !important;
+  padding-top: 0% !important;
+  padding-left: 0% !important;
+  width: 0% !important; }
+
+.spinnerCss-relative {
+  position: relative !important;
+  padding-left: 35% !important; }
+
+.spinner-vertical-top {
+  top: 2%; }
+
+.spinner-vertical-center {
+  top: 35%; }
+
+.spinner-vertical-bottom {
+  bottom: 2% !important; }
+
+.spinner-horizontal-left {
+  left: 8% !important; }
+
+.spinner-horizontal-center {
+  left: 50% !important; }
+
+.spinner-horizontal-right {
+  right: 10% !important; }
+
 .rectangle-bounces,
 .rectangle-bounces:before,
 .rectangle-bounces:after {
@@ -3890,6 +3947,34 @@ header .billboard .content-button {
   border-top: 3px solid white; }
 
 /****************************************************************************
+    Component Name : Enterprise Appointment
+    Version : Amexio v5.5.2 onwards
+*****************************************************************************/
+/** enterprise - Visual CSS **/
+.weekdaycomponent {
+  display: block;
+  border: 1px solid #ced4da;
+  box-shadow: 0 1px 3px 0 #ced4da; }
+
+.availableweekday {
+  color: #153746;
+  background-color: #6bd0ff;
+  cursor: pointer; }
+
+.availableweekday:hover {
+  background-color: #455a64;
+  color: #f6f8f9; }
+
+.selectedDay {
+  background-color: #455a64;
+  color: #f6f8f9; }
+
+.notavailableweekday {
+  text-decoration: line-through;
+  cursor: not-allowed;
+  color: lightgray; }
+
+/****************************************************************************
     Component Name : Datapoints
     Version : Amexio v4.0 onwards
 *****************************************************************************/
@@ -3966,8 +4051,9 @@ header .billboard .content-button {
 
 .datatable {
   display: table;
-  border: 1px solid #ced4da;
   border-collapse: collapse;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border: 0px;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -3978,7 +4064,8 @@ header .billboard .content-button {
 
 .datatable-height {
   overflow-y: auto;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
 .datatable-height::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
@@ -3999,7 +4086,7 @@ header .billboard .content-button {
   vertical-align: middle; }
 
 .datatable .datatable-row {
-  border: 1px solid #ced4da;
+  border-bottom: 1px solid #ced4da;
   display: table-row;
   height: 50px; }
 
@@ -4184,10 +4271,10 @@ header .billboard .content-button {
 *****************************************************************************/
 /** Listbox - Visual CSS **/
 .listbox-height::-webkit-scrollbar-track {
-  background-color: #455a64; }
+  background-color: #c2d3db; }
 
 .listbox-height::-webkit-scrollbar {
-  background-color: #455a64; }
+  background-color: #c2d3db; }
 
 .listbox-height::-webkit-scrollbar-thumb {
   background-color: #455a64; }
@@ -4208,14 +4295,11 @@ header .billboard .content-button {
 /** Listbox - Structure CSS **/
 .listbox {
   margin-bottom: 1rem;
-  border: 1px solid #ced4da; }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
 .listbox-height {
   overflow-y: auto;
   overflow-x: hidden; }
-
-.listbox-height::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
 
 .listbox-height::-webkit-scrollbar {
   width: 6px; }
@@ -5235,8 +5319,8 @@ header .billboard .content-button {
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 1px solid #ced4da;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  border: 0px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   height: 100%; }
 
 .card-container > * {
@@ -5246,7 +5330,6 @@ header .billboard .content-button {
 .card-header {
   display: flex;
   padding: 10px 24px;
-  border-bottom: 1px solid #ced4da;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize; }
@@ -5315,8 +5398,7 @@ header .billboard .content-button {
   position: relative;
   display: flex;
   flex-direction: column;
-  border: 1px solid #ced4da;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
 .form-container > * {
   padding: 10px;
@@ -5324,7 +5406,6 @@ header .billboard .content-button {
 
 .form-header {
   padding: 10px 24px;
-  border-bottom: 1px solid #ced4da;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
@@ -5538,6 +5619,15 @@ fieldset {
   background-color: #6bd0ff;
   color: #00151f; }
 
+.tabcontent::-webkit-scrollbar-track {
+  background-color: #c2d3db; }
+
+.tabcontent::-webkit-scrollbar {
+  background-color: #c2d3db; }
+
+.tabcontent::-webkit-scrollbar-thumb {
+  background-color: #455a64; }
+
 /** Theme Colors for Tab*/
 /** CSS Class definitions for the Amexio Colors --- */
 /** Amexio Colors --- 
@@ -5722,6 +5812,13 @@ fieldset {
   width: inherit;
   position: relative;
   padding: 10px 0px; }
+
+.tabcontent::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); }
+
+.tabcontent::-webkit-scrollbar {
+  width: 6px;
+  height: 6px; }
 
 /**VERTICAL TABS**/
 .verticalnavtab {
@@ -5908,10 +6005,9 @@ fieldset {
   position: absolute;
   margin: auto;
   padding: 0px;
-  border-radius: .3rem;
-  border: 1px solid #888;
   width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  border: 0px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
 .modal-window-content > * {
   padding: 10px;
@@ -5927,13 +6023,11 @@ fieldset {
   display: flex;
   border-bottom: 1px solid #ced4da;
   font-weight: 300;
-  border-radius: .3rem;
   font-size: 20px;
   text-transform: capitalize; }
 
 .modal-window-header {
   display: flex;
-  border-bottom: 1px solid #ced4da;
   font-weight: 300;
   text-transform: capitalize; }
 
@@ -5957,8 +6051,7 @@ fieldset {
   display: flex;
   border-top: 1px solid #eceeef;
   padding-right: 16px;
-  background-color: white;
-  border-radius: 0 0 .3rem .3rem; }
+  background-color: white; }
 
 .modal-window-footer {
   display: flex;
@@ -6067,8 +6160,7 @@ fieldset {
   padding: 0px;
   width: 80%;
   height: 80%;
-  border-radius: .3rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); }
 
 .dialogue-min {
   padding-top: 70px; }
@@ -6078,7 +6170,6 @@ fieldset {
 
 .dialogue-material-design {
   display: flex;
-  border-radius: .3rem;
   font-size: 20px;
   font-weight: 300;
   text-transform: capitalize;
@@ -6726,7 +6817,7 @@ button:focus:not(:active)::after {
 
 .inputfieldbar:before, .inputfieldbar:after {
   content: '';
-  height: 2px;
+  height: 1px;
   width: 0;
   bottom: 1px;
   position: absolute;

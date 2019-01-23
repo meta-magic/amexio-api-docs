@@ -478,11 +478,13 @@
         },
         {
             "text": "Data",
+            "badge": "1",
             "icon": "fa fa-database fa-fw",
-            "badge":"1",
+           
             "children": [{
                     "text": "Data Loading Indicator",
                     "icon": "fa fa-spinner fa-fw",
+                    "badge": "U",
                     "link": "amexio-spinner-demo"
                 },
                 {
@@ -613,12 +615,6 @@
                     "text": "ListBox",
                     "icon": "fa fa-list fa-fw",
                     "link": "listbox-demo"
-                },
-                {
-                    "text": "Google Map",
-                    "icon": "fa fa-map-marker",
-                    "link": "google-map-demo",
-                    "badge":"New"
                 }
             ]
         },
@@ -948,6 +944,7 @@
         },
         {
             "text": "Maps",
+            "badge":"1",
             "icon": "fa fa-globe fa-fw",
             "children": [{
                     "text": "Geo Chart",
@@ -958,6 +955,12 @@
                     "text": "Tree Map",
                     "icon": "fa fa-trello fa-fw",
                     "link": "tree-map-demo"
+                },
+                {
+                    "text": "Google Map",
+                    "icon": "fa fa-map-marker",
+                    "link": "google-map-demo",
+                    "badge":"New"
                 }
             ]
         },
@@ -976,8 +979,13 @@
                 },
                 {
                     "text": "Multi-item Carousel",
-                    "icon": "fa fa-television fa-fw",
+                    "icon": "fa fa-calendar fa-fw",
                     "link": "multi-item-carousel"
+                },{
+                    "text": "Appointment",
+                    "icon": "fa fa-calendar fa-fw",
+                    "link": "ee-appointment",
+                    "badge": "New"
                 }
             ]
         }
