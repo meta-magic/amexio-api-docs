@@ -322,14 +322,6 @@ image using the content attribute.
   background-color: #ffffff;
   color: #000000; }
 
-.fa-2x {
-  font-size: 2em !important;
-  margin-top: 24% !important; }
-
-.fa-3x {
-  font-size: 3em !important;
-  margin-top: 12% !important; }
-
 /* Misc Variables */
 /****************************************************************************
     Component Name : Button
@@ -1165,7 +1157,6 @@ button {
   overflow: auto;
   position: absolute;
   width: 100%;
-  max-height: 200px;
   opacity: 1.01;
   box-shadow: 0 1px 3px 0 #FF6FFF; }
 
@@ -1177,6 +1168,8 @@ button {
   padding: 0;
   border: 0;
   outline: 0;
+  max-height: 200px;
+  overflow: auto;
   text-decoration: none;
   font-size: 100%;
   list-style: none; }
@@ -5598,7 +5591,7 @@ amexio-layout-columns amexio-layout-item {
   background-color: rgba(189, 127, 189, 0.6);
   color: #FF6FFF; }
 
-.accordion .active-accordion, .accordion:hover {
+.accordion .active-accordion, .accordion:hover, .accordion:focus {
   background-color: #000000;
   color: #FF6FFF; }
 

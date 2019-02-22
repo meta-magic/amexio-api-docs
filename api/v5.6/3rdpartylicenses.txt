@@ -22,15 +22,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-amexio-chart-d3@0.1.2
-Apache 2.0
-Apache 2.0
-
 font-awesome@4.7.0
 (OFL-1.1 AND MIT)
 (OFL-1.1 AND MIT)
 
-amexio-ng-extensions@5.6.0
+amexio-ng-extensions@5.6.1
 Apache 2.0
 Apache License
                            Version 2.0, January 2004
@@ -233,6 +229,10 @@ Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+
+amexio-chart-d3@0.1.2
+Apache 2.0
+Apache 2.0
 
 core-js@2.6.5
 MIT
@@ -511,6 +511,14 @@ Apache License
  See the License for the specific language governing permissions and
  limitations under the License.
 
+@angular/platform-browser@6.1.10
+MIT
+MIT
+
+@angular/common@6.1.10
+MIT
+MIT
+
 tslib@1.9.3
 Apache-2.0
 Apache License
@@ -569,18 +577,6 @@ If the Work includes a "NOTICE" text file as part of its distribution, then any 
 
 END OF TERMS AND CONDITIONS
 
-@angular/common@6.1.10
-MIT
-MIT
-
-@angular/platform-browser@6.1.10
-MIT
-MIT
-
-ngx-cookie-service@1.0.10
-MIT
-MIT
-
 @angular/router@6.1.10
 MIT
 MIT
@@ -590,5 +586,9 @@ MIT
 MIT
 
 @angular/forms@6.1.10
+MIT
+MIT
+
+ngx-cookie-service@1.0.10
 MIT
 MIT
