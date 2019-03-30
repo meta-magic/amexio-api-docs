@@ -2787,6 +2787,14 @@ input:checked + .toggle-slider:before {
     Version : Amexio v4.1 onwards
 *****************************************************************************/
 /** floatingbuttongroup - Visual CSS **/
+.floatinggroupitems:focus {
+  border: 3px solid #fff1b8 !important;
+  outline: none; }
+
+.floatingbutton-circle:focus {
+  border: 3px solid #fff1b8 !important;
+  outline: none; }
+
 /** floatingbuttongroup - Structure CSS **/
 .floatinggroup {
   position: fixed;
@@ -4239,6 +4247,11 @@ header .billboard .content-button {
   background-color: #ffe16b;
   cursor: pointer; }
 
+.availableweekday:focus {
+  outline: none;
+  color: #231c01;
+  background: #fada5e; }
+
 .availableweekday:hover {
   background-color: #fada5e;
   color: #231c01; }
@@ -4327,6 +4340,10 @@ header .billboard .content-button {
   outline: none; }
 
 .calendar-user-active:focus {
+  background-color: #fff1b8 !important;
+  outline: none; }
+
+.focuscls:focus {
   background-color: #fff1b8;
   outline: none; }
 
@@ -4635,6 +4652,11 @@ amexio-homepage-centerpanel .homepage-centerpanel {
   width: 3px; }
 
 .homepage-centerpanel-flex {
+  flex-grow: 1;
+  padding-top: 50px;
+  width: 81%; }
+
+.homepage-centerpanel-flex-fullview {
   flex-grow: 1;
   padding-top: 50px; }
 
