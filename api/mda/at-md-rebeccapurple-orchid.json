@@ -39,7 +39,7 @@
 { "key": "--themeSecondaryFontColor", "value": "#fdfbfe"},
 { "key": "--theme3rdFontColor", "value": "#fefbfc"},
 { "key": "--theme4thFontColor", "value": "#faf0f0"},
-{ "key": "--theme5thzFontColor", "value": "#faf5f0"},
+{ "key": "--theme5thFontColor", "value": "#faf5f0"},
 { "key": "--theme6thFontColor", "value": "#fafaf0"},
 
 { "key": "--amexioColorRedLight", "value": "#ff7f50"},
