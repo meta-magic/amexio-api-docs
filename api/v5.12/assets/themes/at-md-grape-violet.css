@@ -58,12 +58,12 @@
   --themePrimaryColorShade5: #ead1ff;
   --themePrimaryColorShade6: #faf5ff;
   /** Theme Color Gradients -------------------------- */
-  --themePrimaryColorGradient: linear-gradient(to right, #2c0052, #8a05ff, #c685ff);
-  --themeSecondaryColorGradient: linear-gradient(to right, #3d0052, #c105ff, #e085ff);
-  --theme3rdColorGradient: linear-gradient(to right, #520026, #ff057a, #ff85be);
-  --theme4thColorGradient: linear-gradient(to right, #520300, #ff0d05, #ff8985);
-  --theme5thColorGradient: linear-gradient(to right, #522c00, #ff8a05, #ffc685);
-  --theme6thColorGradient: linear-gradient(to right, #4f5200, #f7ff05, #fbff85);
+  --themePrimaryColorGradient: linear-gradient(to right, #2c0052, #7800e0, #b35cff);
+  --themeSecondaryColorGradient: linear-gradient(to right, #3d0052, #a800e0, #d65cff);
+  --theme3rdColorGradient: linear-gradient(to right, #520026, #e00069, #ff5ca8);
+  --theme4thColorGradient: linear-gradient(to right, #520300, #e00700, #ff615c);
+  --theme5thColorGradient: linear-gradient(to right, #522c00, #e07800, #ffb35c);
+  --theme6thColorGradient: linear-gradient(to right, #4f5200, #d9e000, #faff5c);
   /** Theme Font Family -------------------------- */
   --themeFontColor: #10001f;
   --themeFontFamily: Roboto,Trebuchet MS,Arial,Helvetica,sans-serif;
@@ -172,6 +172,14 @@ body {
 .float-left {
   float: left; }
 
+.flex-inline {
+  display: flex;
+  flex-direction: row; }
+
+.flex-col {
+  display: flex;
+  flex-direction: column; }
+
 .flex-center {
   justify-content: center; }
 
@@ -180,6 +188,9 @@ body {
 
 .flex-end {
   justify-content: flex-end; }
+
+.flex-spacebetween {
+  justify-content: space-between; }
 
 .border-bottom {
   border-bottom: 1px solid #cccccc; }
@@ -1346,7 +1357,7 @@ button {
 /** dropdown - Structure CSS **/
 .dropdown {
   display: block;
-  z-index: 1003;
+  z-index: 1;
   opacity: 1;
   overflow: auto;
   position: absolute;
@@ -1488,12 +1499,12 @@ button {
 *****************************************************************************/
 /** fileupload - Visual CSS **/
 .upload-drop-zone {
-  color: var(--componentHeaderFontColor);
-  border-color: var(--componentHeaderFontColor); }
+  color: var(--appHeaderMenuBGColor);
+  border-color: var(--appHeaderMenuBGColor); }
 
 .upload-drop-zone.drop {
-  color: var(--themeFontColor);
-  border-color: var(--themeFontColor); }
+  color: var(--appHeaderMenuBGColor);
+  border-color: var(--appHeaderMenuBGColor); }
 
 /** fileupload - Structure CSS **/
 .upload-drop-zone {
@@ -2491,6 +2502,38 @@ input:checked + .largeType2ToggleSlider:before {
 .ui-slider-range3 {
   background: #b8dfff; }
 
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  border-radius: 5px;
+  background: var(--componentBGColor);
+  color: var(--themeFontColor);
+  border: 1px solid #D5D5D5;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  opacity: 1; }
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer; }
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer; }
+
+.slidecontainer {
+  width: 100%;
+  padding-top: 17px; }
+
 /****************************************************************************
     Component Name : Label
     Version : Amexio v4.0 onwards
@@ -3119,7 +3162,7 @@ input:checked + .largeType2ToggleSlider:before {
 
 /** floatingbutton - Structure CSS **/
 .floatingbutton {
-  z-index: 1;
+  z-index: 501;
   text-align: center;
   border-color: #ced4da;
   cursor: pointer;
@@ -5297,6 +5340,16 @@ header .billboard .content-button {
   width: 100%; }
 
 /****************************************************************************
+    Component Name : Enterprise Calendar
+    Version : Amexio v5.12.1 onwards
+*****************************************************************************/
+.themecolorpalette {
+  display: block;
+  height: 50px;
+  width: 100%;
+  margin: 0px 5px; }
+
+/****************************************************************************
     Component Name : Enterprise Step Wizard
     Version : Amexio v5.5.2 onwards
 *****************************************************************************/
@@ -5938,6 +5991,9 @@ amexio-homepage-centerpanel .homepage-centerpanel {
     color: rgba(0, 0, 0, 0.87); }
     .listbox .list .title a {
       color: rgba(0, 0, 0, 0.87) !important; }
+
+.list-items-click {
+  background-color: var(--componentActiveBGColor); }
 
 /** Listbox - Structure CSS **/
 .listbox {
@@ -7917,7 +7973,7 @@ fieldset {
   flex-direction: column;
   justify-content: center;
   height: 96%;
-  margin-top: 1%; }
+  margin-top: 5%; }
 
 .amexio-root-window-content > * {
   padding: 10px 16px; }
