@@ -58,12 +58,12 @@
   --themePrimaryColorShade5: #ead1ff;
   --themePrimaryColorShade6: #faf5ff;
   /** Theme Color Gradients -------------------------- */
-  --themePrimaryColorGradient: linear-gradient(to right, #2c0052, #7800e0, #b35cff);
-  --themeSecondaryColorGradient: linear-gradient(to right, #3d0052, #a800e0, #d65cff);
-  --theme3rdColorGradient: linear-gradient(to right, #520026, #e00069, #ff5ca8);
-  --theme4thColorGradient: linear-gradient(to right, #520300, #e00700, #ff615c);
-  --theme5thColorGradient: linear-gradient(to right, #522c00, #e07800, #ffb35c);
-  --theme6thColorGradient: linear-gradient(to right, #4f5200, #d9e000, #faff5c);
+  --themePrimaryColorGradient: linear-gradient(to right, #1e0038, #7800e0, #b35cff);
+  --themeSecondaryColorGradient: linear-gradient(to right, #2a0038, #a800e0, #d65cff);
+  --theme3rdColorGradient: linear-gradient(to right, #38001a, #e00069, #ff5ca8);
+  --theme4thColorGradient: linear-gradient(to right, #380200, #e00700, #ff615c);
+  --theme5thColorGradient: linear-gradient(to right, #381e00, #e07800, #ffb35c);
+  --theme6thColorGradient: linear-gradient(to right, #363800, #d9e000, #faff5c);
   /** Theme Font Family -------------------------- */
   --themeFontColor: #10001f;
   --themeFontFamily: Roboto,Trebuchet MS,Arial,Helvetica,sans-serif;
@@ -6623,6 +6623,33 @@ amexio-homepage-centerpanel .homepage-centerpanel {
   background-color: transparent !important;
   opacity: 0.9 !important; }
 
+.testClass .nav-dropdown-content {
+  max-height: 500px;
+  right: 0px; }
+
+.topnavmainbarinneritems .nav-dropdown-content {
+  width: 250px;
+  max-width: 1000px;
+  display: none;
+  position: absolute;
+  z-index: 3;
+  padding: 10px 0px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0; }
+
+.topnavmainbarinneritems .nav-dropdown-content-mobile {
+  width: 94%;
+  display: none;
+  position: absolute;
+  z-index: 3;
+  padding: 10px 0px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0; }
+
 /****************************************************************************
     Component Name : Paginator
     Version : Amexio v4.0 onwards
@@ -7113,6 +7140,10 @@ amexio-homepage-centerpanel .homepage-centerpanel {
 
 .accordion .active-accordion, .accordion:hover, .accordion:focus {
   background-color: var(--componentActiveBGColor);
+  color: var(--componentActiveFontColor); }
+
+.accordion-transparent:focus, .accordion-transparent:hover {
+  background-color: var(--componentHoverBGColor);
   color: var(--componentActiveFontColor); }
 
 .accordion:after {
