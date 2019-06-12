@@ -1,6 +1,0 @@
-export class CreativeProgressBarComponent {
-  
-  constructor() {
-    
-  }
-}
