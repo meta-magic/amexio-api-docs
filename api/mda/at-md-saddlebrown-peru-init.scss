@@ -23,6 +23,7 @@
 --theme4thColor : #1d8b13;
 --theme5thColor : #138b45;
 --theme6thColor : #138b81;
+--themePrimaryDarker : #48240a;
 
 --themePrimaryColorHSLA : hsla(25,76%,31%,0.0);
 --themeSecondaryColorHSLA : hsla(30,59%,53%,0.0);
@@ -30,6 +31,7 @@
 --theme4thColorHSLA : hsla(115,76%,31%,0.0);
 --theme5thColorHSLA : hsla(145,76%,31%,0.0);
 --theme6thColorHSLA : hsla(175,76%,31%,0.0);
+--themePrimaryDarkerHSLA : hsla(25,76%,16%,0.0);
 
 /** Primary Color shades -------------------------- */
 --themePrimaryColorShade0 : #050200;
@@ -41,12 +43,13 @@
 --themePrimaryColorShade6 : #fff9f5;
 
 /** Theme Color Gradients -------------------------- */
---themePrimaryColorGradient : linear-gradient(to right, #522200, #e05e00, #ffa05c);
---themeSecondaryColorGradient : linear-gradient(to right, #522900, #e07000, #ffad5c);
---theme3rdColorGradient : linear-gradient(to right, #305200, #83e000, #bbff5c);
---theme4thColorGradient : linear-gradient(to right, #075200, #13e000, #69ff5c);
---theme5thColorGradient : linear-gradient(to right, #005222, #00e05e, #5cffa0);
---theme6thColorGradient : linear-gradient(to right, #00524b, #00e0ce, #5cfff1);
+--themePrimaryColorGradient : linear-gradient(to right, #381700, #e05e00, #ffa05c);
+--themeSecondaryColorGradient : linear-gradient(to right, #381c00, #e07000, #ffad5c);
+--theme3rdColorGradient : linear-gradient(to right, #213800, #83e000, #bbff5c);
+--theme4thColorGradient : linear-gradient(to right, #053800, #13e000, #69ff5c);
+--theme5thColorGradient : linear-gradient(to right, #003817, #00e05e, #5cffa0);
+--theme6thColorGradient : linear-gradient(to right, #003833, #00e0ce, #5cfff1);
+--themePrimaryDarkerGradient : linear-gradient(to right, #381700, #e05e00, #ffa05c);
 
 /** Theme Font Family -------------------------- */
 --themeFontColor : #1f0d00;
@@ -58,6 +61,7 @@
 --theme4thFontColor : #eefded;
 --theme5thFontColor : #edfdf4;
 --theme6thFontColor : #edfdfb;
+--themePrimaryDarkerFontColor : #fdf4ed;
 
 /** Theme Additional Std CSS Colors : Light and Dark shades --- */
 --amexioColorRedLight : #ff7f50;
@@ -112,6 +116,7 @@ $theme3rdColor : var(--theme3rdColor);
 $theme4thColor : var(--theme4thColor);
 $theme5thColor : var(--theme5thColor);
 $theme6thColor : var(--theme6thColor);
+$themePrimaryDarker: var(--themePrimaryDarker);
 
 /** Primary Color shades -------------------------- */
 $themePrimaryColorShade0 : var(--themePrimaryColorShade0);
@@ -129,6 +134,7 @@ $theme3rdColorGradient : var(--theme3rdColorGradient);
 $theme4thColorGradient : var(--theme4thColorGradient);
 $theme5thColorGradient : var(--theme5thColorGradient);
 $theme6thColorGradient : var(--theme6thColorGradient);
+$themePrimaryDarkerGradient: var(--themePrimaryDarkerGradient);
 
 /** Theme Font Family -------------------------- */
 $themeFontColor : var(--themeFontColor);
@@ -140,6 +146,7 @@ $theme3rdFontColor : var(--theme3rdFontColor);
 $theme4thFontColor : var(--theme4thFontColor);
 $theme5thFontColor : var(--theme5thFontColor);
 $theme6thFontColor : var(--theme6thFontColor);
+$themePrimaryDarkerFontColor: var(--themePrimaryDarkerFontColor);
 
 /** Theme Additional Std Colors : Light and Dark shades --- */
 $amexioColorRedLight : var(--amexioColorRedLight);
